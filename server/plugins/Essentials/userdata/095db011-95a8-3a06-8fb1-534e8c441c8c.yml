@@ -17,15 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782205098177
-  login: 1782204914481
+  logout: 1782206756335
+  login: 1782206558908
 money: '0'
 last-account-name: JustDan12
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 128.4305868299361
+  x: 2667.5674704801145
+  y: -29.93618579214843
+  z: 3132.2115601096443
+  yaw: -46.419246673583984
+  pitch: -64.41370391845703
+lastlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 128.53576458522858
   y: 72.0
-  z: 547.2515508677385
-  yaw: 2.923583984375
-  pitch: 20.695072174072266
+  z: 547.6687177798904
+  yaw: -14.151713371276855
+  pitch: 26.21510124206543

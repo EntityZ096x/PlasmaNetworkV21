@@ -19,7 +19,7 @@ command /loadkit <text> [<player>]:
         loop 36 times:
             set {_slot} to loop-number - 1
             set slot {_slot} of {_player} to {PvPKit.%arg-1%::%{_slot} + 1%}
-        execute console command "/pvparmor %{_player}% netherite 4 false"
+        execute console command "/armor netherite 4 %{_player}%"
         send "Kit loaded." to {_player}
         if arg-1 contains "Mace":
             enchant {_player}'s boots with feather falling 4
@@ -36,10 +36,21 @@ command /armor <text> [<number>] [<player>]:
 
         loop {_armor::*}:
             set level of protection of loop-value to arg-2
+            set level of mending of loop-value to 1
 
         if arg-3 is set:
             set {_p} to arg-3
         else:
-            set  to arg-3
+            set {_p} to player
 
-        set {_p}
+        set {_p}'s helmet to {_armor::1}
+        set {_p}'s chestplate to {_armor::2}
+        set {_p}'s leggings to {_armor::3}
+        set {_p}'s boots to {_armor::4}
+        set {_p}'s offhand item to shield
+
+on death of player:
+    wait 1 tick
+    set player's x position to 2802
+    set player's y position to 77
+    set player's z position to 2930
