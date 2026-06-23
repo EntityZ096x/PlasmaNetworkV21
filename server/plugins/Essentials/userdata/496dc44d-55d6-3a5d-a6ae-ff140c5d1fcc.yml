@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1782215540245
+  login: 1782214830342
+money: '0'
+last-account-name: Xx_Bloop_xX
+lastlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 2807.311612176237
+  y: 10.976828948395225
+  z: 2968.16738016411
+  yaw: 108.97074890136719
+  pitch: 81.89997863769531
+logoutlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 2808.6042638012163
+  y: 1.0
+  z: 2967.09109406923
+  yaw: -117.29544067382812
+  pitch: 78.89997100830078

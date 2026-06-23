@@ -50,7 +50,16 @@ command /armor <text> [<number>] [<player>]:
         set {_p}'s offhand item to shield
 
 on death of player:
+    clear drops
+    force victim to respawn
     wait 1 tick
-    set teleport victim to (2802,77,2930)
+    teleport victim to location at 2802, 77, 2930 in world "world"
+    execute console command "/loadkit mace %victim%"
+    if victim is "EntityZ096x":
+        execute console command "/loadkit entitymace %victim%"
+    if victim is "The_soulstealer4":
+        execute console command "/loadkit soulmace %victim%"
 
+on damage of player:
+    send "&cDamage: %final damage%" to attacker
 

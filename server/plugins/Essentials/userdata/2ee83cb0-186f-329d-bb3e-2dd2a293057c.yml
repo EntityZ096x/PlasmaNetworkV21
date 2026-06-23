@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: false
+flymode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782209448182
-  login: 1782209109356
+  logout: 1782216058730
+  login: 1782216026945
 money: '0'
 lastlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 124.749915944745
-  y: 72.0
-  z: 552.0156506023927
-  yaw: -47.81696701049805
-  pitch: 10.674736976623535
+  x: 2796.175236047055
+  y: 7.0
+  z: 2969.6761873358764
+  yaw: -118.97386169433594
+  pitch: 29.27810287475586
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 2787.346144515029
-  y: 78.0
-  z: 2912.2940383345185
-  yaw: -148.861328125
-  pitch: 4.240631103515625
+  x: 2898.3773588384156
+  y: -52.0
+  z: 3006.0890759828776
+  yaw: -90.96160888671875
+  pitch: 8.257853507995605
 last-account-name: EntityZ096x
