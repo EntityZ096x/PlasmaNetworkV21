@@ -51,6 +51,6 @@ command /armor <text> [<number>] [<player>]:
 
 on death of player:
     wait 1 tick
-    set player's x position to 2802
-    set player's y position to 77
-    set player's z position to 2930
+    set teleport victim to (2802,77,2930)
+
+
