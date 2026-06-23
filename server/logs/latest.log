@@ -877,3 +877,85 @@ pvparmor The_soulstealer4 netherite 4 false<--[HERE]
 [07:57:45] [Server thread/INFO]: EntityZ096x issued server command: /god
 [07:59:41] [Server thread/INFO]: EntityZ096x lost connection: Timed out
 [07:59:41] [Server thread/INFO]: EntityZ096x left the game
+[08:53:44] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[08:53:44] [Server thread/INFO]: EntityZ096x joined the game
+[08:53:44] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51156] logged in with entity id 9208 at ([world]158.03509392752667, 68.0, 541.4116996101242)
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[08:53:44] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[08:54:13] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[08:54:21] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[08:54:29] [User Authenticator #8/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[08:54:30] [Server thread/INFO]: JustDan12 joined the game
+[08:54:30] [Server thread/INFO]: JustDan12[/127.0.0.1:35904] logged in with entity id 9427 at ([world]113.5, 78.0, 534.5)
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[08:54:30] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[08:54:43] [Server thread/INFO]: EntityZ096x issued server command: /sun
+[08:54:56] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace
+[08:54:56] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor EntityZ096x netherite 4 false<--[HERE]
+[08:55:05] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[08:55:06] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[08:55:06] [Server thread/INFO]: JustDan12 left the game
+[08:55:06] [Server thread/INFO]: EntityZ096x issued server command: /god
+[08:55:07] [Server thread/INFO]: EntityZ096x issued server command: /god
+[08:55:14] [User Authenticator #8/INFO]: UUID of player JustDan12 is 095db011-95a8-3a06-8fb1-534e8c441c8c
+[08:55:14] [Server thread/INFO]: JustDan12 joined the game
+[08:55:14] [Server thread/INFO]: JustDan12[/127.0.0.1:48660] logged in with entity id 9558 at ([world]124.72538584964475, 72.0, 541.109492323497)
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[08:55:14] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[08:55:18] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace JustDan12
+[08:55:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor JustDan12 netherite 4 false<--[HERE]
+[08:55:18] [Server thread/INFO]: JustDan12 has completed the challenge [Cover Me in Debris]
+[08:55:18] [Server thread/INFO]: JustDan12 has reached the goal [Sky's the Limit]
+[08:55:33] [Server thread/INFO]: JustDan12 has made the advancement [Monster Hunter]
+[08:56:24] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace
+[08:56:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor EntityZ096x netherite 4 false<--[HERE]
+[08:56:26] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[08:56:44] [Server thread/INFO]: EntityZ096x issued server command: /savekit mace
+[08:58:18] [Server thread/INFO]: JustDan12 lost connection: Disconnected
+[08:58:18] [Server thread/INFO]: JustDan12 left the game
+[08:58:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[08:59:01] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:00:54] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:01:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:01:21] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:01:22] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:02:04] [Server thread/INFO]: EntityZ096x issued server command: /enchant flam
+[09:02:05] [Server thread/INFO]: EntityZ096x issued server command: /enchant flame
+[09:02:15] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[09:02:19] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x arrow
+[09:02:35] [Server thread/INFO]: EntityZ096x was blown up by EntityZ096x
+[09:03:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:03:25] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:30] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:31] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:33] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:37] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:38] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:39] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:04:40] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[09:06:27] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts

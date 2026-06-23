@@ -48,3 +48,9 @@
 07:52:06.232 INFO  Limbo -- Player The_soulstealer4 disconnected
 07:59:41.335 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:34318) [V1_12_2]
 07:59:41.808 INFO  Limbo -- Player EntityZ096x disconnected
+08:53:40.595 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:38570) [V1_12_2]
+08:53:44.771 INFO  Limbo -- Player EntityZ096x disconnected
+08:54:22.510 INFO  Limbo -- Player JustDan12 connected (/127.0.0.1:54110) [V1_12_2]
+08:54:30.060 INFO  Limbo -- Player JustDan12 disconnected
+08:55:11.383 INFO  Limbo -- Player JustDan12 connected (/127.0.0.1:50168) [V1_12_2]
+08:55:14.459 INFO  Limbo -- Player JustDan12 disconnected
