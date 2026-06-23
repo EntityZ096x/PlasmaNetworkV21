@@ -47,7 +47,7 @@ gameMode: 3
 # Server name which is shown under F3
 # For 1.13+ clients
 brandName:
-  enable: true
+  enable: false
   content: 'NanoLimbo'
 
 # Message sends when player joins to the server
@@ -62,7 +62,7 @@ bossBar:
   text: '{"text": "Welcome to the Limbo!"}'
   health: 1.0
   # Available colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  color: PINK
+  color: RED
   # Available divisions: SOLID, DASHES_6, DASHES_10, DASHES_12, DASHES_20
   division: SOLID
 
@@ -73,7 +73,7 @@ title:
   # Set title text value empty, if you need only subtitle
   title: '{"text": "&9&lWelcome!"}'
   # Set subtitle text value empty, if you need only title
-  subtitle: '{"text": "&6NanoLimbo"}'
+  subtitle: '{"text": ""}'
   # Fade in time in ticks (1 sec = 20 ticks)
   fadeIn: 10
   # Stay time in ticks

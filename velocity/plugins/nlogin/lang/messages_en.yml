@@ -336,14 +336,14 @@ bedrock:
       - ''
 title:
   before-login:
-    title: '&a&lWELCOME!'
+    title: '&c&o&lPlasmaNetwork'
     subtitle: '&7Use: /login <your password>'
     delays:
       fadeIn: 2
       stay: 9999
       fadeOut: 6
   before-register:
-    title: '&a&lWELCOME!'
+    title: '&c&o&lPlasmaNetwork'
     subtitle: '&7Use: /register <your password> <your password>'
     delays:
       fadeIn: 2
