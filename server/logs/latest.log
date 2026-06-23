@@ -16,3 +16,864 @@
  - PlugManX (3.0.4-dev1)
 [07:06:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
  - Essentials (2.22.0), EssentialsChat (2.22.0), FastAsyncWorldEdit (2.15.2+e9ed0d1), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), Skript (2.15.3), TuffXPlus (1.0.0), Vault (1.7.3-b131), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaVersion (5.3.2)
+[07:07:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:07:08] [ServerMain/INFO]: Loaded 1373 recipes
+[07:07:08] [ServerMain/INFO]: Loaded 1484 advancements
+[07:07:08] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[07:07:08] [Server thread/INFO]: Loading properties
+[07:07:08] [Server thread/INFO]: This server is running Paper version 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[07:07:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:07:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:07:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:07:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:07:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:07:10] [Server thread/INFO]: Default game type: SURVIVAL
+[07:07:10] [Server thread/INFO]: Generating keypair
+[07:07:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:07:10] [Server thread/INFO]: Using epoll channel type
+[07:07:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:07:10] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:07:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[07:07:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[07:07:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:07:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:07:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:07:14] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:07:16] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[07:07:16] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[07:07:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:07:17] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:07:17] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[07:07:17] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
+[07:07:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@154ad36b]
+[07:07:19] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
+[07:07:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[07:07:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[07:07:19] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
+[07:07:19] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.3
+[07:07:19] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0
+[07:07:19] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
+[07:07:19] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.0.0
+[07:07:20] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.4-dev1
+[07:07:20] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.7
+[07:07:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:07:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[07:07:21] [Server thread/INFO]:         __    
+[07:07:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[07:07:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:07:21] [Server thread/INFO]: 
+[07:07:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:07:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:07:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:07:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3137ms)
+[07:07:24] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:07:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:07:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:07:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:07:24] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:07:24] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
+[07:07:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[07:07:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[07:07:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:07:25] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:07:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_5.PaperweightFaweAdapter as the Bukkit adapter
+[07:07:28] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.4-dev1
+[07:07:28] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
+[07:07:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[07:07:28] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[07:07:28] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[07:07:28] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[07:07:28] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[07:07:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[07:07:28] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[07:07:28] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[07:07:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:07:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:07:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:07:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:07:28] [Server thread/INFO]: Preparing level "world"
+[07:07:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:07:30] [Server thread/INFO]: Preparing spawn area: 0%
+[07:07:30] [Server thread/INFO]: Preparing spawn area: 2%
+[07:07:30] [Server thread/INFO]: Preparing spawn area: 2%
+[07:07:32] [Server thread/INFO]: Preparing spawn area: 20%
+[07:07:32] [Server thread/INFO]: Preparing spawn area: 20%
+[07:07:32] [Server thread/INFO]: Preparing spawn area: 20%
+[07:07:32] [Server thread/INFO]: Time elapsed: 2722 ms
+[07:07:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:07:32] [Server thread/INFO]: Preparing spawn area: 0%
+[07:07:32] [Server thread/INFO]: Time elapsed: 403 ms
+[07:07:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:07:32] [Server thread/INFO]: Preparing spawn area: 0%
+[07:07:33] [Server thread/INFO]: Time elapsed: 233 ms
+[07:07:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[07:07:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[07:07:33] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[07:07:37] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[07:07:37] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[07:07:37] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[07:07:37] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[07:07:37] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[07:07:37] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[07:07:37] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[07:07:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[07:07:38] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[07:07:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:07:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[07:07:39] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[07:07:40] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[07:07:40] [Server thread/INFO]: [Essentials] Using locale en
+[07:07:40] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:07:40] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:07:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[07:07:40] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:07:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[07:07:40] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
+[07:07:41] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[07:07:41] [Server thread/INFO]: [Skript] Enabling Skript v2.15.3
+[07:07:43] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[07:07:47] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[07:07:47] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0
+[07:07:47] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[07:07:47] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[07:07:49] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[07:07:49] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[07:07:49] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.0.0
+[07:07:49] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 1.21.5
+[07:07:49] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
+[07:07:49] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
+[07:07:49] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
+[07:07:49] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative items enabled.
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 613 entries.
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Paper detected. Enabling optimized asynchronous scheduling.
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
+[07:07:51] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
+[07:07:51] [Server thread/INFO]: [TuffXPlus] 
+[07:07:51] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗
+[07:07:51] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝
+[07:07:51] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ 
+[07:07:51] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ 
+[07:07:51] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗
+[07:07:51] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝
+[07:07:51] [Server thread/INFO]: [TuffXPlus] 
+[07:07:51] [Server thread/INFO]: [TuffXPlus] CREDITS
+[07:07:51] [Server thread/INFO]: [TuffXPlus] 
+[07:07:51] [Server thread/INFO]: [TuffXPlus] Y0 support:
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
+[07:07:51] [Server thread/INFO]: [TuffXPlus] 
+[07:07:51] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
+[07:07:51] [Server thread/INFO]: [TuffXPlus]       optimizations, PacketEvents migration and async safety fixes)
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
+[07:07:51] [Server thread/INFO]: [TuffXPlus] 
+[07:07:51] [Server thread/INFO]: [TuffXPlus] Other:
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
+[07:07:51] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
+[07:07:53] [Server thread/INFO]: [spark] Starting background profiler...
+[07:07:54] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5464 aliases in 7143ms
+[07:07:55] [Server thread/INFO]: Done preparing level "world" (26.510s)
+[07:07:55] [Server thread/INFO]: Running delayed init tasks
+[07:07:55] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:07:55] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[07:07:55] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07:07:55] [Server thread/INFO]: [Skript] Loading variables...
+[07:07:55] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[07:07:55] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[07:07:55] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[07:07:55] [Server thread/INFO]: [Skript] Finished loading.
+[07:07:55] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 1.21.5-mappings.json
+[07:07:56] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 27914 legacy mappings.
+[07:07:56] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.10.0, you're on: 5.3.2
+[07:07:56] [Server thread/INFO]: Done (104.031s)! For help, type "help"
+[07:07:57] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:07:57] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[07:10:14] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:10:17] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:10:17] [Server thread/INFO]: EntityZ096x joined the game
+[07:10:18] [Server thread/INFO]: EntityZ096x[/127.0.0.1:53360] logged in with entity id 35 at ([world]149.7600865580737, 85.0, 685.4442296321614)
+[07:10:18] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 50.049857ms. Summary: Getting prefix for EntityZ096x
+[07:10:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2727ms or 54 ticks behind
+[07:10:40] [Async Chat Thread - #0/INFO]: [Not Secure] Legend EntityZ096x » a
+[07:10:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6205ms or 124 ticks behind
+[07:13:20] [Server thread/INFO]: EntityZ096x issued server command: /lp user EntityZ096x promote mod
+[07:13:48] [Server thread/INFO]: EntityZ096x issued server command: /lp user EntityZ096x parent set owner
+[07:13:48] [luckperms-command-executor/INFO]: [LP] LOG > (EntityZ096x) [U] (entityz096x)
+[07:13:48] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[07:13:49] [Async Chat Thread - #2/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:15:10] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[07:15:10] [Server thread/INFO]: EntityZ096x left the game
+[07:17:59] [User Authenticator #1/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[07:17:59] [Server thread/INFO]: ___ joined the game
+[07:17:59] [Server thread/INFO]: ___[/127.0.0.1:44026] logged in with entity id 777 at ([world]116.5, 71.0, 530.5)
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:18:00] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:18:13] [Server thread/INFO]: ___ issued server command: /dummy
+[07:18:17] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:18:17] [Server thread/INFO]: EntityZ096x joined the game
+[07:18:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50704] logged in with entity id 968 at ([world]132.9502670080686, 83.0, 695.6999999880791)
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:18:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:18:20] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[07:18:42] [Server thread/INFO]: EntityZ096x issued server command: /enchant density 225
+[07:18:50] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 30
+[07:19:07] [Server thread/INFO]: ___ lost connection: Disconnected
+[07:19:07] [Server thread/INFO]: ___ left the game
+[07:19:16] [Server thread/INFO]: EntityZ096x issued server command: /lp user The_soulstealer4 promote mod
+[07:19:24] [Server thread/INFO]: EntityZ096x issued server command: /lp editor
+[07:19:25] [User Authenticator #2/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[07:19:26] [Server thread/INFO]: The_soulstealer4 joined the game
+[07:19:26] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:35220] logged in with entity id 1177 at ([world]120.5, 70.0, 521.5)
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:19:26] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:19:32] [Server thread/INFO]: The_soulstealer4 issued server command: /tp th en
+[07:19:32] [Server thread/INFO]: [Essentials] The_soulstealer4 was denied access to command.
+[07:19:33] [Server thread/INFO]: EntityZ096x issued server command: /lp trusteditor 336f-9cb1
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add weight.1000 true
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add suffix.1000.&r&6&k&l||&r  true
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add displayname.Admin true
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add prefix.1000.&r&e&lAdmin &r&6&k&l||&r  true
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:20:34] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add * true
+[07:20:51] [Server thread/INFO]: EntityZ096x issued server command: /lp user The_soulstealer4 parent set admin
+[07:20:51] [luckperms-command-executor/INFO]: [LP] LOG > (EntityZ096x) [U] (the_soulstealer4)
+[07:20:51] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
+[07:20:54] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || The_soulstealer4 || » v
+[07:21:02] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 mace 2
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add suffix.1000.&r&e&k&l||&r  true
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add prefix.1000.&r&e&lAdmin &r&e&k&l||&r  true
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > webeditor remove prefix.1000.&r&e&lAdmin &r&6&k&l||&r  true
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > (EntityZ096x) [G] (admin)
+[07:21:08] [luckperms-worker-0/INFO]: [LP] LOG > webeditor remove suffix.1000.&r&6&k&l||&r  true
+[07:21:12] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 300
+[07:21:14] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 300
+[07:21:17] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:21:18] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:21:20] [Server thread/INFO]: EntityZ096x issued server command: /tp EntityZ096x The_soulstealer4
+[07:21:26] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant breach 4
+[07:21:32] [Async Chat Thread - #4/INFO]: [Not Secure] Admin || The_soulstealer4 || » 3\
+[07:21:41] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant density 4
+[07:21:48] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:21:50] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant density 5
+[07:21:51] [Async Chat Thread - #4/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:21:56] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[07:22:23] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[07:22:29] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:22:57] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x water_bucket
+[07:22:59] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 EntityZ096x
+[07:23:19] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge 64
+[07:23:19] [Server thread/INFO]: EntityZ096x was smashed by The_soulstealer4
+[07:23:29] [Async Chat Thread - #6/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:23:45] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 wind_charge 1000000
+[07:23:47] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 wind_charge 1000000
+[07:23:49] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 wind_charge 1000000
+[07:24:13] [Server thread/INFO]: EntityZ096x issued server command: /plm reload Essentials
+[07:24:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0
+[07:24:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[07:24:13] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[07:24:13] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: Essentials
+[07:24:14] [Server thread/WARN]: [PlugManX] Failed to read descriptor for PlugManX-3.0.4-dev1.jar - skipping
+[07:24:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[07:24:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[07:24:15] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[07:24:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:24:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[07:24:15] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[07:24:15] [Server thread/INFO]: [Essentials] Using locale en
+[07:24:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:24:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:24:16] [Server thread/ERROR]: Could not pass event PluginEnableEvent to Vault v1.7.3-b131
+java.lang.ClassCastException: class com.earth2me.essentials.Essentials cannot be cast to class com.earth2me.essentials.Essentials (com.earth2me.essentials.Essentials is in unnamed module of loader 'EssentialsX-2.22.0.jar' @13b8e359; com.earth2me.essentials.Essentials is in unnamed module of loader 'EssentialsX-2.22.0.jar' @130d27)
+	at Vault.jar/net.milkbowl.vault.economy.plugins.Economy_Essentials$EconomyServerListener.onPluginEnable(Economy_Essentials.java:202) ~[Vault.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:213) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.pluginmanager.BukkitPluginManager.loadAndEnablePlugin(BukkitPluginManager.java:374) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.pluginmanager.BukkitPluginManager.load(BukkitPluginManager.java:358) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.plugins.PluginManager.load(PluginManager.java:173) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:59) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.commands.executables.ReloadCommand.reloadPlugin(ReloadCommand.java:137) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.commands.executables.ReloadCommand.execute(ReloadCommand.java:100) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[PlugManX-3.0.4-dev1.jar:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2328) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2283) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1377) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1385) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1262) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[07:24:16] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:24:16] [Craft Scheduler Thread - 65 - Essentials/INFO]: [Essentials] Fetching version information...
+[07:24:16] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07:24:16] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[07:24:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
+[07:24:24] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 water
+[07:24:34] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[07:24:34] [Server thread/INFO]: EntityZ096x left the game
+[07:24:45] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 bucketowater
+[07:24:52] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 water
+[07:24:56] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 water_bucket
+[07:25:00] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 water_bucket
+[07:25:02] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:25:02] [Server thread/INFO]: EntityZ096x joined the game
+[07:25:02] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33508] logged in with entity id 2471 at ([world]137.7375424440854, 72.0, 586.6079825074179)
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:25:02] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:25:05] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:25:05] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:25:05] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[07:25:16] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 EntityZ096x
+[07:25:31] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[07:25:31] [Server thread/INFO]: EntityZ096x left the game
+[07:25:34] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[07:25:34] [Server thread/INFO]: The_soulstealer4 left the game
+[07:25:39] [User Authenticator #3/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[07:25:39] [Server thread/INFO]: The_soulstealer4 joined the game
+[07:25:39] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:33198] logged in with entity id 2579 at ([world]126.49872101444434, 62.875, 610.5583443205392)
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:25:39] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:25:41] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:25:41] [Server thread/INFO]: EntityZ096x joined the game
+[07:25:41] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33208] logged in with entity id 2601 at ([world]125.4648659537317, 66.0, 609.9165223385069)
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:25:41] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:25:43] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:25:43] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:25:55] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[07:25:55] [Server thread/INFO]: The_soulstealer4 left the game
+[07:26:04] [User Authenticator #3/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[07:26:04] [Server thread/INFO]: The_soulstealer4 joined the game
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:26:04] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:26:04] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:47456] logged in with entity id 2626 at ([world]126.30000001192093, 62.875, 610.3766382659783)
+[07:26:14] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[07:26:17] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[07:26:26] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[07:26:26] [Server thread/INFO]: EntityZ096x left the game
+[07:26:47] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 en
+[07:26:55] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 ENTITYZ096x
+[07:27:03] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 en
+[07:27:04] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[07:27:04] [Server thread/INFO]: The_soulstealer4 left the game
+[07:27:11] [User Authenticator #4/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[07:27:11] [Server thread/INFO]: The_soulstealer4 joined the game
+[07:27:11] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:37284] logged in with entity id 2754 at ([world]168.5770036806102, 66.0, 615.3000000119209)
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:27:11] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:27:15] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:27:15] [Server thread/INFO]: EntityZ096x joined the game
+[07:27:15] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37296] logged in with entity id 2782 at ([world]147.70406062730174, 60.0, 618.4612804140436)
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:27:15] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:27:18] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:27:18] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:27:22] [Server thread/INFO]: The_soulstealer4 issued server command: /fly
+[07:27:22] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[07:27:23] [Server thread/INFO]: The_soulstealer4 issued server command: /fly
+[07:27:24] [Server thread/INFO]: The_soulstealer4 issued server command: /fly
+[07:27:31] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[07:27:33] [Async Chat Thread - #8/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:27:44] [Server thread/INFO]: The_soulstealer4 issued server command: /tp th The_soulstealer4
+[07:27:50] [Server thread/INFO]: The_soulstealer4 issued server command: /tp th EntityZ096x
+[07:27:58] [Async Chat Thread - #8/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:28:00] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[07:28:00] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[07:28:00] [Server thread/INFO]: EntityZ096x left the game
+[07:28:10] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[07:28:10] [Server thread/INFO]: The_soulstealer4 left the game
+[07:28:17] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:28:17] [Server thread/INFO]: EntityZ096x joined the game
+[07:28:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:45544] logged in with entity id 2917 at ([world]163.2102369121332, 63.41999998688698, 622.438689071936)
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:28:17] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:28:19] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:28:19] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:28:24] [Async Chat Thread - #9/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:28:51] [User Authenticator #5/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[07:28:51] [Server thread/INFO]: The_soulstealer4 joined the game
+[07:28:51] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:60780] logged in with entity id 3007 at ([world]159.3204436833544, 64.0625, 630.3000000119209)
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:28:51] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:28:56] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 EntityZ096x
+[07:29:01] [Server thread/INFO]: The_soulstealer4 has made the advancement [Who Needs Rockets?]
+[07:29:02] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[07:29:02] [Server thread/INFO]: EntityZ096x left the game
+[07:29:09] [Async Chat Thread - #9/INFO]: [Not Secure] Admin || The_soulstealer4 || » a
+[07:29:18] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:29:18] [Server thread/INFO]: EntityZ096x joined the game
+[07:29:18] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60610] logged in with entity id 3063 at ([world]151.98250401324776, 72.48700652399486, 593.8168593458878)
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:29:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:29:21] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:29:21] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:29:21] [Server thread/INFO]: EntityZ096x was smashed by The_soulstealer4
+[07:29:38] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.14->1.13.2) Untracked entity with id 41
+[07:29:39] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.14->1.13.2) Untracked entity with id 41
+[07:29:58] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[07:29:58] [Server thread/INFO]: EntityZ096x left the game
+[07:29:58] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:29:58] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:30:05] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:30:05] [Server thread/INFO]: EntityZ096x joined the game
+[07:30:05] [Server thread/INFO]: EntityZ096x[/127.0.0.1:44782] logged in with entity id 3439 at ([world]112.0, 71.0, 528.0)
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:30:05] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:30:05] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:30:05] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:30:07] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,-63.77966953589362,0.0
+[07:30:09] [Async Chat Thread - #8/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[07:30:10] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,-62.320133934370006,0.0
+[07:30:15] [Server thread/INFO]: EntityZ096x was slain by Enderman
+[07:30:19] [Server thread/INFO]: The_soulstealer4 was slain by Iron Golem
+[07:30:28] [Server thread/INFO]: The_soulstealer4 issued server command: /fly
+[07:30:40] [Server thread/INFO]: The_soulstealer4 issued server command: /tp The_soulstealer4 EntityZ096x
+[07:30:50] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[07:30:50] [Server thread/INFO]: EntityZ096x left the game
+[07:30:52] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:30:52] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:30:53] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:30:53] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:31:00] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:31:07] [Server thread/INFO]: The_soulstealer4 has made the advancement [Monster Hunter]
+[07:31:07] [Server thread/INFO]: The_soulstealer4 has completed the challenge [Over-Overkill]
+[07:31:18] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:31:19] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:31:20] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:31:26] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:31:26] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:31:27] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:31:27] [Server thread/INFO]: EntityZ096x joined the game
+[07:31:27] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37320] logged in with entity id 4283 at ([world]112.0, 71.0, 529.8300287424579)
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:31:27] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:31:27] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:31:27] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:31:28] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:31:28] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:31:28] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:31:28] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:31:29] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Received handshake from EntityZ096x
+[07:31:29] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
+[07:31:39] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[07:31:39] [Server thread/INFO]: EntityZ096x left the game
+[07:32:06] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 20000
+[07:32:08] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[07:32:08] [Server thread/INFO]: EntityZ096x joined the game
+[07:32:08] [Server thread/INFO]: EntityZ096x[/127.0.0.1:55312] logged in with entity id 4584 at ([world]112.0, 71.0, 528.0)
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:32:08] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:32:16] [Server thread/INFO]: EntityZ096x was smashed by The_soulstealer4
+[07:32:16] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,90.4098765258789,0.0
+[07:32:31] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:32:31] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:32:32] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:32:32] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:32:36] [Server thread/WARN]: EntityZ096x moved too quickly! -16.38828368755526,1.0550373935699469,11.402540159933096
+[07:32:36] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,90.4098765258789,0.0
+[07:32:41] [Server thread/WARN]: The_soulstealer4 moved too quickly! -0.1842500000000058,90.4098765258789,0.005374999999958163
+[07:32:55] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:32:59] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x mace
+[07:32:59] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 100
+[07:33:01] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,36.159872711181634,0.0
+[07:33:05] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 40
+[07:33:07] [Server thread/INFO]: EntityZ096x issued server command: /enchant density 5
+[07:33:13] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 3
+[07:33:14] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:14] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:14] [Server thread/INFO]: EntityZ096x issued server command: /rgod
+[07:33:14] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:14] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:15] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:15] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:15] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:15] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:18] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.008405886172297983,25.62549117797616,-0.03036965326759855
+[07:33:29] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge 64
+[07:33:30] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:33:32] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:33:33] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:33:35] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:35] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:36] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:36] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:36] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:36] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:39] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:39] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:40] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:40] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:41] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:33:41] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:33:42] [Server thread/INFO]: EntityZ096x issued server command: /enchant breach 5
+[07:34:16] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 40
+[07:34:20] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,25.62549117797616,0.0
+[07:34:24] [Server thread/INFO]: The_soulstealer4 issued server command: /
+[07:34:28] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethsword
+[07:34:28] [Server thread/WARN]: EntityZ096x moved too quickly! 11.363686553955077,3.2374732341766332,6.0
+[07:34:28] [Server thread/WARN]: The_soulstealer4 moved too quickly! -0.20986950860917375,29.938152032315713,0.12851125527174645
+[07:34:35] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.14638367428158006,28.442138322011687,0.0602616746637068
+[07:34:58] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,28.4421383220117,0.0
+[07:35:03] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,26.308459876769234,0.0
+[07:35:10] [Server thread/WARN]: The_soulstealer4 moved too quickly! -0.02462500000000034,15.159874618530267,-0.02874999999994543
+[07:35:25] [Server thread/INFO]: The_soulstealer4 issued server command: /
+[07:35:27] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:35:27] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:35:27] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:35:27] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:35:28] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:35:28] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:35:28] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:35:28] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:35:29] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:35:29] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:35:29] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:35:29] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:35:33] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.2200500127976852,28.442138322011687,-0.024911322203479358
+[07:35:34] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[07:35:39] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,29.18258955964258,0.0
+[07:35:40] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x mace 2
+[07:35:46] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:35:49] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethsword 1
+[07:35:52] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethaxe 1
+[07:36:00] [Server thread/INFO]: EntityZ096x issued server command: /enchant breach 5
+[07:36:04] [Server thread/INFO]: EntityZ096x issued server command: /enchant density 5
+[07:36:05] [Server thread/INFO]: EntityZ096x issued server command: /enchant density 5
+[07:36:15] [Server thread/INFO]: EntityZ096x issued server command: /enchant breach 4
+[07:36:20] [Server thread/INFO]: EntityZ096x issued server command: /enchant sharpness 5
+[07:36:21] [Server thread/INFO]: EntityZ096x issued server command: /enchant sharpness 5
+[07:36:29] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 3
+[07:36:31] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 1
+[07:36:32] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,90.4098765258789,0.0
+[07:36:32] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 1
+[07:36:38] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netharmor
+[07:36:42] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:36:44] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethchestplate
+[07:36:44] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:44] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:45] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:45] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:45] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:45] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:46] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:46] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:46] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:46] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:47] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethleggings
+[07:36:53] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethboots
+[07:36:53] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,90.40987652587891,0.0
+[07:36:58] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:58] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:58] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethhelm
+[07:36:58] [Server thread/INFO]: EntityZ096x has completed the challenge [Cover Me in Debris]
+[07:36:58] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:58] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:59] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:59] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:36:59] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:36:59] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:37:00] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:37:00] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:37:00] [Server thread/INFO]: The_soulstealer4 issued server command: /summon minecraft:iron_golem
+[07:37:00] [Server thread/INFO]: [The_soulstealer4: Summoned new Iron Golem]
+[07:37:05] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x elytra
+[07:37:05] [Server thread/INFO]: EntityZ096x has reached the goal [Sky's the Limit]
+[07:37:08] [Server thread/WARN]: The_soulstealer4 moved too quickly! -0.06425000000000125,90.40987652587891,-0.14774999999997362
+[07:37:16] [Server thread/INFO]: EntityZ096x issued server command: /enchant protect 4
+[07:37:17] [Server thread/INFO]: EntityZ096x issued server command: /enchant protect 4
+[07:37:19] [Server thread/INFO]: EntityZ096x issued server command: /enchant protect 4
+[07:37:22] [Server thread/WARN]: The_soulstealer4 moved too quickly! 0.0,90.40987652587889,0.0
+[07:37:26] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 30
+[07:37:38] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethhelmet
+[07:37:44] [Server thread/INFO]: EntityZ096x issued server command: /enchant protect 4
+[07:37:51] [Server thread/INFO]: EntityZ096x issued server command: /enchant featherfall 4
+[07:38:50] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge
+[07:38:50] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge
+[07:38:51] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge
+[07:39:04] [Server thread/INFO]: The_soulstealer4 issued server command: /kill @e[type=iron_golem]
+[07:39:12] [Server thread/INFO]: The_soulstealer4 issued server command: /minecraft:kill @e[type=iron_golem]
+[07:39:12] [Server thread/INFO]: [The_soulstealer4: Killed 27 entities]
+[07:39:25] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge 64
+[07:39:26] [Server thread/INFO]: The_soulstealer4 issued server command: /god EntityZ096x
+[07:39:28] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:39:31] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x wind_charge 64
+[07:39:46] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival EntityZ096x
+[07:39:51] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[07:39:55] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival EntityZ096x
+[07:39:58] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:40:00] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:40:02] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[07:40:10] [Server thread/INFO]: The_soulstealer4 issued server command: /spectator
+[07:40:59] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:41:13] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x firework_rocket
+[07:41:17] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x firework_rocket
+[07:41:17] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x firework_rocket
+[07:41:31] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[07:41:41] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[07:41:41] [Server thread/INFO]: The_soulstealer4 left the game
+[07:41:42] [Server thread/INFO]: EntityZ096x issued server command: /savekit mace
+[07:41:44] [Server thread/INFO]: EntityZ096x issued server command: /savekit mace 0
+[07:41:49] [Server thread/INFO]: EntityZ096x issued server command: /createkit mace 0
+[07:46:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[07:46:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[07:46:17] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[07:47:01] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[07:48:51] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[07:48:55] [Server thread/INFO]: EntityZ096x issued server command: /savekit mace
+[07:48:58] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace
+[07:48:58] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor EntityZ096x netherite 4 false<--[HERE]
+[07:49:05] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[07:49:59] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[07:49:59] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[07:50:27] [Server thread/INFO]: EntityZ096x has made the advancement [Acquire Hardware]
+[07:50:29] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[07:50:31] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:50:34] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[07:50:34] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[07:51:59] [Server thread/INFO]: EntityZ096x fell from a high place
+[07:52:06] [User Authenticator #7/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[07:52:06] [Server thread/INFO]: The_soulstealer4 joined the game
+[07:52:06] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:57878] logged in with entity id 8070 at ([world]108.0763026741838, 0.0, 505.84797571543703)
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[07:52:06] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[07:52:07] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace
+[07:52:07] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor EntityZ096x netherite 4 false<--[HERE]
+[07:52:08] [Server thread/INFO]: The_soulstealer4 issued server command: /god
+[07:52:10] [Server thread/INFO]: The_soulstealer4 issued server command: /god
+[07:52:16] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace The_soulstealer4
+[07:52:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor The_soulstealer4 netherite 4 false<--[HERE]
+[07:52:16] [Server thread/INFO]: The_soulstealer4 has completed the challenge [Cover Me in Debris]
+[07:52:16] [Server thread/INFO]: The_soulstealer4 has reached the goal [Sky's the Limit]
+[07:52:17] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[07:52:22] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[07:54:14] [Server thread/INFO]: The_soulstealer4 was slain by EntityZ096x
+[07:54:19] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace The_soulstealer4
+[07:54:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor The_soulstealer4 netherite 4 false<--[HERE]
+[07:54:21] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[07:54:31] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[07:54:43] [Server thread/INFO]: The_soulstealer4 has reached the goal [Postmortal]
+[07:55:10] [Server thread/INFO]: EntityZ096x issued server command: /loadkit mace The_soulstealer4
+[07:55:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pvparmor The_soulstealer4 netherite 4 false<--[HERE]
+[07:55:12] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[07:55:43] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant windburst 3
+[07:57:00] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 shideld
+[07:57:11] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 shield
+[07:57:34] [Server thread/INFO]: EntityZ096x issued server command: /gpd
+[07:57:35] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:57:38] [Server thread/INFO]: EntityZ096x issued server command: /invsee The_soulstealer4
+[07:57:40] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[07:57:40] [Server thread/INFO]: The_soulstealer4 left the game
+[07:57:45] [Server thread/INFO]: EntityZ096x issued server command: /god
+[07:59:41] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[07:59:41] [Server thread/INFO]: EntityZ096x left the game

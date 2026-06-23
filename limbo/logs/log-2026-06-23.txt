@@ -1,2 +1,50 @@
 07:06:04.386 INFO  Limbo -- Starting server...
 07:06:05.780 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+07:09:58.620 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:43862) [V1_12_2]
+07:10:01.540 INFO  Limbo -- Player EntityZ096x disconnected
+07:10:03.956 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:42296) [V1_12_2]
+07:10:06.719 INFO  Limbo -- Player EntityZ096x disconnected
+07:10:10.552 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:60472) [V1_12_2]
+07:10:17.193 INFO  Limbo -- Player EntityZ096x disconnected
+07:17:52.394 INFO  Limbo -- Player ___ connected (/127.0.0.1:47794) [V1_12_2]
+07:17:59.902 INFO  Limbo -- Player ___ disconnected
+07:18:12.269 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:39760) [V1_12_2]
+07:18:17.271 INFO  Limbo -- Player EntityZ096x disconnected
+07:19:19.671 INFO  Limbo -- Player The_soulstealer4 connected (/127.0.0.1:48456) [V1_12_2]
+07:19:25.996 INFO  Limbo -- Player The_soulstealer4 disconnected
+07:24:57.305 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:53974) [V1_12_2]
+07:25:02.191 INFO  Limbo -- Player EntityZ096x disconnected
+07:25:32.460 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:46220) [V1_12_2]
+07:25:36.467 INFO  Limbo -- Player The_soulstealer4 connected (/127.0.0.1:46222) [V1_12_2]
+07:25:39.824 INFO  Limbo -- Player The_soulstealer4 disconnected
+07:25:41.461 INFO  Limbo -- Player EntityZ096x disconnected
+07:26:00.059 INFO  Limbo -- Player The_soulstealer4 connected (/127.0.0.1:53346) [V1_12_2]
+07:26:04.526 INFO  Limbo -- Player The_soulstealer4 disconnected
+07:26:26.528 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:34660) [V1_12_2]
+07:27:06.642 INFO  Limbo -- Player EntityZ096x disconnected
+07:27:06.864 INFO  Limbo -- Player The_soulstealer4 connected (/127.0.0.1:36660) [V1_12_2]
+07:27:11.147 INFO  Limbo -- Player The_soulstealer4 disconnected
+07:27:11.328 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:47036) [V1_12_2]
+07:27:15.663 INFO  Limbo -- Player EntityZ096x disconnected
+07:28:00.810 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:51840) [V1_12_2]
+07:28:10.659 INFO  Limbo -- Player EntityZ096x disconnected
+07:28:12.311 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:58550) [V1_12_2]
+07:28:17.420 INFO  Limbo -- Player EntityZ096x disconnected
+07:28:47.379 INFO  Limbo -- Player The_soulstealer4 connected (/127.0.0.1:38438) [V1_12_2]
+07:28:51.625 INFO  Limbo -- Player The_soulstealer4 disconnected
+07:29:02.439 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:41068) [V1_12_2]
+07:29:12.373 INFO  Limbo -- Player EntityZ096x disconnected
+07:29:13.730 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:36334) [V1_12_2]
+07:29:18.128 INFO  Limbo -- Player EntityZ096x disconnected
+07:30:00.461 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:34686) [V1_12_2]
+07:30:05.476 INFO  Limbo -- Player EntityZ096x disconnected
+07:30:50.555 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:35854) [V1_12_2]
+07:31:20.953 INFO  Limbo -- Player EntityZ096x disconnected
+07:31:21.911 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:60900) [V1_12_2]
+07:31:27.107 INFO  Limbo -- Player EntityZ096x disconnected
+07:32:03.874 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:43698) [V1_12_2]
+07:32:08.416 INFO  Limbo -- Player EntityZ096x disconnected
+07:52:02.787 INFO  Limbo -- Player The_soulstealer4 connected (/127.0.0.1:43138) [V1_12_2]
+07:52:06.232 INFO  Limbo -- Player The_soulstealer4 disconnected
+07:59:41.335 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:34318) [V1_12_2]
+07:59:41.808 INFO  Limbo -- Player EntityZ096x disconnected

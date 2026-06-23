@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 flymode: false
 muted: false
 jailed: false
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782136457750
-  login: 1782134746539
+  logout: 1782201581336
+  login: 1782199928427
 money: '0'
 lastlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 149.26153519093677
-  y: 64.0
-  z: 703.0925594723947
-  yaw: -153.75047302246094
-  pitch: 90.0
+  x: 131.61275366874992
+  y: 84.0
+  z: 697.4214948779021
+  yaw: -28.2000732421875
+  pitch: 28.650014877319336
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 282.69999998807907
-  y: 64.0
-  z: 807.7623817235009
-  yaw: -80.85089111328125
-  pitch: 27.000011444091797
+  x: 158.03509392752667
+  y: 68.0
+  z: 541.4116996101242
+  yaw: 89.40070343017578
+  pitch: 17.999988555908203
 last-account-name: EntityZ096x

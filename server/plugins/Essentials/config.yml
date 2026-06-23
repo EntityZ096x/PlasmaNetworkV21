@@ -27,7 +27,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+, you can use hex color codes here as well (for example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Players with 'essentials.nick.hideprefix' will not be prefixed with the character(s).
@@ -967,7 +967,7 @@ chat:
   # Players with 'essentials.chat.shout' can override this by prefixing their message with an exclamation mark (!).
   # Players with 'essentials.chat.question' can override this by prefixing their message with a question mark (?).
   # You can add command costs for shout/question by adding 'chat-shout' and 'chat-question' to the 'command-costs' section above.
-  radius: 0
+  radius: 10
 
   # Chat formatting can be configured in two ways:
   #  - A standard format for all chat ('format' section)

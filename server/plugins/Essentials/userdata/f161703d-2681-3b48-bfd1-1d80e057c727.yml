@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1782201460280
+  login: 1782201126303
+money: '0'
+last-account-name: The_soulstealer4
+lastlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 90.1905482289033
+  y: 62.24726403639417
+  z: 461.8373920211983
+  yaw: -70.04949951171875
+  pitch: 22.349987030029297
+logoutlocation:
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 179.30000001192093
+  y: 67.0
+  z: 561.4187557080763
+  yaw: -179.39892578125
+  pitch: 19.350008010864258

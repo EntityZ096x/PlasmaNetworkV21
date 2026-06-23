@@ -1,0 +1,25 @@
+command /savekit <text>:
+    trigger:
+        delete {PvPKit.%arg-1%::*}
+        if {PvPKit.kits::*} does not contain arg-1:
+            add arg-1 to {PvPKit.kits::*}
+        loop 36 times:
+            set {_slot} to loop-number - 1
+            set {_item} to slot {_slot} of player
+
+            set {PvPKit.%arg-1%::%{_slot} + 1%} to {_item}
+        send "Kit Saved" to player
+
+command /loadkit <text> [<player>]:
+    trigger:
+        if arg-2 is set:
+            set {_player} to arg-2
+        else:
+            set {_player} to player
+        loop 36 times:
+            set {_slot} to loop-number - 1
+            set slot {_slot} of {_player} to {PvPKit.%arg-1%::%{_slot} + 1%}
+        execute console command "/pvparmor %{_player}% netherite 4 false"
+        send "Kit loaded." to {_player}
+        if arg-1 contains "Mace":
+            enchant {_player}'s boots with feather falling 4
