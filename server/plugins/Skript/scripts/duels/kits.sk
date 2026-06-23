@@ -63,3 +63,50 @@ on death of player:
 on damage of player:
     send "&cDamage: %final damage%" to attacker
 
+command /dummy:
+    trigger:
+        summon a armor stand at player
+        set {_m} to last spawned armor stand
+
+        set {_armor::1} to netherite helmet
+        set {_armor::2} to netherite chestplate
+        set {_armor::3} to netherite leggings
+        set {_armor::4} to netherite boots
+        set {_m}'s offhand item to 64 totem of undying
+
+        loop {_armor::*}:
+            set level of protection of loop-value to 4
+            set level of mending of loop-value to 1
+
+        set {_m}'s helmet to {_armor::1}
+        set {_m}'s chestplate to {_armor::2}
+        set {_m}'s leggings to {_armor::3}
+        set {_m}'s boots to {_armor::4}
+
+command /fucklag:
+    trigger:
+        loop 2 times:
+            loop all entities:
+                if loop-entity is not a player:
+                    kill loop-entity
+            wait 1 tick
+
+command /instatotem:
+    trigger:
+        if {instatotem.%player%} is true:
+            delete {instatotem.%player%}
+            send "&aYou will no longer instatotem"
+        else:
+            set {instatotem.%player%} to true
+            send "&aYou will now instatotem"
+
+on damage:
+    if {instatotem.%victim%} is true:
+        if victim's offhand item is air:
+            loop victim's inventory:
+                if loop-slot is totem of undying:
+                    set {_t} to loop-slot
+            if {_t} is set:
+                set victim's offhand item to {_t}
+                remove 1 of totem of undying from victim's inventory
+    

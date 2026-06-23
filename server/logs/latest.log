@@ -1590,3 +1590,511 @@ pvparmor EntityZ096x netherite 4 false<--[HERE]
 [13:07:22] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
 [13:07:31] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
 [13:07:31] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
+[13:07:51] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
+[13:07:51] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
+[13:08:04] [Server thread/INFO]: EntityZ096x issued server command: /summon husk
+[13:08:04] [Server thread/INFO]: [EntityZ096x: Summoned new Husk]
+[13:08:12] [Craft Scheduler Thread - 1439 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:08:12] [Craft Scheduler Thread - 1439 - Vault/INFO]: [Vault] No new version available
+[13:08:36] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
+[13:08:36] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
+[13:08:38] [User Authenticator #21/INFO]: UUID of player Clstial is 81c70caa-9b97-31ee-9ae5-18b3ee16e1e1
+[13:08:38] [Server thread/INFO]: Clstial joined the game
+[13:08:38] [Server thread/INFO]: Clstial[/127.0.0.1:57882] logged in with entity id 31671 at ([world]2745.5, 93.0, 2888.5)
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:08:38] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:08:43] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » yo
+[13:08:46] [Async Chat Thread - #15/INFO]: [Not Secure] Clstial » yo
+[13:08:49] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[13:08:55] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » im training eely mace
+[13:09:01] [Async Chat Thread - #15/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wanna see?
+[13:09:02] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » ok
+[13:09:11] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » fuh
+[13:09:12] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » mis
+[13:09:22] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » again mis
+[13:09:26] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » BRUH
+[13:09:27] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait
+[13:09:27] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » misssss
+[13:09:28] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » lock in
+[13:09:29] [Async Chat Thread - #15/INFO]: [Not Secure] Clstial » ?
+[13:09:35] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ..
+[13:09:35] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » AGAIN
+[13:09:37] [Async Chat Thread - #15/INFO]: [Not Secure] Clstial » MIS
+[13:09:40] [Async Chat Thread - #15/INFO]: [Not Secure] Clstial » .....
+[13:09:47] [Async Chat Thread - #15/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » fuh this
+[13:09:48] [Async Chat Thread - #15/INFO]: [Not Secure] Clstial » AGAINNNNNN
+[13:09:58] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » bruhhhh
+[13:10:00] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ok this time
+[13:10:05] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i will go a little higher
+[13:10:11] [Server thread/INFO]: EntityZ096x was doomed to fall by Clstial
+[13:10:13] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » BRUHHHHH
+[13:10:15] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i wana kms
+[13:10:16] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » HAHAHAA
+[13:10:16] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[13:10:28] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:10:28] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:10:31] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » btw im also standing still .....
+[13:10:39] [Server thread/INFO]: Clstial has made the advancement [Acquire Hardware]
+[13:10:39] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » .......................
+[13:10:44] [Server thread/INFO]: Clstial was smashed by EntityZ096x with [Breach]
+[13:10:44] [Server thread/INFO]: Clstial has completed the challenge [Cover Me in Debris]
+[13:10:44] [Server thread/INFO]: Clstial has reached the goal [Sky's the Limit]
+[13:10:47] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » FINNALy
+[13:10:51] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » finnaly
+[13:11:29] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ..
+[13:11:45] [Server thread/INFO]: Clstial has made the advancement [Who Needs Rockets?]
+[13:11:51] [Server thread/INFO]: EntityZ096x has reached the goal [Postmortal]
+[13:12:08] [Server thread/INFO]: EntityZ096x was smashed by Clstial with [Density]
+[13:12:11] [Async Chat Thread - #15/INFO]: [Not Secure] Clstial » ...
+[13:12:12] [Async Chat Thread - #15/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait
+[13:12:16] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:12:16] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:12:28] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:12:28] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:12:40] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:12:40] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:12:48] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i can almost
+[13:12:53] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ALWAYS hit a iron goldme
+[13:13:01] [Async Chat Thread - #15/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i need to work on my aim
+[13:13:05] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:13:05] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:13:26] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:13:31] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » bruhh
+[13:13:35] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:13:35] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:13:41] [Server thread/INFO]: Clstial has made the advancement [Monster Hunter]
+[13:13:54] [Server thread/INFO]: Clstial has reached the goal [Postmortal]
+[13:13:56] [Server thread/INFO]: Clstial was smashed by EntityZ096x with [Breach]
+[13:13:58] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » oof
+[13:13:59] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » OH
+[13:14:02] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:14:02] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:14:09] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:14:09] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:14:28] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » HOW
+[13:14:32] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » DID U LIVE
+[13:14:39] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » im going to run in circels ok?
+[13:14:42] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ok
+[13:15:05] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » BRUH
+[13:15:11] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » oh ts too hard
+[13:15:13] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
+[13:15:13] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
+[13:15:51] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » BRUH
+[13:15:54] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:15:54] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:16:05] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » bro
+[13:16:08] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » what?
+[13:16:14] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » stop killing iron goldem
+[13:16:36] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » stop killing iron goldem
+[13:16:38] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:16:38] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:16:40] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » ok
+[13:16:45] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:16:45] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:16:53] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:16:53] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:17:05] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » yessir im getting better
+[13:17:06] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:17:06] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:17:18] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » but entity
+[13:17:21] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ?
+[13:17:26] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[13:17:26] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:17:31] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » waht
+[13:17:33] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » iron golem is standing still and has a bigger hit box
+[13:17:37] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ik
+[13:17:43] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » imma train with armor stna
+[13:17:46] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:armor_stand
+[13:17:46] [Server thread/INFO]: [EntityZ096x: Summoned new Armor Stand]
+[13:17:46] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » ok
+[13:17:55] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » ?
+[13:17:57] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[13:17:57] [Server thread/INFO]: EntityZ096x died
+[13:18:01] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » sont break
+[13:18:11] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » bruh
+[13:18:18] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » yoo
+[13:18:18] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » ohh
+[13:18:36] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:18:42] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » ?
+[13:18:47] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ..
+[13:18:59] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:19:12] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » ...
+[13:19:23] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:19:26] [Async Chat Thread - #14/INFO]: [Not Secure] Clstial » bruh
+[13:19:36] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » BRO
+[13:19:38] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » oof
+[13:20:00] [Server thread/WARN]: Clstial moved wrongly!
+[13:20:11] [Async Chat Thread - #16/INFO]: [Not Secure] Clstial » can you give me an armor stand too?
+[13:20:14] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ok
+[13:20:18] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[13:20:19] [Async Chat Thread - #14/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait
+[13:20:22] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » lemme code smht
+[13:21:41] [Async Chat Thread - #17/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait almost done
+[13:22:00] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:22:13] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:22:39] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:22:43] [Server thread/INFO]: EntityZ096x issued server command: /ok done
+[13:22:45] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:22:47] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ok done
+[13:22:59] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:23:00] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[13:23:02] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:23:05] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » here
+[13:23:06] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » the zombi
+[13:23:10] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » in th pit
+[13:23:20] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:kill @e[type=zombie]
+[13:23:20] [Server thread/INFO]: [EntityZ096x: Killed 15 entities]
+[13:23:23] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:kill @e[type=zombie]
+[13:23:23] [Server thread/INFO]: [EntityZ096x: Killed 2 entities]
+[13:23:37] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » where is the zombie?
+[13:23:38] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:23:43] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[13:24:00] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[13:24:01] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:24:36] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait
+[13:24:40] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » ?
+[13:24:42] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » imma make it a armor stand instead
+[13:24:44] [Server thread/INFO]: EntityZ096x issued server command: /god
+[13:25:06] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:25:11] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:kill @e[type=zombie]
+[13:25:11] [Server thread/INFO]: [EntityZ096x: Killed 13 entities]
+[13:25:12] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[13:25:16] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:25:19] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:25:23] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » bruh
+[13:25:24] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » btw
+[13:25:26] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » do summon it
+[13:25:29] [Async Chat Thread - #19/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » just do /dummy
+[13:25:34] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:04] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:09] [Async Chat Thread - #20/INFO]: [Not Secure] Clstial » OHH
+[13:26:12] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » StUN SLAMM
+[13:26:13] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ?
+[13:26:14] [Async Chat Thread - #20/INFO]: [Not Secure] Clstial » StUN SLAMM
+[13:26:15] [Async Chat Thread - #19/INFO]: [Not Secure] Clstial » OHH
+[13:26:15] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » nice
+[13:26:17] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:22] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:35] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:43] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:47] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:49] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » just do /dummy
+[13:26:54] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:55] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:26:56] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:58] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:59] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:26:59] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:00] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:00] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:01] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:01] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:02] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:02] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:03] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:03] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:27:05] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ok bro
+[13:27:08] [Async Chat Thread - #20/INFO]: [Not Secure] Clstial » it may lagg a bit
+[13:27:09] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:kill @E
+[13:27:11] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:kill @e
+[13:27:11] [Server thread/INFO]: Clstial was killed
+[13:27:11] [Server thread/INFO]: [EntityZ096x: Killed 244 entities]
+[13:27:13] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:kill @e
+[13:27:13] [Server thread/INFO]: Clstial was killed
+[13:27:13] [Server thread/INFO]: [EntityZ096x: Killed 203 entities]
+[13:27:14] [Server thread/INFO]: EntityZ096x issued server command: /god
+[13:27:18] [Async Chat Thread - #20/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » srry had to clear lag
+[13:27:20] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[13:27:22] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:27:32] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:27:32] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:27:42] [Server thread/WARN]: Clstial moved wrongly!
+[13:28:35] [Server thread/INFO]: EntityZ096x was smashed by Clstial with [Density]
+[13:29:21] [Async Chat Thread - #21/INFO]: [Not Secure] Clstial » oops
+[13:29:25] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:27] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:28] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:28] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:29] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:30] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:30] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:31] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:29:31] [Async Chat Thread - #21/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » BRO
+[13:29:34] [Async Chat Thread - #21/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » DONT LAG THE SERVER
+[13:29:55] [Server thread/INFO]: EntityZ096x was smashed by Clstial with [Density]
+[13:30:08] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:09] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:10] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:10] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:15] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:31] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:40] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:30:43] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[13:30:46] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:48] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[13:30:49] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:30:52] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[13:30:59] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:31:22] [Server thread/INFO]: EntityZ096x was doomed to fall by Clstial
+[13:31:50] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:31:53] [Async Chat Thread - #23/INFO]: [Not Secure] Clstial » uhha
+[13:31:58] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:32:11] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[13:32:18] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[13:32:28] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[13:32:35] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[13:32:36] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[13:32:37] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x totem
+[13:33:05] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » nahh
+[13:33:10] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » you have stack
+[13:33:14] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » totems
+[13:33:16] [Async Chat Thread - #25/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » how did bro know
+[13:33:23] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » instant retotem?
+[13:33:25] [Async Chat Thread - #25/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ye
+[13:33:58] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:34:11] [Async Chat Thread - #26/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » lol
+[13:34:13] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » ?
+[13:34:26] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » ?
+[13:34:30] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:34:32] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:34:34] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:34:35] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:34:40] [Server thread/INFO]: Clstial issued server command: /dummy
+[13:35:09] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:35:12] [Async Chat Thread - #25/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait
+[13:35:14] [Async Chat Thread - #25/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » imma add a cmd
+[13:35:16] [Async Chat Thread - #26/INFO]: [Not Secure] Clstial » ?
+[13:35:28] [Server thread/INFO]: Clstial issued server command: /ec
+[13:35:28] [Server thread/INFO]: [Essentials] Clstial was denied access to command.
+[13:35:40] [Async Chat Thread - #26/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » why u ec
+[13:35:45] [Async Chat Thread - #25/INFO]: [Not Secure] Clstial » ?
+[13:35:46] [Server thread/INFO]: Clstial issued server command: /ec
+[13:35:46] [Server thread/INFO]: [Essentials] Clstial was denied access to command.
+[13:35:53] [Async Chat Thread - #26/INFO]: [Not Secure] Clstial » can i go in my ec?
+[13:36:04] [Async Chat Thread - #26/INFO]: [Not Secure] Clstial » becouse i cant do /ec
+[13:36:11] [Server thread/INFO]: Clstial issued server command: /spawn
+[13:36:14] [Server thread/INFO]: Clstial issued server command: /suicid
+[13:36:42] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[13:36:42] [Server thread/INFO]: EntityZ096x left the game
+[13:36:48] [Server thread/INFO]: Clstial lost connection: Disconnected
+[13:36:48] [Server thread/INFO]: Clstial left the game
+[13:37:00] [User Authenticator #22/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[13:37:00] [Server thread/INFO]: EntityZ096x joined the game
+[13:37:00] [Server thread/INFO]: EntityZ096x[/127.0.0.1:59116] logged in with entity id 37217 at ([world]2860.3619950363495, 51.0, 2934.300000011921)
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[13:37:00] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[13:37:28] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:37:43] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:37:49] [Server thread/INFO]: EntityZ096x issued server command: /instatotem
+[13:37:52] [Server thread/INFO]: EntityZ096x issued server command: /instatotem
+[13:37:53] [Server thread/INFO]: EntityZ096x issued server command: /instatotem
+[13:39:00] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:39:02] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:39:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:39:21] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:39:31] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[13:39:43] [Server thread/INFO]: EntityZ096x issued server command: /gof
+[13:39:44] [Server thread/INFO]: EntityZ096x issued server command: /god
+[13:39:48] [Server thread/INFO]: EntityZ096x issued server command: /god
+[13:39:56] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[13:39:56] [Server thread/INFO]: EntityZ096x died
+[13:41:33] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:41:42] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:41:44] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:41:51] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:41:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:42:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:42:34] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:43:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:43:38] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:43:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:44:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:44:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:44:54] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:44:54] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:45:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[13:45:47] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:46:04] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:46:04] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:46:20] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:46:23] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[13:48:03] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:48:03] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:48:34] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:48:34] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:48:42] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:48:42] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:48:55] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:48:55] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:49:04] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[13:49:09] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:49:09] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:49:22] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:49:22] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:49:34] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:49:54] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:49:54] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:50:03] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:50:03] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:50:10] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:50:10] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:50:17] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:50:17] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:50:27] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[13:50:47] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:50:47] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:50:57] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:50:57] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:51:04] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:51:04] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:51:11] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:51:11] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:51:36] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:51:36] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:51:36] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:51:36] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:51:37] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:51:37] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:53:04] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:53:04] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:53:39] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:53:39] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:53:50] [Server thread/INFO]: EntityZ096x was doomed to fall by Iron Golem
+[13:54:10] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:54:10] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:54:17] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:54:17] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:54:45] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:54:45] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:54:52] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:54:52] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:55:06] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:55:16] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:55:16] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:55:28] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:55:28] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:55:43] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:55:43] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:56:01] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:56:01] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:56:08] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:56:08] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:56:28] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:56:28] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:56:35] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:56:35] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:56:46] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:56:46] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:57:03] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:57:03] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:57:10] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:57:10] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:57:17] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:57:17] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:57:28] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:57:28] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:57:48] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:57:48] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:57:57] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:57:57] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:58:04] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:58:04] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:58:44] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:58:44] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:58:57] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:58:57] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:59:05] [Server thread/WARN]: EntityZ096x moved wrongly!
+[13:59:16] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:59:16] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:59:34] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:59:34] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:59:41] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:59:41] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:59:51] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:59:51] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:00:08] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:00:08] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:00:21] [Server thread/WARN]: EntityZ096x moved wrongly!
+[14:00:26] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:00:26] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:00:33] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[14:00:52] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:00:52] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:01:21] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:01:21] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:01:29] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:01:29] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:01:39] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:01:41] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:01:42] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:01:42] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:01:52] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:01:52] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:02:03] [Server thread/WARN]: EntityZ096x moved wrongly!
+[14:02:08] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:02:08] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:02:33] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:02:33] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:02:49] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:02:49] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:02:58] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:02:58] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:03:43] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:03:43] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:03:54] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:03:54] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:04:03] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:04:03] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:04:08] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:04:08] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:04:23] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:04:23] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:04:35] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:04:35] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:04:45] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:04:45] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:05:08] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:05:08] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:05:16] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:05:16] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:05:23] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:05:23] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:05:31] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[14:06:08] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[14:06:10] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[14:06:12] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:06:12] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:06:27] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:06:27] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:06:40] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[14:07:07] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:07:07] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:07:16] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:07:16] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:07:24] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:07:24] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:07:36] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:07:36] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[14:07:48] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[14:07:48] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]

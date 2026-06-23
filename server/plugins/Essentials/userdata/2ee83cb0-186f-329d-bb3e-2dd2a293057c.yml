@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782216058730
-  login: 1782219018009
+  logout: 1782221802437
+  login: 1782221820324
 money: '0'
 lastlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
@@ -31,9 +31,9 @@ lastlocation:
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 2898.3773588384156
-  y: -52.0
-  z: 3006.0890759828776
-  yaw: -90.96160888671875
-  pitch: 8.257853507995605
+  x: 2860.3619950363495
+  y: 51.0
+  z: 2934.300000011921
+  yaw: 92.78985595703125
+  pitch: 49.2020378112793
 last-account-name: EntityZ096x
