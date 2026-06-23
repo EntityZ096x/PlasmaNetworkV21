@@ -1484,3 +1484,109 @@ pvparmor EntityZ096x netherite 4 false<--[HERE]
 [12:00:27] [Server thread/INFO]: [TuffXPlus] [ViaEntities] Sent palette with 43 entities to EntityZ096x
 [12:00:58] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [12:00:58] [Server thread/INFO]: EntityZ096x left the game
+[12:50:17] [User Authenticator #20/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[12:50:17] [Server thread/INFO]: EntityZ096x joined the game
+[12:50:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51590] logged in with entity id 27267 at ([world]2898.3773588384156, -52.0, 3006.0890759828776)
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:50:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:50:22] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[12:50:42] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[12:51:03] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:51:03] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:51:34] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:51:34] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:51:51] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:51:51] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:52:03] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:52:03] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:52:19] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:53:32] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:53:32] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:53:55] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:53:55] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:54:06] [Server thread/WARN]: EntityZ096x moved wrongly!
+[12:54:52] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:54:52] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:55:00] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[12:55:40] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:56:08] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:56:20] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:20] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:39] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:39] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:40] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:40] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:40] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:40] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:41] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:41] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:41] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:41] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:41] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:41] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:41] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:41] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:56:42] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[12:56:42] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[12:57:32] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:58:08] [Server thread/INFO]: EntityZ096x fell from a high place
+[12:59:27] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:00:10] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:01:07] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:01:40] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:01:40] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:01:46] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:01:46] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:01:53] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:01:53] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:02:30] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:02:30] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:02:35] [Server thread/INFO]: EntityZ096x fell from a high place
+[13:03:04] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:04] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:05] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:05] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:06] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:06] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:06] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:06] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:06] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:06] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:06] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:06] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:07] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:03:07] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:03:08] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:03:08] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:03:08] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:03:08] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[13:03:12] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:12] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:12] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:12] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:03:13] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:03:13] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:05:26] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:05:26] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:05:30] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 3
+[13:06:03] [Server thread/INFO]: EntityZ096x issued server command: /enchant windburst 3
+[13:06:05] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:06:05] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:06:26] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[13:06:29] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:06:29] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:06:46] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[13:06:46] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[13:06:50] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
+[13:06:50] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
+[13:07:22] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
+[13:07:22] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
+[13:07:31] [Server thread/INFO]: EntityZ096x issued server command: /summon zombie
+[13:07:31] [Server thread/INFO]: [EntityZ096x: Summoned new Zombie]
