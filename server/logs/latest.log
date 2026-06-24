@@ -505,3 +505,41 @@
 [09:55:13] [Server thread/INFO]: 234565432 left the game
 [09:55:17] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [09:55:17] [Server thread/INFO]: EntityZ096x left the game
+[10:44:40] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:44:40] [Server thread/INFO]: EntityZ096x joined the game
+[10:44:40] [Server thread/INFO]: EntityZ096x[/127.0.0.1:52088] logged in with entity id 6292 at ([world]2803.5501977317977, 76.0, 2912.9312976417596)
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:44:40] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:44:46] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[10:44:46] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[10:45:04] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[10:45:04] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[10:45:34] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[10:45:35] [Server thread/INFO]: EntityZ096x left the game
+[10:51:55] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[10:51:55] [Server thread/INFO]: EntityZ096x joined the game
+[10:51:55] [Server thread/INFO]: EntityZ096x[/127.0.0.1:58806] logged in with entity id 6583 at ([world]2808.0418422463626, 75.0, 2921.702066360143)
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[10:51:55] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[10:52:15] [Server thread/INFO]: EntityZ096x issued server command: /god
+[10:52:26] [Server thread/INFO]: EntityZ096x issued server command: /god
+[10:53:09] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[10:53:54] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[10:54:41] [Server thread/INFO]: EntityZ096x issued server command: /god
+[11:01:22] [Server thread/INFO]: EntityZ096x issued server command: /god
+[11:02:26] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[11:03:12] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
