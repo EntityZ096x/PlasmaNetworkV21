@@ -977,3 +977,185 @@ java.lang.NullPointerException: Cannot invoke "de.jeter.chatex.ChannelHandler.se
 [12:04:30] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant mendint
 [12:04:33] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant mending
 [12:04:36] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant unbreaking 3
+[12:04:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[12:04:55] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[12:04:57] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s The_soulstealer4
+[12:05:02] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[12:05:02] [Server thread/INFO]: The_soulstealer4 left the game
+[12:05:32] [User Authenticator #17/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[12:05:33] [Server thread/INFO]: The_soulstealer4 joined the game
+[12:05:33] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:56858] logged in with entity id 15211 at ([world]2749.3959748447223, 113.0, 3017.8960408683834)
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:05:33] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:05:36] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:05:54] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 goldenapple 128
+[12:06:01] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 goldenapple 128
+[12:06:12] [Server thread/INFO]: The_soulstealer4 issued server command: /savekit netherpot
+[12:06:14] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[12:06:32] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 goldenapple 128
+[12:07:01] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:07:10] [Async Chat Thread - #15/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » wait
+[12:07:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[12:07:12] [Async Chat Thread - #15/INFO]: [Not Secure] Admin || The_soulstealer4 || » k
+[12:07:17] [Server thread/INFO]: EntityZ096x issued server command: /god
+[12:07:49] [Server thread/INFO]: The_soulstealer4 issued server command: /god en
+[12:07:59] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[12:08:01] [Async Chat Thread - #15/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ok done
+[12:08:04] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[12:08:28] [User Authenticator #18/INFO]: UUID of player whydubanme is 71a7eece-1b02-3213-9d92-1ce37a222968
+[12:08:28] [Server thread/INFO]: whydubanme joined the game
+[12:08:28] [Server thread/INFO]: whydubanme[/127.0.0.1:36810] logged in with entity id 15461 at ([world]2800.699999988079, 75.0, 2895.699999988079)
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:08:28] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:08:35] [Server thread/INFO]: EntityZ096x was slain by The_soulstealer4
+[12:08:39] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[12:08:45] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:08:52] [Server thread/INFO]: EntityZ096x has made the advancement [Not Today, Thank You]
+[12:09:03] [Server thread/INFO]: EntityZ096x issued server command: /tp EntityZ096x EntityZ096x
+[12:09:06] [Server thread/INFO]: EntityZ096x issued server command: /tp EntityZ096x The_soulstealer4
+[12:09:08] [Server thread/INFO]: The_soulstealer4 issued server command: /loadkit netherpot
+[12:09:14] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[12:09:16] [Server thread/INFO]: EntityZ096x issued server command: /god The_soulstealer4
+[12:09:17] [Server thread/INFO]: EntityZ096x issued server command: /god The_soulstealer4
+[12:09:32] [Server thread/INFO]: EntityZ096x was slain by The_soulstealer4
+[12:09:37] [Server thread/INFO]: The_soulstealer4 issued server command: /tpall
+[12:09:38] [Server thread/INFO]: EntityZ096x issued server command: /tp EntityZ096x The_soulstealer4
+[12:10:24] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[12:11:13] [Server thread/INFO]: EntityZ096x was slain by The_soulstealer4
+[12:11:17] [Async Chat Thread - #17/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » tpall
+[12:11:20] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[12:11:26] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:11:33] [Server thread/INFO]: whydubanme lost connection: Disconnected
+[12:11:33] [Server thread/INFO]: whydubanme left the game
+[12:11:47] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » ts map trahs
+[12:11:50] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[12:11:53] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » tf
+[12:11:56] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » why zilver here
+[12:11:58] [Server thread/INFO]: EntityZ096x was slain by The_soulstealer4
+[12:12:00] [User Authenticator #19/INFO]: UUID of player Zilver2 is d05767b2-a022-3dfc-844f-86f7ee80a31f
+[12:12:01] [Server thread/INFO]: Zilver2 joined the game
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:12:01] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:12:01] [Server thread/INFO]: Zilver2[/127.0.0.1:49694] logged in with entity id 16035 at ([world]106.5, 72.0, 537.5)
+[12:12:01] [Server thread/INFO]: The_soulstealer4 issued server command: /tpall
+[12:12:20] [Server thread/INFO]: Zilver2 was slain by The_soulstealer4
+[12:12:20] [Server thread/INFO]: Zilver2 has completed the challenge [Cover Me in Debris]
+[12:12:20] [Server thread/INFO]: Zilver2 has reached the goal [Sky's the Limit]
+[12:12:23] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[12:12:23] [Server thread/INFO]: EntityZ096x burned to death
+[12:12:26] [Server thread/INFO]: The_soulstealer4 issued server command: /tpall
+[12:12:32] [Server thread/INFO]: The_soulstealer4 issued server command: /god EntityZ096x
+[12:12:35] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » 1 more tpall then its ban
+[12:12:36] [Server thread/INFO]: The_soulstealer4 issued server command: /god EntityZ096x
+[12:12:43] [Async Chat Thread - #16/INFO]: [Not Secure] Admin || The_soulstealer4 || » bro u do it to
+[12:12:47] [Async Chat Thread - #16/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » i am owner
+[12:12:51] [Async Chat Thread - #16/INFO]: [Not Secure] Admin || The_soulstealer4 || » unfair
+[12:12:52] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[12:12:52] [Server thread/INFO]: The_soulstealer4 left the game
+[12:12:59] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:13:01] [Server thread/INFO]: Zilver2 has reached the goal [Postmortal]
+[12:14:18] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[12:14:19] [Server thread/INFO]: EntityZ096x left the game
+[12:14:27] [Server thread/INFO]: Zilver2 has made the advancement [Monster Hunter]
+[12:14:47] [Server thread/INFO]: Zilver2 fell from a high place
+[12:15:57] [Server thread/INFO]: Zilver2 lost connection: Disconnected
+[12:15:57] [Server thread/INFO]: Zilver2 left the game
+[12:16:10] [User Authenticator #20/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[12:16:10] [Server thread/INFO]: EntityZ096x joined the game
+[12:16:10] [Server thread/INFO]: EntityZ096x[/127.0.0.1:57602] logged in with entity id 16510 at ([world]2768.087062490861, 116.0, 3026.510986328479)
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:16:10] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:16:21] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[12:16:21] [Server thread/INFO]: EntityZ096x was slain by Endermite
+[12:16:23] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[12:16:28] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[12:16:37] [User Authenticator #20/INFO]: UUID of player Zilver2 is d05767b2-a022-3dfc-844f-86f7ee80a31f
+[12:16:37] [Server thread/INFO]: Zilver2 joined the game
+[12:16:37] [Server thread/INFO]: Zilver2[/127.0.0.1:37038] logged in with entity id 16860 at ([world]2793.42853783755, 76.0, 2930.685539443587)
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:16:37] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:17:10] [Server thread/INFO]: EntityZ096x was doomed to fall by Iron Golem
+[12:17:12] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[12:17:12] [Server thread/INFO]: EntityZ096x left the game
+[12:17:57] [Server thread/INFO]: Zilver2 issued server command: /home
+[12:17:57] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[12:18:00] [Server thread/INFO]: Zilver2 issued server command: /sethome
+[12:18:00] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[12:18:39] [Server thread/INFO]: Zilver2 issued server command: /ec
+[12:18:39] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[12:18:50] [Server thread/INFO]: Zilver2 issued server command: /tpa
+[12:18:50] [Server thread/INFO]: [Essentials] Zilver2 was denied access to command.
+[12:19:13] [Server thread/INFO]: Zilver2 issued server command: /lobby
+[12:19:50] [User Authenticator #21/INFO]: UUID of player Xx_Bloop_xX is 496dc44d-55d6-3a5d-a6ae-ff140c5d1fcc
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:19:50] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:19:50] [Server thread/INFO]: Xx_Bloop_xX joined the game
+[12:19:50] [Server thread/INFO]: Xx_Bloop_xX[/127.0.0.1:46742] logged in with entity id 18272 at ([world]2797.233761600017, 8.0, 2984.714971786557)
+[12:19:58] [Server thread/INFO]: Xx_Bloop_xX issued server command: /spawn
+[12:20:44] [Server thread/INFO]: Xx_Bloop_xX fell from a high place
+[12:21:12] [Server thread/INFO]: Xx_Bloop_xX has completed the challenge [Over-Overkill]
+[12:22:33] [Server thread/WARN]: Xx_Bloop_xX moved wrongly!
+[12:23:02] [Server thread/INFO]: Zilver2 issued server command: /shop
+[12:23:21] [Server thread/INFO]: Zilver2 has made the advancement [Who Needs Rockets?]
+[12:26:08] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:26:10] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:26:58] [Server thread/INFO]: Xx_Bloop_xX has made the advancement [Acquire Hardware]
+[12:28:42] [Server thread/WARN]: Xx_Bloop_xX moved wrongly!
+[12:29:18] [Server thread/INFO]: Zilver2 was blown up by Creeper
+[12:31:02] [Server thread/INFO]: Xx_Bloop_xX fell from a high place
+[12:31:35] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:44] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:44] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:44] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:44] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:45] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:45] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:31:45] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:32:25] [Server thread/WARN]: Zilver2 moved wrongly!
+[12:32:34] [Server thread/INFO]: Xx_Bloop_xX lost connection: Disconnected
+[12:32:34] [Server thread/INFO]: Xx_Bloop_xX left the game
+[12:33:01] [Server thread/INFO]: Zilver2 has made the advancement [Stone Age]
+[12:33:13] [Server thread/INFO]: Zilver2 lost connection: Disconnected
+[12:33:13] [Server thread/INFO]: Zilver2 left the game

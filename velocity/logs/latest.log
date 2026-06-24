@@ -318,3 +318,49 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [12:03:17] [nLogin - Task Executor #54/INFO] [nlogin]: The user The_soulstealer4 has successfully logged in.
 [12:03:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> survival has connected
 [12:03:18] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> auth has disconnected
+[12:05:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] The_soulstealer4 (/[0:0:0:0:0:0:0:1]:56152) has disconnected
+[12:05:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> survival has disconnected
+[12:05:29] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] The_soulstealer4 (/[0:0:0:0:0:0:0:1]:60610) has connected
+[12:05:29] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> auth has connected
+[12:05:32] [nLogin - Task Executor #54/INFO] [nlogin]: The user The_soulstealer4 has successfully logged in.
+[12:05:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> survival has connected
+[12:05:33] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> auth has disconnected
+[12:08:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] whydubanme (/[0:0:0:0:0:0:0:1]:55534) has connected
+[12:08:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] whydubanme -> auth has connected
+[12:08:28] [nLogin - Task Executor #68/INFO] [nlogin]: The user whydubanme has successfully logged in.
+[12:08:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] whydubanme -> survival has connected
+[12:08:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] whydubanme -> auth has disconnected
+[12:11:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] whydubanme (/[0:0:0:0:0:0:0:1]:55534) has disconnected
+[12:11:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] whydubanme -> survival has disconnected
+[12:11:48] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Zilver2 (/[0:0:0:0:0:0:0:1]:56290) has connected
+[12:11:48] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> auth has connected
+[12:12:00] [nLogin - Task Executor #68/INFO] [nlogin]: The user Zilver2 has successfully registered.
+[12:12:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> survival has connected
+[12:12:01] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> auth has disconnected
+[12:12:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] The_soulstealer4 (/[0:0:0:0:0:0:0:1]:60610) has disconnected
+[12:12:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] The_soulstealer4 -> survival has disconnected
+[12:14:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:58778) has disconnected
+[12:14:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> survival has disconnected
+[12:15:57] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Zilver2 (/[0:0:0:0:0:0:0:1]:56290) has disconnected
+[12:15:57] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> survival has disconnected
+[12:16:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54914) has connected
+[12:16:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[12:16:10] [nLogin - Task Executor #71/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[12:16:10] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> survival has connected
+[12:16:10] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[12:16:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Zilver2 (/[0:0:0:0:0:0:0:1]:59862) has connected
+[12:16:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> auth has connected
+[12:16:37] [nLogin - Task Executor #71/INFO] [nlogin]: The user Zilver2 has successfully logged in.
+[12:16:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> survival has connected
+[12:16:37] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> auth has disconnected
+[12:17:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:54914) has disconnected
+[12:17:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> survival has disconnected
+[12:19:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Xx_Bloop_xX (/[0:0:0:0:0:0:0:1]:58220) has connected
+[12:19:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Xx_Bloop_xX -> auth has connected
+[12:19:50] [nLogin - Task Executor #71/INFO] [nlogin]: The user Xx_Bloop_xX has successfully logged in.
+[12:19:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Xx_Bloop_xX -> survival has connected
+[12:19:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Xx_Bloop_xX -> auth has disconnected
+[12:32:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Xx_Bloop_xX (/[0:0:0:0:0:0:0:1]:58220) has disconnected
+[12:32:34] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Xx_Bloop_xX -> survival has disconnected
+[12:33:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Zilver2 (/[0:0:0:0:0:0:0:1]:59862) has disconnected
+[12:33:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Zilver2 -> survival has disconnected

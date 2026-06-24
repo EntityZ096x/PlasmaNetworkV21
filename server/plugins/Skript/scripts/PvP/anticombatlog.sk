@@ -1,6 +1,16 @@
 on damage of player:
     attacker is a player
+    set {pvp.time.%victim%} to 20 * 15
+    set {pvp.time.%attacker%} to 20 * 15
+    if {pvp.enemy.%victim%} is not attacker:
+        send "&c&lPvP&r &8»&c You have been attacked by &e%attacker%&c! Do not log off!" to victim
+    if {pvp.enemy.%attacker%} is not victim:
+        send "&c&lPvP&r &8»&c You attacked &e%victim%&c! Do not log off!" to attacker
     set {pvp.enemy.%victim%} to attacker's name
     set {pvp.enemy.%attacker%} to victim's name
-    send "&l&cPvP&r &8»&c You have been attacked by &e%attacker%&c! Do not log off!" to victim
-    send "&l&cPvP&r &8»&c You attacked &e%victim%&c! Do not log off!" to attacker
+
+every tick:
+    loop all players:
+        if {pvp.time.%loop-player%} is set:
+            add -1 to {pvp.time.%loop-player%}
+
