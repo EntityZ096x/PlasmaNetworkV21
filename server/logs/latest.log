@@ -543,3 +543,437 @@
 [11:01:22] [Server thread/INFO]: EntityZ096x issued server command: /god
 [11:02:26] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
 [11:03:12] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[11:05:08] [Server thread/INFO]: EntityZ096x issued server command: /god
+[11:05:52] [Server thread/INFO]: EntityZ096x issued server command: /god
+[11:06:12] [Server thread/WARN]: EntityZ096x moved wrongly!
+[11:06:16] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[11:06:58] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
+[11:07:49] [Server thread/INFO]: EntityZ096x issued server command: /god
+[11:09:01] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[11:09:15] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[11:12:40] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[11:12:40] [Server thread/INFO]: EntityZ096x died
+[11:12:46] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[11:12:49] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[11:14:17] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[11:14:28] [Server thread/INFO]: EntityZ096x issued server command: /kittycannon
+[11:16:13] [Server thread/INFO]: EntityZ096x issued server command: /plugins
+[11:16:22] [Async Chat Thread - #7/INFO]: [Not Secure] [L] Owner ||| EntityZ096x ||| » ta
+[11:17:19] [Server thread/INFO]: EntityZ096x issued server command: /multiverse
+[11:17:22] [Server thread/INFO]: EntityZ096x issued server command: /mv
+[11:18:14] [Server thread/INFO]: EntityZ096x issued server command: /mv create Lobby normal -t flat
+[11:18:14] [Server thread/ERROR]: No key layers in MapLike[{}]
+[11:18:15] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[11:18:15] [Server thread/INFO]: Preparing spawn area: 0%
+[11:18:15] [Server thread/INFO]: Time elapsed: 339 ms
+[11:18:22] [Server thread/INFO]: EntityZ096x issued server command: /mvtp lobby
+[11:18:26] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[11:18:44] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[11:18:54] [Server thread/INFO]: EntityZ096x issued server command: //wand
+[11:18:59] [Server thread/INFO]: EntityZ096x issued server command: //pos1
+[11:19:02] [Server thread/INFO]: EntityZ096x issued server command: //pos1
+[11:19:03] [Server thread/INFO]: EntityZ096x issued server command: //pos2
+[11:19:08] [Server thread/INFO]: EntityZ096x issued server command: //set bedrock
+[11:19:08] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_5.PaperweightStarlightRelighterFactory as relighter factory.
+[11:20:05] [Server thread/INFO]: EntityZ096x issued server command: //set bedrock
+[11:20:06] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[11:20:06] [Server thread/INFO]: EntityZ096x left the game
+[11:22:36] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:22:36] [Server thread/INFO]: EntityZ096x joined the game
+[11:22:36] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51304] logged in with entity id 12056 at ([Lobby]-3.017870601478398, 24.526906182809466, -8.81788757665411)
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:22:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:22:42] [Server thread/INFO]: EntityZ096x issued server command: /mvtp lobby
+[11:22:48] [Server thread/INFO]: EntityZ096x issued server command: /mvtp world
+[11:22:51] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[11:22:51] [Server thread/INFO]: EntityZ096x died
+[11:22:57] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[11:22:57] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[11:23:01] [Server thread/INFO]: EntityZ096x issued server command: /god
+[11:23:11] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[11:23:11] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[11:24:00] [Server thread/INFO]: EntityZ096x issued server command: /summon minecraft:iron_golem
+[11:24:00] [Server thread/INFO]: [EntityZ096x: Summoned new Iron Golem]
+[11:24:20] [User Authenticator #9/INFO]: UUID of player whydubanme is 71a7eece-1b02-3213-9d92-1ce37a222968
+[11:24:20] [Server thread/INFO]: whydubanme joined the game
+[11:24:20] [Server thread/INFO]: whydubanme[/127.0.0.1:58992] logged in with entity id 12496 at ([world]105.5, 65.0, 523.5)
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:24:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:24:20] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[11:25:04] [User Authenticator #9/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:25:04] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:25:04] [Server thread/INFO]: The_soulstealer4 joined the game
+[11:25:04] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:52410] logged in with entity id 12633 at ([world]2756.1188362002454, 116.0, 3012.489277276478)
+[11:25:08] [Server thread/INFO]: The_soulstealer4 issued server command: /e
+[11:25:19] [Server thread/INFO]: The_soulstealer4 issued server command: /savekit netherpot
+[11:25:25] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode spectator
+[11:25:30] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[11:25:33] [Server thread/INFO]: whydubanme has made the advancement [Acquire Hardware]
+[11:25:39] [Server thread/INFO]: The_soulstealer4 issued server command: /loadkit
+[11:25:44] [Server thread/INFO]: The_soulstealer4 issued server command: /suicide
+[11:25:44] [Server thread/INFO]: The_soulstealer4 died
+[11:26:06] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[11:26:13] [Server thread/INFO]: whydubanme was pricked to death
+[11:26:14] [Server thread/INFO]: whydubanme has completed the challenge [Cover Me in Debris]
+[11:26:14] [Server thread/INFO]: whydubanme has reached the goal [Sky's the Limit]
+[11:26:32] [Server thread/INFO]: whydubanme has made the advancement [Monster Hunter]
+[11:27:05] [Server thread/INFO]: EntityZ096x was smashed by The_soulstealer4
+[11:27:56] [Server thread/INFO]: EntityZ096x fell from a high place
+[11:29:46] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[11:29:59] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[11:30:19] [Server thread/INFO]: whydubanme lost connection: Disconnected
+[11:30:19] [Server thread/INFO]: whydubanme left the game
+[11:30:24] [Server thread/INFO]: EntityZ096x issued server command: /tpall
+[11:30:33] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[11:30:49] [Server thread/INFO]: The_soulstealer4 issued server command: /tpall
+[11:30:59] [Server thread/INFO]: The_soulstealer4 issued server command: /loadkit netherpot
+[11:31:02] [Server thread/INFO]: EntityZ096x issued server command: /loadkit netherpot
+[11:31:07] [Server thread/INFO]: EntityZ096x issued server command: /heal
+[11:31:09] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode survival
+[11:31:09] [Server thread/INFO]: EntityZ096x issued server command: /feed
+[11:31:42] [Server thread/WARN]: EntityZ096x moved wrongly!
+[11:31:53] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[11:31:53] [Server thread/INFO]: The_soulstealer4 left the game
+[11:31:56] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[11:31:56] [Server thread/INFO]: EntityZ096x left the game
+[11:33:02] [User Authenticator #10/INFO]: UUID of player Xx_Bloop_xX is 496dc44d-55d6-3a5d-a6ae-ff140c5d1fcc
+[11:33:02] [Server thread/INFO]: Xx_Bloop_xX joined the game
+[11:33:02] [Server thread/INFO]: Xx_Bloop_xX[/127.0.0.1:43776] logged in with entity id 13737 at ([world]2808.6042638012163, 1.0, 2967.09109406923)
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:33:02] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:33:13] [Server thread/INFO]: Xx_Bloop_xX has made the advancement [Monster Hunter]
+[11:33:29] [Server thread/INFO]: Xx_Bloop_xX lost connection: Disconnected
+[11:33:29] [Server thread/INFO]: Xx_Bloop_xX left the game
+[11:52:10] [User Authenticator #11/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:52:10] [Server thread/INFO]: EntityZ096x joined the game
+[11:52:10] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50402] logged in with entity id 13929 at ([world]2763.456442110234, 113.0, 3023.715331966166)
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:52:10] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:52:17] [Server thread/INFO]: EntityZ096x issued server command: /plm load VentureChat-3.8.0
+[11:52:17] [Server thread/INFO]: [PlugManX] Attempting to load plugins/VentureChat-3.8.0.jar
+[11:52:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/VentureChat-3.8.0.jar'...
+[11:52:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/VentureChat-3.8.0.jar' in 2349ms.
+[11:52:19] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/unknown-origin/VentureChat-3.8.0-1782301937411.jar' in 'plugins/.paper-remapped/unknown-origin'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib, PlaceholderAPI]. Please download and install these plugins to run 'VentureChat'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.util.reflection.MethodAccessor.invoke(MethodAccessor.java:56) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadPluginWithPaper(PaperPluginManager.java:189) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:156) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[PlugManX-3.0.4-dev1.jar:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2328) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2283) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:118) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1559) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[11:52:19] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/unknown-origin/VentureChat-3.8.0-1782301937411.jar' in 'plugins/.paper-remapped/unknown-origin'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib, PlaceholderAPI]. Please download and install these plugins to run 'VentureChat'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:116) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.pluginmanager.BukkitPluginManager.loadAndEnablePlugin(BukkitPluginManager.java:370) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadAndEnablePlugin(PaperPluginManager.java:59) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:158) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[PlugManX-3.0.4-dev1.jar:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2328) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2283) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:118) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1559) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[11:52:19] [Server thread/ERROR]: [PlugManX] Failed to load and enable plugin: VentureChat-3.8.0.jar
+org.bukkit.plugin.InvalidPluginException: Plugin didn't load any plugin providers?
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.lambda$loadPlugin$1(PaperPluginInstanceManager.java:122) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:122) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.pluginmanager.BukkitPluginManager.loadAndEnablePlugin(BukkitPluginManager.java:370) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadAndEnablePlugin(PaperPluginManager.java:59) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:158) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[PlugManX-3.0.4-dev1.jar:?]
+	at PlugManX-3.0.4-dev1.jar/paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[PlugManX-3.0.4-dev1.jar:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:449) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2328) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2283) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1446) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:175) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1426) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1420) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:118) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1559) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[11:52:19] [Server thread/WARN]: EntityZ096x moved too quickly! -12.09773571223468,1.252203340253729,-2.8396081481910187
+[11:52:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
+[11:52:23] [Server thread/INFO]: EntityZ096x issued server command: /plugin
+[11:52:24] [Server thread/INFO]: EntityZ096x issued server command: /plugins
+[11:54:07] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[11:54:07] [Server thread/INFO]: EntityZ096x left the game
+[11:54:36] [User Authenticator #12/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:54:36] [Server thread/INFO]: EntityZ096x joined the game
+[11:54:36] [Server thread/INFO]: EntityZ096x[/127.0.0.1:45522] logged in with entity id 14230 at ([world]2745.469053543838, 113.0, 3012.9028507105763)
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:54:36] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:54:42] [Server thread/INFO]: EntityZ096x issued server command: /plm load ChatEx
+[11:54:42] [Server thread/INFO]: [PlugManX] Attempting to load plugins/ChatEx.jar
+[11:54:42] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/ChatEx.jar'...
+[11:54:42] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ChatEx.jar' in 219ms.
+[11:54:42] [Server thread/INFO]: [ChatEx] Loading server plugin ChatEx v3.2.2
+[11:54:42] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
+[11:54:42] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
+[11:54:42] [Server thread/INFO]: [ChatEx] Server version:1.21.5-113-ba7fb23 (MC: 1.21.5)
+[11:54:42] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
+[11:54:42] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
+[11:54:42] [Server thread/INFO]: [ChatEx] Is now enabled!
+[11:54:43] [Craft Scheduler Thread - 727 - ChatEx/INFO]: [ChatEx] Checking for update...
+[11:54:43] [Craft Scheduler Thread - 727 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
+[11:54:43] [Craft Scheduler Thread - 727 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.2.2
+[11:54:43] [Craft Scheduler Thread - 727 - ChatEx/INFO]: [ChatEx] No update found.
+[11:54:44] [Server thread/INFO]: EntityZ096x issued server command: /a
+[11:54:45] [Async Chat Thread - #9/INFO]: [Not Secure] [L] Owner ||| EntityZ096x ||| » a
+[11:54:55] [Server thread/INFO]: EntityZ096x issued server command: /plm unload EssentialsChat
+[11:54:55] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0
+[11:54:55] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: EssentialsChat
+[11:54:57] [Async Chat Thread - #9/INFO]: [Not Secure] Owner ||| EntityZ096x||| : a
+[11:56:32] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[11:56:32] [Server thread/INFO]: EntityZ096x left the game
+[11:56:52] [User Authenticator #13/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[11:56:52] [Server thread/INFO]: EntityZ096x joined the game
+[11:56:52] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50288] logged in with entity id 14507 at ([world]2761.0796201014614, 113.0, 3021.8363712259934)
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[11:56:53] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[11:56:57] [Server thread/INFO]: EntityZ096x issued server command: /chatex reload
+[11:56:58] [Async Chat Thread - #11/INFO]: [Not Secure] Owner ||| EntityZ096x|||  » a
+[11:57:14] [Server thread/INFO]: EntityZ096x issued server command: /chatex reload
+[11:57:14] [Async Chat Thread - #10/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[11:57:18] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[11:57:18] [Server thread/INFO]: EntityZ096x left the game
+[12:00:25] [User Authenticator #14/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[12:00:25] [Server thread/INFO]: EntityZ096x joined the game
+[12:00:25] [Server thread/INFO]: EntityZ096x[/127.0.0.1:42396] logged in with entity id 14654 at ([world]2766.108801569916, 113.0, 3011.4286977079464)
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:00:25] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:01:16] [Server thread/INFO]: EntityZ096x issued server command: /chatex reload
+[12:01:17] [Async Chat Thread - #12/ERROR]: Could not pass event AsyncPlayerChatEvent to ChatEx v3.2.2
+java.lang.NullPointerException: Cannot invoke "de.jeter.chatex.ChannelHandler.sendMessage(org.bukkit.entity.Player, String)" because the return value of "de.jeter.chatex.ChannelHandler.getInstance()" is null
+	at ChatEx-1782302082549.jar/de.jeter.chatex.ChatListener.executeChatEvent(ChatListener.java:198) ~[ChatEx-1782302082549.jar:?]
+	at ChatEx-1782302082549.jar/de.jeter.chatex.ChatListener.onLowest(ChatListener.java:45) ~[ChatEx-1782302082549.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2448) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2486) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2228) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:739) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:503) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[12:01:17] [Async Chat Thread - #12/INFO]: [Not Secure] <EntityZ096x> a
+[12:01:31] [Async Chat Thread - #12/ERROR]: Could not pass event AsyncPlayerChatEvent to ChatEx v3.2.2
+java.lang.NullPointerException: Cannot invoke "de.jeter.chatex.ChannelHandler.sendMessage(org.bukkit.entity.Player, String)" because the return value of "de.jeter.chatex.ChannelHandler.getInstance()" is null
+	at ChatEx-1782302082549.jar/de.jeter.chatex.ChatListener.executeChatEvent(ChatListener.java:198) ~[ChatEx-1782302082549.jar:?]
+	at ChatEx-1782302082549.jar/de.jeter.chatex.ChatListener.onLowest(ChatListener.java:45) ~[ChatEx-1782302082549.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.5-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.adventure.ChatProcessor.post(ChatProcessor.java:378) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.adventure.ChatProcessor.process(ChatProcessor.java:85) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.chat(ServerGamePacketListenerImpl.java:2448) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.broadcastChatMessage(ServerGamePacketListenerImpl.java:2486) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChat$10(ServerGamePacketListenerImpl.java:2228) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.util.FutureChain.lambda$append$1(FutureChain.java:25) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:739) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:503) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[12:01:31] [Async Chat Thread - #12/INFO]: [Not Secure] <EntityZ096x> a
+[12:01:32] [Server thread/INFO]: EntityZ096x issued server command: /chatex reload
+[12:01:32] [Async Chat Thread - #12/INFO]: [Not Secure] Owner ||| EntityZ096x ||| » a
+[12:01:36] [User Authenticator #15/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[12:01:36] [Server thread/INFO]: The_soulstealer4 joined the game
+[12:01:36] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:46742] logged in with entity id 14869 at ([world]2763.365305469567, 113.0, 3022.2816548625556)
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:01:36] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:01:42] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:01:47] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s The_soulstealer4
+[12:01:47] [Async Chat Thread - #12/INFO]: [Not Secure] Admin || The_soulstealer4 || » making da kit
+[12:01:49] [Async Chat Thread - #12/INFO]: [Not Secure] Admin || The_soulstealer4 || » making da kit
+[12:01:50] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:01:51] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s The_soulstealer4
+[12:01:53] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:01:54] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s The_soulstealer4
+[12:01:55] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:01:56] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s The_soulstealer4
+[12:01:58] [Server thread/INFO]: The_soulstealer4 issued server command: /gamemode creative
+[12:02:08] [Async Chat Thread - #12/INFO]: [Not Secure] Admin || The_soulstealer4 || » ik make de kit bro
+[12:02:14] [Server thread/INFO]: The_soulstealer4 issued server command: /loadkit netherpot
+[12:02:39] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 netheritepickaxe
+[12:02:50] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[12:03:13] [Server thread/INFO]: The_soulstealer4 lost connection: Disconnected
+[12:03:13] [Server thread/INFO]: The_soulstealer4 left the game
+[12:03:18] [User Authenticator #16/INFO]: UUID of player The_soulstealer4 is f161703d-2681-3b48-bfd1-1d80e057c727
+[12:03:18] [Server thread/INFO]: The_soulstealer4 joined the game
+[12:03:18] [Server thread/INFO]: The_soulstealer4[/127.0.0.1:34146] logged in with entity id 15034 at ([world]2742.699999988079, 118.0, 3011.762499988079)
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Voice-RPC
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:03:18] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:03:36] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 flintandsteal
+[12:03:41] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 flint_and_steel 1
+[12:04:08] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 netherite pickaxe 1
+[12:04:13] [Server thread/INFO]: The_soulstealer4 issued server command: /give The_soulstealer4 netheritepickaxe 1
+[12:04:21] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant silktouch
+[12:04:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /PvP/
+[12:04:25] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant unbreaking
+[12:04:30] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant mendint
+[12:04:33] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant mending
+[12:04:36] [Server thread/INFO]: The_soulstealer4 issued server command: /enchant unbreaking 3

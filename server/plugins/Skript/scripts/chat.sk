@@ -1,0 +1,5 @@
+on join:
+	set the join message to "&r[&a+&r] &e%player%"
+
+on quit:
+	set the quit message to "&r[&c-&r] &e%player%"

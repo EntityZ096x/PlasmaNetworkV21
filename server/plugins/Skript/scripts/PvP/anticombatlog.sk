@@ -1,0 +1,6 @@
+on damage of player:
+    attacker is a player
+    set {pvp.enemy.%victim%} to attacker's name
+    set {pvp.enemy.%attacker%} to victim's name
+    send "&l&cPvP&r &8»&c You have been attacked by &e%attacker%&c! Do not log off!" to victim
+    send "&l&cPvP&r &8»&c You attacked &e%victim%&c! Do not log off!" to attacker
