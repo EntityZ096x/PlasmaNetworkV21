@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: true
+flymode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782215538526
-  login: 1782214152378
+  logout: 1782291201950
+  login: 1782291195763
 money: '0'
 last-account-name: The_soulstealer4
 lastlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 2807.300000011921
-  y: 1.0
-  z: 2966.342867111345
-  yaw: 158.17059326171875
-  pitch: -68.24999237060547
+  x: 2761.699999988079
+  y: 118.53260614832628
+  z: 3027.5558548754425
+  yaw: -151.50225830078125
+  pitch: 52.349971771240234
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 2808.0660548129013
-  y: -0.9266478380630123
-  z: 2967.435552516419
-  yaw: -21.445539474487305
-  pitch: 44.830745697021484
+  x: 2756.1188362002454
+  y: 116.0
+  z: 3012.489277276478
+  yaw: 168.0008544921875
+  pitch: 37.94996643066406

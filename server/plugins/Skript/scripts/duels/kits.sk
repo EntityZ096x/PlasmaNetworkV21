@@ -57,8 +57,6 @@ on death of player:
     execute console command "/loadkit mace %victim%"
     if victim is "EntityZ096x":
         execute console command "/loadkit entitymace %victim%"
-    if victim is "The_soulstealer4":
-        execute console command "/loadkit soulmace %victim%"
 
 on damage of player:
     send "&cDamage: %final damage%" to attacker
@@ -109,4 +107,11 @@ on damage:
             if {_t} is set:
                 set victim's offhand item to {_t}
                 remove 1 of totem of undying from victim's inventory
+
+command /irongolem:
+    trigger:
+        summon a iron golem at player
+        set {_m} to last spawned iron golem
+        set {_m}'s max health to 1000
+        set {_m}'s health to 1000
     
