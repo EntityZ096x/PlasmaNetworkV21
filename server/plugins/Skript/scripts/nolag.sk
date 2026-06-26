@@ -1,0 +1,8 @@
+on spawn:
+    if spawn reason is not natural:
+        stop
+    loop all entities:
+        if loop-entity is not a player:
+            add 1 to {_e}
+    if {_e} >= 10:
+        cancel event

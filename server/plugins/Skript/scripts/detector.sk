@@ -1,0 +1,22 @@
+on join:
+    wait 2 ticks
+    set {_b} to player's client brand
+    if {eaglerbrands::*} contains {_b}:
+        set {client.%player%} to "eagler"
+    else:
+        set {client.%player%} to "vanilla"
+
+on leave:
+    delete {client.%player%}
+
+command /client:
+    trigger:
+        set {_brand} to player's client brand
+        if {_brand} is not set:
+            set {_brand} to "unknown"
+        send "Your current client: %{_brand}%" to player
+
+on load:
+    delete {eaglerbrands::*}
+    add "Tuff" to {eaglerbrands::*}
+    add "Eagler" to {eaglerbrands::*}

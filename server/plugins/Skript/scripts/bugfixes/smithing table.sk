@@ -1,0 +1,90 @@
+on right click:
+    if clicked block is smithing table:
+        if {client.%player%} is "java":
+            stop
+        
+        set {_inv} to chest inventory with 5 rows named "&8Smithing table"
+        
+        set {_id} to 0
+        loop 45 times:
+            set slot {_id} of {_inv} to white stained glass pane named ""
+            add 1 to {_id}
+
+        set slot 11 of {_inv} to iron axe named "&r&fUpgrade Gear"
+        set slot 28 of {_inv} to air
+        set slot 29 of {_inv} to air
+        set slot 30 of {_inv} to air
+        set slot 32 of {_inv} to arrow named ""
+        set slot 34 of {_inv} to air
+        
+        open {_inv} to player
+
+on load:
+    delete {bugfixes.upgradeableitems::*}
+    add diamond helmet to {bugfixes.upgradeableitems::*}
+    add diamond chestplate to {bugfixes.upgradeableitems::*}
+    add diamond leggings to {bugfixes.upgradeableitems::*}
+    add diamond boots to {bugfixes.upgradeableitems::*}
+    add diamond sword to {bugfixes.upgradeableitems::*}
+    add diamond axe to {bugfixes.upgradeableitems::*}
+    add diamond pickaxe to {bugfixes.upgradeableitems::*}
+    add diamond shovel to {bugfixes.upgradeableitems::*}
+    add diamond hoe to {bugfixes.upgradeableitems::*}
+    add diamond spear to {bugfixes.upgradeableitems::*}
+    
+
+command /smith:
+    trigger:
+        if player's targeted block is not smithing table:
+            send "&cYou have to look at a smithing table!" to player
+            stop
+
+        loop player's inventory:
+            if loop-slot is netherite upgrade smithing template:
+                set {_req::1} to true
+            if loop-slot is netherite ingot:
+                set {_req::2} to true
+        if {bugfixes.upgradeableitems::*} contains player's tool:
+            if {_req::1} is not true:
+                send "&cYou don't have a smithing template!" to player
+                stop
+            if {_req::2} is not true:
+                send "&cYou don't have a netherite ingot!" to player
+                stop
+            
+            remove 1 of netherite ingot from player's inventory
+            remove 1 of netherite upgrade smithing template from player's inventory
+            send "&aYou have succesfully upgraded your item!" to player
+            play sound "block.anvil.use" at player
+            upgrade(player)
+        else:
+            send "&cYou cannot upgrade this item!" to player
+
+function upgrade(p:player):
+    set {_i} to {_p}'s tool
+    if {_i} is diamond sword:
+        set {_n} to netherite sword
+    else if {_i} is diamond pickaxe:
+        set {_n} to netherite pickaxe
+    else if {_i} is diamond axe:
+        set {_n} to netherite axe
+    else if {_i} is diamond shovel:
+        set {_n} to netherite shovel
+    else if {_i} is diamond hoe:
+        set {_n} to netherite hoe
+    else if {_i} is diamond spear:
+        set {_n} to netherite spear
+    else if {_i} is diamond helmet:
+        set {_n} to netherite helmet
+    else if {_i} is diamond chestplate:
+        set {_n} to netherite chestplate
+    else if {_i} is diamond leggings:
+        set {_n} to netherite leggings
+    else if {_i} is diamond boots:
+        set {_n} to netherite boots
+
+    set name of {_n} to name of {_i}
+    set lore of {_n} to lore of {_i}
+    enchant {_n} with enchantments of {_i}
+
+    set {_p}'s tool to {_n}

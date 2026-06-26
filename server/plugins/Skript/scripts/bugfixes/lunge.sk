@@ -1,0 +1,17 @@
+on left click:
+    {client.%player%} is "eagler"
+    set {_o::*} to player's tool's enchantments
+    wait 2 tick
+    if player's tool's enchantments contains lunge:
+        set {_m} to level of lunge of player's tool
+        if {_o::*} contains lunge:
+            if player's food level < {_m} * 0.5:
+                stop
+        set {_v} to velocity of player
+        set {_y} to y component of {_v}
+        push player forward at speed {_m}
+        set {_v} to velocity of player
+        set y component of {_v} to {_y}
+        set velocity of player to {_v}
+        if {_o::*} contains lunge:
+            set player's food level to player's food level - {_m} * 0.5

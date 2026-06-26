@@ -21,7 +21,8 @@ command /loadkit <text> [<player>]:
             set slot {_slot} of {_player} to {PvPKit.%arg-1%::%{_slot} + 1%}
         execute console command "/armor netherite 4 %{_player}%"
         send "Kit loaded." to {_player}
-        if arg-1 contains "Mace":
+        wait 1 tick
+        if arg-1 contains "mace" or "Mace":
             enchant {_player}'s boots with feather falling 4
 
 command /armor <text> [<number>] [<player>]:
@@ -89,29 +90,14 @@ command /fucklag:
                     kill loop-entity
             wait 1 tick
 
-command /instatotem:
-    trigger:
-        if {instatotem.%player%} is true:
-            delete {instatotem.%player%}
-            send "&aYou will no longer instatotem"
-        else:
-            set {instatotem.%player%} to true
-            send "&aYou will now instatotem"
-
-on damage:
-    if {instatotem.%victim%} is true:
-        if victim's offhand item is air:
-            loop victim's inventory:
-                if loop-slot is totem of undying:
-                    set {_t} to loop-slot
-            if {_t} is set:
-                set victim's offhand item to {_t}
-                remove 1 of totem of undying from victim's inventory
-
 command /irongolem:
     trigger:
         summon a iron golem at player
         set {_m} to last spawned iron golem
-        set {_m}'s max health to 1000
-        set {_m}'s health to 1000
+        set {_m}'s max health to 10000
+        set {_m}'s health to 10000
+        set {_m}'s offhand item to 64 totem of undying
+
+on damage:
+    send action bar "%victim%: %victim's health%" to attacker
     

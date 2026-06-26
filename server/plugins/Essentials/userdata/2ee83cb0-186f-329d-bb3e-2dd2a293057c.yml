@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
-flymode: true
+godmode: true
+flymode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782303432581
-  login: 1782303370605
-money: '0'
+  logout: 1782503287718
+  login: 1782502125421
+money: '897.00'
 lastlocation:
-  world: dab86fec-c801-4130-a34a-c2cdc43fe764
-  world-name: world
-  x: 2799.697827212392
-  y: 105.22129782192859
-  z: 2953.129996671485
-  yaw: -161.55003356933594
-  pitch: 55.95000076293945
+  world: 91791f8a-ac99-4a63-b194-ee95f988d7e0
+  world-name: nigger
+  x: -1050.117498911065
+  y: 113.1720618532908
+  z: -1463.930351824739
+  yaw: -158.5501251220703
+  pitch: 53.250030517578125
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 2802.0
-  y: 76.0
-  z: 2930.0
-  yaw: -1.0499999523162842
-  pitch: -1.350000023841858
+  x: 2775.7780383313293
+  y: 85.0
+  z: 2851.491151320875
+  yaw: -169.3533935546875
+  pitch: 25.500011444091797
 last-account-name: EntityZ096x
