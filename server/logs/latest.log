@@ -825,3 +825,342 @@ org.bukkit.plugin.InvalidPluginException: Plugin didn't load any plugin provider
 [19:48:07] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
 [19:48:07] [Server thread/INFO]: EntityZ096x lost connection: Timed out
 [19:48:07] [Server thread/INFO]: [-] EntityZ096x
+[19:52:17] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:52:18] [Server thread/INFO]: [+] EntityZ096x
+[19:52:18] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33666] logged in with entity id 2578156 at ([minecraft:overworld]2775.7780383313293, 85.0, 2851.491151320875)
+[19:52:29] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:52:39] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x smithing
+[19:52:41] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x smithing_table
+[19:53:01] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:53:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:53:40] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:53:44] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:54:11] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:55:40] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[19:55:40] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[19:55:40] [Server thread/INFO]: [-] EntityZ096x
+[19:56:07] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:56:07] [Server thread/INFO]: [+] EntityZ096x
+[19:56:07] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43842] logged in with entity id 2632462 at ([minecraft:overworld]2779.497725929624, 85.0, 2842.4158904654773)
+[19:56:14] [Server thread/INFO]: EntityZ096x issued server command: /plm load Skellett-2.0.10
+[19:56:14] [Server thread/INFO]: [PlugManX] Attempting to load plugins/Skellett-2.0.10.jar
+[19:56:14] [Server thread/INFO]: [Skellett] Loading server plugin Skellett v2.0.10
+[19:56:14] [Server thread/INFO]: [Skellett] Enabling Skellett v2.0.10
+[19:56:14] [Server thread/INFO]: [Skellett] config.yml not found, generating a new config!
+[19:56:14] [Server thread/INFO]: [Skellett] CustomEvents.yml not found, generating a new config!
+[19:56:14] [Server thread/INFO]: [Skellett] Syntax.yml not found, generating a new file!
+[19:56:14] [Server thread/INFO]: [Skellett] SyntaxToggles.yml not found, generating a new file!
+[19:56:14] [Server thread/ERROR]: Error occurred while enabling Skellett v2.0.10 (Is it up to date?)
+ch.njol.skript.SkriptAPIException: Registration can only be done during plugin initialization
+	at Skript-2.15.3.jar//ch.njol.skript.Skript.checkAcceptRegistrations(Skript.java:1374) ~[?:?]
+	at Skript-2.15.3.jar//ch.njol.skript.Skript.registerAddon(Skript.java:1399) ~[?:?]
+	at Skellett-2.0.10.jar//com.gmail.thelimeglass.Skellett.onEnable(Skellett.java:175) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.72-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//core.com.rylinaux.plugman.util.reflection.MethodAccessor.invoke(MethodAccessor.java:56) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadPluginWithPaper(PaperPluginManager.java:191) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:156) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[?:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-26.1.2.jar:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2485) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$0(ServerGamePacketListenerImpl.java:2442) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1560) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1540) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1534) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1264) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1380) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[19:56:14] [Server thread/INFO]: [Skellett] Disabling Skellett v2.0.10
+[19:56:17] [Server thread/INFO]: EntityZ096x issued server command: /plugins
+[19:56:22] [Server thread/INFO]: EntityZ096x issued server command: /plm load Skellett-2.0.10
+[19:56:22] [Server thread/INFO]: [PlugManX] Attempting to load plugins/Skellett-2.0.10.jar
+[19:56:22] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Skellett-2.0.10.jar' in folder 'plugins'
+java.lang.IllegalStateException: Provider SpigotPluginProvider{path=plugins/Skellett-2.0.10.jar, description=org.bukkit.plugin.PluginDescriptionFile@1c4171e, jarFile=Skellett-2.0.10.jar@31f63b9c, status=null, dependencyContext=null} attempted to add duplicate plugin identifier Skellett v2.0.10 THIS WILL CREATE BUGS!!!
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage$1.applyContext(ServerPluginProviderStorage.java:28) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:113) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:121) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//core.com.rylinaux.plugman.util.reflection.MethodAccessor.invoke(MethodAccessor.java:56) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadPluginWithPaper(PaperPluginManager.java:189) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:156) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[?:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-26.1.2.jar:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2485) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$0(ServerGamePacketListenerImpl.java:2442) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1560) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1540) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1534) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1264) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1380) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[19:56:22] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'Skellett-2.0.10.jar' in folder 'plugins'
+java.lang.IllegalStateException: Provider SpigotPluginProvider{path=plugins/Skellett-2.0.10.jar, description=org.bukkit.plugin.PluginDescriptionFile@d4f5818, jarFile=Skellett-2.0.10.jar@49d493, status=null, dependencyContext=null} attempted to add duplicate plugin identifier Skellett v2.0.10 THIS WILL CREATE BUGS!!!
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage$1.applyContext(ServerPluginProviderStorage.java:28) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:113) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.SingularRuntimePluginProviderStorage.enter(SingularRuntimePluginProviderStorage.java:57) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.RuntimePluginEntrypointHandler.enter(RuntimePluginEntrypointHandler.java:40) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:121) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419) ~[paper-api-26.1.2.build.72-stable.jar:?]
+	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.pluginmanager.BukkitPluginManager.loadAndEnablePlugin(BukkitPluginManager.java:370) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadAndEnablePlugin(PaperPluginManager.java:59) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:158) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[?:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-26.1.2.jar:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2485) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$0(ServerGamePacketListenerImpl.java:2442) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1560) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1540) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1534) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1264) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1380) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[19:56:22] [Server thread/ERROR]: [PlugManX] Failed to load and enable plugin: Skellett-2.0.10.jar
+org.bukkit.plugin.InvalidPluginException: Plugin didn't load any plugin providers?
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.lambda$loadPlugin$0(PaperPluginInstanceManager.java:127) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.loadPlugin(PaperPluginInstanceManager.java:127) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.loadPlugin(PaperPluginManagerImpl.java:82) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:419) ~[paper-api-26.1.2.build.72-stable.jar:?]
+	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.pluginmanager.BukkitPluginManager.loadAndEnablePlugin(BukkitPluginManager.java:370) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.loadAndEnablePlugin(PaperPluginManager.java:59) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.pluginmanager.PaperPluginManager.load(PaperPluginManager.java:158) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//core.com.rylinaux.plugman.commands.executables.LoadCommand.execute(LoadCommand.java:104) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//bukkit.com.rylinaux.plugman.commands.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:70) ~[?:?]
+	at PlugManX-3.0.4-dev1.jar//paper.com.rylinaux.plugman.commands.PaperCommandCreator$1.execute(PaperCommandCreator.java:35) ~[?:?]
+	at io.papermc.paper.command.brigadier.PaperCommands.lambda$register$2(PaperCommands.java:176) ~[paper-26.1.2.jar:?]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2485) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$0(ServerGamePacketListenerImpl.java:2442) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1560) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1540) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1534) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1264) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1380) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[19:56:23] [Server thread/INFO]: EntityZ096x issued server command: /plugins
+[19:57:26] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:57:36] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:58:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[19:58:30] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x chest
+[19:59:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:00:35] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:00:35] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:00:35] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:00:37] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:00:37] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:00:38] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:00:38] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:01:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:01:17] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:01:17] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:01:31] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:01:34] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:02:28] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:02:29] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:02:30] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:02:30] [Server thread/INFO]: INVENTORY OPEN EVENT FIRED
+[20:03:20] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:03:20] [Server thread/INFO]: [-] EntityZ096x
+[20:03:38] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:03:39] [Server thread/INFO]: [+] EntityZ096x
+[20:03:39] [Server thread/INFO]: EntityZ096x[/127.0.0.1:44892] logged in with entity id 2759451 at ([minecraft:overworld]2780.6143546592702, 85.0, 2839.1865381556463)
+[20:03:43] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:04:04] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:04:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:05:09] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:05:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:06:26] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[20:06:26] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:06:26] [Server thread/INFO]: [-] EntityZ096x
+[20:07:27] [User Authenticator #10/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:07:27] [Server thread/INFO]: [+] EntityZ096x
+[20:07:27] [Server thread/INFO]: EntityZ096x[/127.0.0.1:47652] logged in with entity id 2804604 at ([minecraft:overworld]2780.596134902842, 85.0, 2839.2778649346656)
+[20:07:31] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:08:03] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:08:05] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:08:36] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:08:46] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:09:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:11:13] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:11:15] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:11:30] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:11:40] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_upgrade_smithing_template
+[20:12:31] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:12:31] [Server thread/INFO]: [-] EntityZ096x
+[20:12:51] [User Authenticator #11/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:12:51] [Server thread/INFO]: [+] EntityZ096x
+[20:12:51] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39262] logged in with entity id 2885413 at ([minecraft:overworld]2780.7773204402374, 85.0, 2839.2847141044176)
+[20:12:56] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:12:58] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:04] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:05] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:18] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:33] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:34] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:13:49] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:15:01] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[20:15:01] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:15:01] [Server thread/INFO]: [-] EntityZ096x
+[20:15:29] [User Authenticator #12/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:15:29] [Server thread/INFO]: [+] EntityZ096x
+[20:15:29] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39460] logged in with entity id 2921720 at ([minecraft:overworld]2780.7750197856394, 85.0, 2839.3731624558754)
+[20:16:48] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:16:48] [Server thread/INFO]: [-] EntityZ096x
+[20:18:48] [User Authenticator #13/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:18:49] [Server thread/INFO]: [+] EntityZ096x
+[20:18:49] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43380] logged in with entity id 2944458 at ([minecraft:overworld]2780.8502507894123, 85.0, 2839.699999988079)
+[20:18:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:19:50] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:20:00] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:20:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:21:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:21:40] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x hopper
+[20:21:50] [Server thread/INFO]: BlockState{type=HOPPER,location=Location{world=CraftWorld{key=minecraft:overworld},x=2779.0,y=86.0,z=2837.0,pitch=0.0,yaw=0.0}} is transporting smithing table to BlockState{type=HOPPER,location=Location{world=CraftWorld{key=minecraft:overworld},x=2779.0,y=86.0,z=2837.0,pitch=0.0,yaw=0.0}}!
+[20:21:55] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[20:23:06] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:23:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:23:13] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:23:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:23:38] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:24:11] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:24:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:24:22] [Server thread/INFO]: l
+[20:24:24] [Server thread/INFO]: l
+[20:24:24] [Server thread/INFO]: l
+[20:24:26] [Server thread/INFO]: l
+[20:24:29] [Server thread/INFO]: l
+[20:24:41] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:24:46] [Server thread/INFO]: l
+[20:25:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:26:48] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:26:50] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:26:56] [Server thread/INFO]: EntityZ096x has made the advancement [Suit Up]
+[20:28:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:29:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:29:17] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:29:36] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:30:59] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:31:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:31:30] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite 1
+[20:31:37] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_ingot 64
+[20:32:48] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:32:48] [Server thread/INFO]: [-] EntityZ096x
+[20:33:00] [User Authenticator #14/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:33:00] [Server thread/INFO]: [+] EntityZ096x
+[20:33:00] [Server thread/INFO]: EntityZ096x[/127.0.0.1:42178] logged in with entity id 3183927 at ([minecraft:overworld]2781.8294807739126, 85.0, 2839.6928562514317)
+[20:33:04] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:33:22] [Craft Scheduler Thread - 1464 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:33:22] [Craft Scheduler Thread - 1464 - Vault/INFO]: [Vault] No new version available
+[20:33:23] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:35:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:35:37] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:35:42] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite
+[20:35:44] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_ingot
+[20:38:29] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:38:38] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_upgrade_smithing_template
+[20:38:44] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x diamond_helmet
+[20:39:06] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:39:26] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_upgrade_smithing_template
+[20:39:29] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_ingot
+[20:40:09] [Server thread/INFO]: EntityZ096x issued server command: /sk reload aliases
+[20:40:11] [ForkJoinPool.commonPool-worker-29/INFO]: [Skript] Loaded 5688 aliases in 1365ms
+[20:40:13] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:40:18] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_ingot
+[20:40:20] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_upgrade_smithing_template
+[20:41:01] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:41:03] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:41:07] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:41:35] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:41:37] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:41:50] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x nethingot
+[20:41:57] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_upgrade_smithing_template
+[20:42:38] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:43:06] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:44:16] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
+[20:44:16] [Server thread/INFO]: EntityZ096x lost connection: Timed out
+[20:44:16] [Server thread/INFO]: [-] EntityZ096x
+[20:44:27] [User Authenticator #15/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:44:28] [Server thread/INFO]: [+] EntityZ096x
+[20:44:28] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60588] logged in with entity id 3380014 at ([minecraft:overworld]2782.367788950302, 85.0, 2839.05651749527)
+[20:44:32] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:45:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:45:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:45:34] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x netherite_upgrade_smithing_template
+[20:45:56] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:46:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:46:34] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[20:47:41] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
