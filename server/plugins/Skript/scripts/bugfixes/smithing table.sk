@@ -1,6 +1,6 @@
 on right click:
     if clicked block is smithing table:
-        if {client.%player%} is "java":
+        if {client.%player%} is not "eagler":
             stop    
         
         close player's inventory
@@ -159,15 +159,39 @@ function checkforupgrade(p: player):
             else if slot 29 of {_p}'s current inventory is diamond hoe:
                 set {_i} to netherite hoe
 
+            set {_l} to slot 29 of {_p}'s current inventory
+            set enchantments of {_i} to enchantments of {_l}
+            set durability of {_i} to durability of {_l} * 2
+            set name of {_i} to name of {_l}
+            set lore of {_i} to lore of {_l}
+
+            
+
             set slot 34 of {_p}'s current inventory to {_i}
             
 on inventory click:
     if event-inventory's name is "&8Smithing table":
         if clicked slot is 34:
             if event-slot is not air:
-                set slot 28 of player's current inventory to air
-                set slot 29 of player's current inventory to air
-                set slot 30 of player's current inventory to air
+                set {_1} to slot 28 of player's current inventory
+                set {_2} to slot 29 of player's current inventory
+                set {_3} to slot 30 of player's current inventory
+                remove 1 of {_1} from player's current inventory
+                remove 1 of {_2} from player's current inventory
+                remove 1 of {_3} from player's current inventory
                 play sound "block.anvil.use" at player
             else:
                 cancel event
+
+on inventory close:
+    if event-inventory's name is "&8Smithing table":
+        if {client.%player%} is "eagler":
+            set {_1} to slot 28 of player's current inventory
+            set {_2} to slot 29 of player's current inventory
+            set {_3} to slot 30 of player's current inventory
+            set pickup delay of {_1} to 0 ticks
+            set pickup delay of {_2} to 0 ticks
+            set pickup delay of {_3} to 0 ticks
+            drop {_1} at player
+            drop {_2} at player
+            drop {_3} at player

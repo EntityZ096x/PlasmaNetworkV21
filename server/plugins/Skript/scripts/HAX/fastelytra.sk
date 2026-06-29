@@ -3,6 +3,8 @@ on right click with firework rocket:
         if player is not on the ground:
             if {hax.fastelytra.%player%} is "enabled":
                 set gliding of player to true
+            else if {client.%player%} is "eagler":
+                set gliding of player to true
 
 on damage of player:
     if victim is player:

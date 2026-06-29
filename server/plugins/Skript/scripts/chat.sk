@@ -1,5 +1,10 @@
 on join:
-	set the join message to "&r[&a+&r] &e%player%"
+    set the join message to ""
+    wait 5 ticks
+    if {client.%player%} is "eagler":
+        broadcast "&r[&a+&r] &r&e%player%"
+    else:
+        broadcast "&r[&a+&r] &r%player%"
 
 on quit:
 	set the quit message to "&r[&c-&r] &e%player%"

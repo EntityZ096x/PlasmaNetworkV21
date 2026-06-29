@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 flymode: false
 muted: false
 jailed: false
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782506656309
-  login: 1782506668075
+  logout: 1782746219325
+  login: 1782745998858
 money: '897.00'
 lastlocation:
-  world: 91791f8a-ac99-4a63-b194-ee95f988d7e0
-  world-name: nigger
-  x: -1050.117498911065
-  y: 113.1720618532908
-  z: -1463.930351824739
-  yaw: -158.5501251220703
-  pitch: 53.250030517578125
+  world: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+  world-name: Lobby
+  x: 0.5
+  y: -60.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
-  world: dab86fec-c801-4130-a34a-c2cdc43fe764
-  world-name: world
-  x: 2782.367788950302
-  y: 85.0
-  z: 2839.05651749527
-  yaw: 133.34657287597656
-  pitch: 19.650001525878906
+  world: 28cd48bc-3490-4a7d-ad5d-df1671b7e3ba
+  world-name: Lobby
+  x: 0.377930656374726
+  y: 21.0
+  z: 0.3367002519985646
+  yaw: 2.0998167991638184
+  pitch: 16.05010986328125
 last-account-name: EntityZ096x
