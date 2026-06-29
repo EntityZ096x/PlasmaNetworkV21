@@ -1,8 +1,9 @@
 on join:
     set the join message to ""
-    wait 5 ticks
+    while {client.%player%} is not set:
+        wait 1 tick
     if {client.%player%} is "eagler":
-        broadcast "&r[&a+&r] &r&e%player%"
+        broadcast formatted "&r[&a+&r] <hover:show_text:'&7This is a Eaglercraft player'>&r&e%player%"
     else:
         broadcast "&r[&a+&r] &r%player%"
 

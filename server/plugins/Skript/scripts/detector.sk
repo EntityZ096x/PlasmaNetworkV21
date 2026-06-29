@@ -1,10 +1,10 @@
 on join:
-    wait 3 tick
-    set {_b} to player's client brand
+    while player's client brand is not set:
+        wait 1 tick
     set {client.%player%} to "java"
-    loop {eaglerbrands::*}:
-        if loop-value contains {_b}:
-            set {client.%player%} to "eagler"
+    set {_b} to player's client brand
+    if {eaglerbrands::*} contains {_b}:
+        set {client.%player%} to "eagler"
 
 command /clientrefresh:
     trigger:
