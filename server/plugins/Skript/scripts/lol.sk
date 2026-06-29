@@ -1,0 +1,4 @@
+command /apopalapsee <text> <number>:
+    trigger:
+        loop arg-2 times:
+            summon husk at player
