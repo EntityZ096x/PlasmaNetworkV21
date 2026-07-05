@@ -1,0 +1,20 @@
+11:47:58.203 INFO  Limbo -- Starting server...
+11:47:58.937 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+11:49:47.949 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:34014) [V1_12_2]
+11:49:56.402 INFO  Limbo -- Player EntityZ096x disconnected
+11:53:38.073 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:59172) [V1_12_2]
+11:53:41.915 INFO  Limbo -- Player EntityZ096x disconnected
+11:54:43.956 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:57088) [V1_12_2]
+11:55:22.594 INFO  Limbo -- Player EntityZ096x disconnected
+11:55:28.950 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:52432) [V1_12_2]
+11:55:32.151 INFO  Limbo -- Player EntityZ096x disconnected
+11:57:00.633 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:39252) [V1_12_2]
+11:58:54.755 INFO  Limbo -- Player EntityZ096x disconnected
+12:03:01.764 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:54094) [V1_12_2]
+12:03:18.842 INFO  Limbo -- Player EntityZ096x disconnected
+12:03:30.666 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:38260) [V1_12_2]
+12:04:08.831 INFO  Limbo -- Player EntityZ096x disconnected
+12:04:36.608 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:47006) [V1_12_2]
+12:04:43.213 INFO  Limbo -- Player EntityZ096x disconnected
+13:09:54.790 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:52050) [V1_12_2]
+13:09:58.112 INFO  Limbo -- Player EntityZ096x disconnected

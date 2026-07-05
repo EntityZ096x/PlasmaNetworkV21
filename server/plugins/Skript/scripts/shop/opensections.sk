@@ -1,0 +1,35 @@
+function OpenSection(p: player, sec: text):
+    set {_s} to uncolored {_sec}
+    set {_i} to chest inventory with 6 rows named "&8Server Shop » &r%{_s}%"
+        
+    set {_id} to 0
+    loop 54 times:
+        set slot {_id} of {_i} to gray stained glass pane named ""
+        add 1 to {_id}
+
+    set {_id} to 45
+    loop 9 times:
+        set slot {_id} of {_i} to light gray stained glass pane named ""
+        add 1 to {_id}
+
+    set slot 45 of {_i} to {_p}'s skull named "&r&f%{_p}%" with lore "&aBalance: &r&e%{_p}'s balance%"
+    set slot 53 of {_i} to barrier named "&r&cBack"
+    set slot 50 of {_i} to arrow named "&r&eNext page >>"
+    set slot 48 of {_i} to arrow named "&r&e<< Previous page"
+
+    loop {shop.section.%{_s}%.items::*}:
+        set {_info::*} to loop-value split at " && "
+        set {_slot} to {_info::1} parsed as integer
+        set {_item} to {_info::2} parsed as item type
+        if {_info::4} is "":
+            set slot {_slot} of {_i} to {_item} named "&r&f%{_info::3}%"
+        else:
+            set slot {_slot} of {_i} to {_item} named "&r&f%{_info::3}%" with lore "&r&8%{_info::4}%"
+
+        if {_info::5} contains "glowing:true":
+            make slot {_slot} of {_i} glint
+
+    open {_i} to {_p}
+
+on load:
+    delete {shop.section.blocks.items::*}

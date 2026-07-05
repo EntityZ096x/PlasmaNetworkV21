@@ -27,7 +27,7 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+, you can use hex color codes here as well (for example, #613e1d is brown).
-ops-name-color: 'none'
+ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Players with 'essentials.nick.hideprefix' will not be prefixed with the character(s).
@@ -44,8 +44,8 @@ allowed-nicks-regex: '^[a-zA-Z_0-9§]+$'
 # A list of phrases that cannot be used in nicknames. You can include regular expressions here.
 # Players with 'essentials.nick.blacklist.bypass' will be able to bypass this filter.
 nick-blacklist:
-  - Entity
-  - Soul
+  #- Notch
+  #- '^Dinnerbone'
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # For example, if "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true.
@@ -173,15 +173,14 @@ notify-player-of-mail-cooldown: 60
 # To force Essentials to handle '/god', alias 'god' to 'essentials:god $1-' in the 'commands.yml' file located in your server's root folder.
 # See https://breezewiki.com/bukkit/wiki/Commands.yml#aliases for more information.
 overridden-commands:
-  #- god
+  - god
   #- info
 
 # Disabling commands here will prevent Essentials from handling the command; this will not affect command conflicts.
 # You should not need to disable commands used by other plugins, as they will automatically get priority.
 # See https://breezewiki.com/bukkit/wiki/Commands.yml#aliases to map commands to other plugins.
 disabled-commands:
-  #- nick
-  #- clear
+  - vanish
 
 # Whether Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.
@@ -645,7 +644,7 @@ repair-enchanted: true
 
 # Allow "unsafe" enchantments in kits and item spawning.
 # WARNING: Mixing and over-leveling some enchantments can cause issues with clients, servers, and plugins.
-unsafe-enchantments: true
+unsafe-enchantments: false
 
 # The maximum distance in blocks from the player that the /tree and /bigtree commands can spawn trees.
 tree-command-range-limit: 300
@@ -967,7 +966,7 @@ chat:
   # Players with 'essentials.chat.shout' can override this by prefixing their message with an exclamation mark (!).
   # Players with 'essentials.chat.question' can override this by prefixing their message with a question mark (?).
   # You can add command costs for shout/question by adding 'chat-shout' and 'chat-question' to the 'command-costs' section above.
-  radius: 10
+  radius: 0
 
   # Chat formatting can be configured in two ways:
   #  - A standard format for all chat ('format' section)
@@ -997,7 +996,7 @@ chat:
   # Note: The {DISPLAYNAME} placeholder includes {PREFIX} and {SUFFIX} by default.
   # Using these together may result in double prefixes/suffixes in chat.
 
-  format: '&r{PREFIX}&r{NICKNAME} &r{SUFFIX}&8»&r {MESSAGE}'
+  format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -1032,8 +1031,13 @@ chat:
   # Whether a player's shout mode should persist across restarts.
   persist-shout: false
 
+  # Whether chat questions should be enabled.
   question-enabled: true
 
+  # Whether Essentials should use Paper's modern chat event system in 1.16.5+.
+  # This is required for modern chat features such as hover events and click events.
+  # If you're experiencing issues with other plugins that use the chat event system, you can disable this.
+  # You must restart your server after changing this setting.
   paper-chat-events: true
 
 ############################################################

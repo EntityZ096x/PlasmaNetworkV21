@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: false
+flymode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -17,23 +17,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1782752512353
-  login: 1782751098826
+  logout: 1783256993101
+  login: 1783256998237
 money: '897.00'
 lastlocation:
-  world: 9868b7e0-ef7f-4bf8-ad72-8fa554fa4986
-  world-name: Lifesteal
-  x: -49.5
-  y: 180.0
-  z: -49.5
-  yaw: -42.615928649902344
-  pitch: -18.600011825561523
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 2852.1955950718007
+  y: -1.429263893639747
+  z: 2963.8935681502817
+  yaw: 86.25007629394531
+  pitch: -1.7999982833862305
 logoutlocation:
   world: dab86fec-c801-4130-a34a-c2cdc43fe764
   world-name: world
-  x: 2862.950700681687
-  y: 70.0
-  z: 2879.614265971432
-  yaw: -65.99980163574219
-  pitch: 4.200003147125244
+  x: 2825.1428666402617
+  y: 76.0
+  z: 2922.699999988079
+  yaw: -104.99980163574219
+  pitch: -19.49998664855957
 last-account-name: EntityZ096x

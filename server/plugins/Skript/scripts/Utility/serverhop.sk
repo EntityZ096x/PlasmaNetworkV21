@@ -1,0 +1,7 @@
+command /lobby:
+    trigger:
+        connect player to "server"
+
+command /hub:
+    trigger: 
+        connect player to "server"

@@ -1,0 +1,76 @@
+on stop:
+    loop all players:
+        set {_b} to biome at location of loop-player
+        set {_m} to 0
+        if {_b} is desert (biome):
+            add 1 to {_m}
+        if {_b} is badlands:
+            add 0.8 to {_m}
+        if {_b} is savanna (biome):
+            add 0.6 to {_m}
+        if {_b} is jungle (biome):
+            add 0.5 to {_m}
+        if {_b} is plains (biome):
+            add -0.05 to {_m}
+        if {_b} is forest (biome):
+            add -0.05 to {_m}
+        if {_b} is birch forest (biome):
+            add -0.05 to {_m}
+        if {_b} is taiga (biome):
+            add -0.6 to {_m}
+        if {_b} is snowy taiga (biome):
+            add -0.8 to {_m}
+        if {_b} is snowy plains (biome):
+            add -0.9 to {_m}
+        if {_b} is ice spikes (biome):
+            add -1 to {_m}
+        if {_b} is frozen ocean (biome):
+            add -1 to {_m}
+
+        if loop-player is in water:
+            add -1 to {_m}
+
+        if loop-player is on fire:
+            add 50 to {_m}
+        if loop-player is in lava:
+            add 150 to {_m}
+
+        if loop-player is within 5 blocks of campfire:
+            add 1 to {_m}
+        
+        if loop-player's helmet is set:
+            set {_m} to {_m} * 0.8
+        if loop-player's chestplate is set:
+            set {_m} to {_m} * 0.5
+        if loop-player's leggings is set:
+            set {_m} to {_m} * 0.6
+        if loop-player's boots is set:
+            set {_m} to {_m} * 0.7
+
+        if loop-player is sprinting:
+            add 0.15 to {_m}
+
+        if loop-player is mining:
+            add 0.1 to {_m}
+
+        add {_m} to {temp.%loop-player%}
+
+        set walk speed of loop-player to 0.2 - ((abs({temp.%loop-player%}) - 23) / 200)
+
+        add (28 - {temp.%loop-player%}) * 0.07 to {temp.%loop-player%}
+
+        set {_p} to "&r"
+        if {temp.%loop-player%} >= 40:
+            set {_p} to "&c"
+            if loop-player has potion effect of fire resistance: 
+                set {temp.%loop-player%} to 40
+            if {temp.%loop-player%} >= 43:
+                add -0.5 to loop-player's food level
+                if {temp.%loop-player%} >= 45:
+                    apply nausea to loop-player for 3 second
+                    if {temp.%loop-player%} >= 46:
+                    apply blindness to loop-player for 3 second
+        else if {temp.%loop-player%} <= 10:
+            set {_p} to "&b"
+
+        send action bar "%{_p}%%{temp.%loop-player%}% C" to loop-player

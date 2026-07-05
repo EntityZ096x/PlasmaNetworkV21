@@ -1,0 +1,104 @@
+command /sreload:
+    trigger:
+        execute player command "/sk reload /shop/"
+
+command /shop:
+    trigger:
+        set {_i} to chest inventory with 6 rows named "&8Server Shop"
+        
+        set {_id} to 0
+        loop 54 times:
+            set slot {_id} of {_i} to gray stained glass pane named ""
+            add 1 to {_id}
+
+        set {_id} to 45
+        loop 9 times:
+            set slot {_id} of {_i} to light gray stained glass pane named ""
+            add 1 to {_id}
+
+        set slot 45 of {_i} to player's skull named "&r&f%player%" with lore "&aBalance: &r&e%player's balance%"
+        set slot 53 of {_i} to barrier named "&r&cClose"
+
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            set {_slot} to {_info::1} parsed as integer
+            set {_item} to {_info::2} parsed as item type
+            if {_info::4} is "":
+                set slot {_slot} of {_i} to {_item} named "&r&f%{_info::3}%"
+            else:
+                set slot {_slot} of {_i} to {_item} named "&r&f%{_info::3}%" with lore "&r&8%{_info::4}%"
+
+            if {_info::5} contains "glowing:true":
+                make slot {_slot} of {_i} glint
+
+        open {_i} to player
+
+on inventory click:
+    if player's current inventory's name contains "&8Server Shop":
+        cancel event
+        if event-item is barrier named "&r&cClose":
+            close player's inventory
+        if event-item is barrier named "&r&cBack":
+            close player's inventory
+            execute player command "/shop"
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            if event-item's name is {_info::3}:
+                close player's inventory
+                set {_t} to event-item's name
+                OpenSection(player, {_t})
+            
+
+on load:
+    delete {shop.sections::*}
+    loop {shop.backup.sections::*}:
+        add loop-value to {shop.sections::*}
+
+command /editshop [<text>] [<text>] [<text>] [<text>]:
+    trigger:
+        if arg-1 is "backup":
+            set {shop.backup.sections::*} to {shop.sections::*}
+            send "&aA backup has been created"
+        if arg-1 is "editsection":
+            loop {shop.sections::*}:
+                set {_info::*} to loop-value split at " && "
+                if {_info::3} is arg-2:
+                    set {_s} to loop-index
+
+            if {_s} is not set:
+                send "&cSection not found!"
+                stop
+
+            set {_info::*} to {shop.sections::%{_s}%} split at " && "
+
+            if arg-3 is "slot":
+                set {_info::1} to arg-4
+            if arg-3 is "item":
+                set {_info::2} to arg-4
+            if arg-3 is "name":
+                set {_info::3} to arg-4
+            if arg-3 is "lore":
+                set {_info::4} to arg-4
+            if arg-3 is "metadata":
+                set {_info::5} to arg-4
+
+            set {shop.sections::%{_s}%} to join {_info::*} with " && "
+        
+
+on tab complete of "/editshop":
+    set tab completions for position 1 to "editsection", "backup", "additem"
+
+    if tab arg-1 is "editsection":
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            add {_info::3} to {_secs::*}
+        set tab completions for position 2 to {_secs::*}
+        set tab completions for position 3 to "name", "slot", "item", "lore" and "metadata"
+    
+    if tab arg-1 is "additem":
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            add {_info::3} to {_secs::*}
+        set tab completions for position 2 to {_secs::*}
+        set tab completions for position 3 to "-1"
+        set tab completions for position 4 to "-1"
