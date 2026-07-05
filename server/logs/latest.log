@@ -834,3 +834,162 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [17:43:06] [Server thread/INFO]: EntityZ096x issued server command: /sreload
 [17:43:09] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
 [17:43:10] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[17:46:57] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[17:47:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[17:47:14] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[17:47:15] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[17:47:23] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[17:47:26] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[17:48:17] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[17:48:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[17:48:22] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[17:51:07] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[17:51:12] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[17:51:14] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[17:52:34] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x lightblock 1 15
+[17:52:39] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[17:53:23] [Server thread/INFO]: EntityZ096x issued server command: //pos1 50,250,50
+[17:53:30] [Server thread/INFO]: EntityZ096x issued server command: //pos2 -50,180,-50
+[17:53:37] [Server thread/INFO]: EntityZ096x issued server command: //replace air lightblock:15
+[17:53:44] [Server thread/INFO]: EntityZ096x issued server command: //replace air light_block
+[17:53:49] [Server thread/INFO]: EntityZ096x issued server command: //replace air lightblock
+[17:53:58] [Server thread/INFO]: EntityZ096x issued server command: //replace air light_block
+[17:54:49] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x lightblock
+[17:54:56] [Server thread/INFO]: EntityZ096x issued server command: //replace air light
+[17:55:01] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
+[17:55:05] [Server thread/INFO]: EntityZ096x issued server command: /undo
+[17:55:11] [Server thread/INFO]: EntityZ096x issued server command: /undo
+[17:55:13] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
+[17:55:41] [Server thread/INFO]: EntityZ096x issued server command: /undo
+[17:55:42] [Server thread/INFO]: EntityZ096x issued server command: /undo
+[17:55:46] [Server thread/INFO]: EntityZ096x issued server command: /redo
+[17:55:53] [Server thread/INFO]: EntityZ096x issued server command: /redo
+[17:56:21] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
+[17:56:34] [Server thread/INFO]: EntityZ096x issued server command: /night
+[17:56:44] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
+[17:56:45] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
+[17:56:45] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
+[17:56:49] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:14
+[17:56:52] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:14
+[17:56:54] [Server thread/INFO]: EntityZ096x issued server command: //replace air light
+[17:57:58] [Server thread/INFO]: EntityZ096x issued server command: //replace air light
+[17:58:41] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:03:11] [Server thread/INFO]: EntityZ096x issued server command: /srelaod
+[18:03:14] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:03:34] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:03:49] [Craft Scheduler Thread - 1306 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:03:49] [Craft Scheduler Thread - 1306 - Vault/INFO]: [Vault] No new version available
+[18:04:00] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:04:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:05:15] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:05:43] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:05:46] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:04] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:06:05] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:06] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:07] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:09] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:06:10] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:07:12] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:07:13] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:07:17] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:07:18] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:07:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:07:26] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:07:45] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:07:45] [Server thread/INFO]: [-] EntityZ096x
+[18:08:50] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:08:50] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60176] logged in with entity id 1652048 at ([minecraft:lifesteal]-12.182623388397264, 211.0, -32.01682443451559)
+[18:08:51] [Server thread/INFO]: [+] EntityZ096x
+[18:08:54] [Server thread/INFO]: EntityZ096x issued server command: /serload
+[18:08:56] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:08:56] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:10:48] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:10:50] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:10:58] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:11:03] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:11:16] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:18] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:20] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:20] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:27] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:27] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:28] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:11:29] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:12:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:12:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:13:01] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:13:12] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:13:25] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy 1
+[18:16:01] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:16:18] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:16:41] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:16:46] [Server thread/INFO]: EntityZ096x issued server command: /editshop
+[18:16:55] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks
+[18:16:56] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:17:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy 1
+[18:17:17] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:17:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:18:00] [Server thread/INFO]: EntityZ096x issued server command: /sun
+[18:18:52] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:20:21] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:20:22] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:20:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:20:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:22:08] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:22:08] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:22:27] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:22:27] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:24:36] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:24:39] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:24:50] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:24:53] [Server thread/INFO]: EntityZ096x issued server command: /sohp
+[18:24:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:25:22] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
+[18:25:26] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:27:27] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:27:30] [Server thread/INFO]: EntityZ096x issued server command: /
+[18:27:41] [Server thread/INFO]: EntityZ096x issued server command: /
+[18:27:42] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:27:44] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:28:44] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:28:45] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:30:33] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:30:34] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:33:20] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:33:21] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:33:58] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:33:59] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:35:35] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:36:22] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:36:23] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:37:30] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:37:31] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:37:36] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:37:56] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:37:57] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:39:41] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:39:42] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:40:00] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:40:01] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:41:19] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:41:20] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:41:55] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:41:55] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:42:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:42:25] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:42:52] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:43:06] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:43:07] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:44:11] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:44:11] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:44:31] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:44:32] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[18:45:01] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[18:45:04] [Server thread/INFO]: EntityZ096x issued server command: /shop

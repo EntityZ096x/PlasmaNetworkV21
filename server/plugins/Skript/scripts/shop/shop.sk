@@ -47,6 +47,10 @@ on inventory click:
                 close player's inventory
                 set {_t} to event-item's name
                 OpenSection(player, {_t})
+
+        set {_l::*} to event-item's lore
+        if {_l::5} contains "id":
+            BuyItem(player, event-item)
             
 
 on load:

@@ -1,4 +1,4 @@
-command /editshop [<text>] [<text>] [<text>] [<text>]:
+command /editshop [<text>] [<text>] [<text>] [<text>] [<text>]:
     trigger:
         if arg-1 is "backup":
             set {shop.backup.sections::*} to {shop.sections::*}
@@ -41,18 +41,10 @@ command /editshop [<text>] [<text>] [<text>] [<text>]:
                 send "&cSection not found!"
                 stop
 
-            set {_id} to 0
-            set {_maxid} to 0
-            set {_maxidfound?} to false
-            set {_loop} to 0
-            while {_maxidfound?} is false:
-                set {_info::*} to loop-value split at " && "
-                set {_slot} to {_info::1} parsed as integer
-                if {_info::1} is not {_maxid}:
-                    set {_maxidfound?} to true
-
-            add "%{_maxid}% && %player's held item% && %arg-3% && %arg-4%" to {shop.section.%{_s}%.items::*}
-            send "%player's held item% has been added to {shop.section.%{_s}%.items::*}"
+            set {_id} to FindAvailableId({_s})
+ 
+            add "%{_id}% && %player's held item% && %arg-3% && %arg-4%" to {shop.section.%{_s}%.items::*}
+            send "%player's held item% has been added to {shop.section.%{_s}%.items::*} as id '%{_id}%'"
 
 
 
@@ -73,7 +65,14 @@ command /editshop [<text>] [<text>] [<text>] [<text>]:
 
             set {_info::*} to {shop.section.%{_s}%.items::%{_id}%} split at " && "
 
-            send {_info::*} to player
+            if arg-4 is "buy":
+                set {_info::3} to arg-5
+            if arg-4 is "sell":
+                set {_info::4} to arg-5
+            if arg-4 is "delete":
+                delete {shop.section.%{_s}%.items::%{_id}%}
+            else:
+                set {shop.section.%{_s}%.items::%{_id}%} to join {_info::*} with " && "
 
 
 on tab complete of "/editshop":
@@ -101,3 +100,17 @@ on tab complete of "/editshop":
         set tab completions for position 2 to {_secs::*}
         set tab completions for position 3 to "<shop-id>"
         set tab completions for position 4 to "buy", "sell", "delete"
+
+
+function FindAvailableId(s: text) :: number:
+    set {_id} to 0
+    while 1 = 1:
+        set {_found} to false
+        loop {shop.section.%{_s}%.items::*}:
+            set {_info::*} to loop-value split at " && "
+            if {_info::1} parsed as number is {_id}:
+                set {_found} to true
+                stop loop
+        if {_found} is false:
+            return {_id}
+        add 1 to {_id}

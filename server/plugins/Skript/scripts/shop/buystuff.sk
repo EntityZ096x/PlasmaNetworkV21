@@ -1,6 +1,10 @@
-function OpenSection(p: player, sec: text):
+function BuyItem(p: player, item: item):
     set {_s} to uncolored {_sec}
-    set {_i} to chest inventory with 6 rows named "&8Server Shop » &r%{_s}%"
+    set {_i} to chest inventory with 5 rows named "&r&8Server Shop » buy %{_item}%"
+
+    set {_lore::*} to lore of {_item}
+    set {_price::*} to {_lore::1} split at "$"
+    set {_pricep} to {_price::2}
         
     set {_id} to 0
     loop 54 times:
@@ -12,10 +16,13 @@ function OpenSection(p: player, sec: text):
         set slot {_id} of {_i} to light gray stained glass pane named ""
         add 1 to {_id}
 
-    set slot 45 of {_i} to {_p}'s skull named "&r&f%{_p}%" with lore "&aBalance: &r&e%{_p}'s balance%"
-    set slot 53 of {_i} to barrier named "&r&cBack"
-    set slot 50 of {_i} to arrow named "&r&eNext page >>"
-    set slot 48 of {_i} to arrow named "&r&e<< Previous page"
+    set slot 36 of {_i} to {_p}'s skull named "&r&f%{_p}%" with lore "&aBalance: &r&e%{_p}'s balance%"
+    set slot 44 of {_i} to barrier named "&r&cBack"
+    set {_items} to {_item}
+    clear lore of {_items}
+    set slot 22 of {_i} to {_items}
+    set slot 13 of {_i} to emerald named "%{_pricep}%"
+    set slot 31 of {_i} to paper named "&r&lBUY" with lore "price: %amount of {_item} * {_price}%"
 
     set {_slot} to 0
     loop {shop.section.%{_s}%.items::*}:
