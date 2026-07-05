@@ -1,0 +1,53 @@
+command /editshop [<text>] [<text>] [<text>] [<text>]:
+    trigger:
+        if arg-1 is "backup":
+            set {shop.backup.sections::*} to {shop.sections::*}
+            send "&aA backup has been created"
+
+
+
+        if arg-1 is "editsection":
+            loop {shop.sections::*}:
+                set {_info::*} to loop-value split at " && "
+                if {_info::3} is arg-2:
+                    set {_s} to loop-index
+
+            if {_s} is not set:
+                send "&cSection not found!"
+                stop
+
+            set {_info::*} to {shop.sections::%{_s}%} split at " && "
+
+            if arg-3 is "slot":
+                set {_info::1} to arg-4
+            if arg-3 is "item":
+                set {_info::2} to arg-4
+            if arg-3 is "name":
+                set {_info::3} to arg-4
+            if arg-3 is "lore":
+                set {_info::4} to arg-4
+            if arg-3 is "metadata":
+                set {_info::5} to arg-4
+
+            set {shop.sections::%{_s}%} to join {_info::*} with " && "
+
+        if arg-1 is "addhanditem":
+        
+
+on tab complete of "/editshop":
+    set tab completions for position 1 to "editsection", "backup", "addhanditem"
+
+    if tab arg-1 is "editsection":
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            add {_info::3} to {_secs::*}
+        set tab completions for position 2 to {_secs::*}
+        set tab completions for position 3 to "name", "slot", "item", "lore" and "metadata"
+    
+    if tab arg-1 is "addhanditem":
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            add {_info::3} to {_secs::*}
+        set tab completions for position 2 to {_secs::*}
+        set tab completions for position 3 to "-1"
+        set tab completions for position 4 to "-1"

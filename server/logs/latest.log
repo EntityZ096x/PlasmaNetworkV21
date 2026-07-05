@@ -702,3 +702,34 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [13:44:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
 [13:45:19] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [13:45:19] [Server thread/INFO]: [-] EntityZ096x
+[16:39:07] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:39:08] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36658] logged in with entity id 1623398 at ([minecraft:overworld]2811.8852945348417, 76.0, 2925.372824256161)
+[16:39:08] [Server thread/INFO]: [+] EntityZ096x
+[16:39:48] [Server thread/INFO]: EntityZ096x issued server command: /mvtp Lifesteal
+[16:40:34] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[16:40:41] [Server thread/INFO]: EntityZ096x issued server command: /spec
+[16:40:44] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[16:40:47] [Server thread/INFO]: EntityZ096x issued server command: //wand
+[16:41:04] [Server thread/INFO]: EntityZ096x issued server command: //replace barrier air
+[16:41:04] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_1.PaperweightStarlightRelighterFactory as relighter factory.
+[16:41:18] [Server thread/INFO]: EntityZ096x issued server command: //pos1
+[16:41:27] [Server thread/INFO]: EntityZ096x issued server command: //pos1 -50 250 -50
+[16:41:31] [Server thread/INFO]: EntityZ096x issued server command: //pos1 -50,250,-50
+[16:41:37] [Server thread/INFO]: EntityZ096x issued server command: //pos1 50,100,50
+[16:41:41] [Server thread/INFO]: EntityZ096x issued server command: //pos1 -50,250,-50
+[16:41:44] [Server thread/INFO]: EntityZ096x issued server command: //pos2 50,100,50
+[16:41:51] [Server thread/INFO]: EntityZ096x issued server command: /coord
+[16:41:52] [Server thread/INFO]: EntityZ096x issued server command: /coords
+[16:41:57] [Server thread/INFO]: EntityZ096x issued server command: //pos2 50,180,50
+[16:42:05] [Server thread/INFO]: EntityZ096x issued server command: //setbiome plains
+[16:42:18] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[16:42:18] [Server thread/INFO]: [-] EntityZ096x
+[16:42:22] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:42:22] [Server thread/INFO]: EntityZ096x[/127.0.0.1:40302] logged in with entity id 1635939 at ([minecraft:lifesteal]-2.214156080522951, 219.88266663795625, 12.5811662249762)
+[16:42:22] [Server thread/INFO]: [+] EntityZ096x
+[16:42:46] [Server thread/INFO]: EntityZ096x fell from a high place
+[16:42:55] [Server thread/INFO]: EntityZ096x issued server command: /mvtp Lifesteal
+[16:42:58] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[16:43:42] [Server thread/INFO]: EntityZ096x issued server command: /shop
+[16:44:41] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[16:44:42] [Server thread/INFO]: EntityZ096x issued server command: /shop
