@@ -1,5 +1,6 @@
-on stop:
-    loop all players in world :
+every 5 ticks:
+    loop all players:
+        loop-player is in world "UltraHardcoreSurvival"
         set {_b} to biome at location of loop-player
         set {_m} to 0
         if {_b} is desert (biome):
@@ -19,13 +20,13 @@ on stop:
         if {_b} is taiga (biome):
             add -0.6 to {_m}
         if {_b} is snowy taiga (biome):
-            add -0.8 to {_m}
+            add -1.5 to {_m}
         if {_b} is snowy plains (biome):
-            add -0.9 to {_m}
+            add -1.7 to {_m}
         if {_b} is ice spikes (biome):
-            add -1 to {_m}
+            add -1.7 to {_m}
         if {_b} is frozen ocean (biome):
-            add -1 to {_m}
+            add -2 to {_m}
 
         if loop-player is in water:
             add -1 to {_m}
@@ -34,9 +35,6 @@ on stop:
             add 50 to {_m}
         if loop-player is in lava:
             add 150 to {_m}
-
-        if loop-player is within 5 blocks of campfire:
-            add 1 to {_m}
         
         if loop-player's helmet is set:
             set {_m} to {_m} * 0.8
@@ -49,9 +47,6 @@ on stop:
 
         if loop-player is sprinting:
             add 0.15 to {_m}
-
-        if loop-player is mining:
-            add 0.1 to {_m}
 
         add {_m} to {temp.%loop-player%}
 

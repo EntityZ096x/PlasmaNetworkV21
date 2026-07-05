@@ -148,3 +148,5 @@ com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBa
 [20:45:21] [nLogin - Task Executor #168/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
 [20:45:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
 [20:45:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[20:52:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34598) has disconnected
+[20:52:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
