@@ -32,10 +32,52 @@ command /editshop [<text>] [<text>] [<text>] [<text>]:
             set {shop.sections::%{_s}%} to join {_info::*} with " && "
 
         if arg-1 is "addhanditem":
-        
+            loop {shop.sections::*}:
+                set {_info::*} to loop-value split at " && "
+                if {_info::3} is arg-2:
+                    set {_s} to uncolored {_info::3}
+
+            if {_s} is not set:
+                send "&cSection not found!"
+                stop
+
+            set {_id} to 0
+            set {_maxid} to 0
+            set {_maxidfound?} to false
+            set {_loop} to 0
+            while {_maxidfound?} is false:
+                set {_info::*} to loop-value split at " && "
+                set {_slot} to {_info::1} parsed as integer
+                if {_info::1} is not {_maxid}:
+                    set {_maxidfound?} to true
+
+            add "%{_maxid}% && %player's held item% && %arg-3% && %arg-4%" to {shop.section.%{_s}%.items::*}
+            send "%player's held item% has been added to {shop.section.%{_s}%.items::*}"
+
+
+
+        if arg-1 is "edititem":
+            loop {shop.sections::*}:
+                set {_info::*} to loop-value split at " && "
+                if {_info::3} is arg-2:
+                    set {_s} to uncolored {_info::3}
+
+            if {_s} is not set:
+                send "&cSection not found!"
+                stop
+
+            loop {shop.section.%{_s}%.items::*}:
+                set {_info::*} to loop-value split at " && "
+                if {_info::1} is arg-3:
+                    set {_id} to loop-index
+
+            set {_info::*} to {shop.section.%{_s}%.items::%{_id}%} split at " && "
+
+            send {_info::*} to player
+
 
 on tab complete of "/editshop":
-    set tab completions for position 1 to "editsection", "backup", "addhanditem"
+    set tab completions for position 1 to "editsection", "backup", "addhanditem", "edititem"
 
     if tab arg-1 is "editsection":
         loop {shop.sections::*}:
@@ -51,3 +93,11 @@ on tab complete of "/editshop":
         set tab completions for position 2 to {_secs::*}
         set tab completions for position 3 to "-1"
         set tab completions for position 4 to "-1"
+
+    if tab arg-1 is "edititem":
+        loop {shop.sections::*}:
+            set {_info::*} to loop-value split at " && "
+            add {_info::3} to {_secs::*}
+        set tab completions for position 2 to {_secs::*}
+        set tab completions for position 3 to "<shop-id>"
+        set tab completions for position 4 to "buy", "sell", "delete"
