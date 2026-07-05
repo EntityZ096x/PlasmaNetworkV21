@@ -700,3 +700,5 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [13:43:58] [Server thread/INFO]: EntityZ096x fell from a high place
 [13:44:04] [Server thread/INFO]: EntityZ096x issued server command: /shop
 [13:44:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
+[13:45:19] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[13:45:19] [Server thread/INFO]: [-] EntityZ096x
