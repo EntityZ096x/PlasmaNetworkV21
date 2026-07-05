@@ -4,7 +4,6 @@
 # version: 2.16.0-pre1
 
 clearlag.timer, long, FFFFFFFFFFFFFC83
-client.2ee83cb0-186f-329d-bb3e-2dd2a293057c, string, 80066561676C6572
 eaglerbrands::1, string, 800A54756666436C69656E74
 eaglerbrands::2, string, 80064561676C6572
 hax.alwaysslam.2ee83cb0-186f-329d-bb3e-2dd2a293057c, string, 800864697361626C6564
@@ -23,7 +22,7 @@ pvp.enemy.496dc44d-55d6-3a5d-a6ae-ff140c5d1fcc, textcomponent, 81046A736F6E20800
 pvp.enemy.71a7eece-1b02-3213-9d92-1ce37a222968, textcomponent, 81046A736F6E208012225468655F736F756C737465616C65723422
 pvp.enemy.d05767b2-a022-3dfc-844f-86f7ee80a31f, textcomponent, 81046A736F6E208009225A696C7665723222
 pvp.enemy.f161703d-2681-3b48-bfd1-1d80e057c727, textcomponent, 81046A736F6E20800D22456E746974795A3039367822
-pvp.time.2ee83cb0-186f-329d-bb3e-2dd2a293057c, long, FFFFFFFFFFECFCE9
+pvp.time.2ee83cb0-186f-329d-bb3e-2dd2a293057c, long, FFFFFFFFFFECEB35
 pvp.time.496dc44d-55d6-3a5d-a6ae-ff140c5d1fcc, long, FFFFFFFFFFFFFB4C
 pvp.time.71a7eece-1b02-3213-9d92-1ce37a222968, long, 000000000000001F
 pvp.time.d05767b2-a022-3dfc-844f-86f7ee80a31f, long, FFFFFFFFFFFFFFCD

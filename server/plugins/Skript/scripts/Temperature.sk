@@ -1,5 +1,5 @@
 on stop:
-    loop all players:
+    loop all players in world :
         set {_b} to biome at location of loop-player
         set {_m} to 0
         if {_b} is desert (biome):

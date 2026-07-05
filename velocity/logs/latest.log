@@ -136,3 +136,15 @@ com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBa
 [18:49:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
 [18:51:36] [Netty epoll Worker #3/INFO] [eaglerxserver]: Refreshed update certificate: https://eaglercraft.com/backup.cert
 [18:51:36] [Netty epoll Worker #0/INFO] [eaglerxserver]: Refreshed update certificate: https://deev.is/eagler/backup.cert
+[20:34:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45830) has connected
+[20:34:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[20:34:09] [nLogin - Task Executor #166/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[20:34:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[20:34:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[20:37:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45830) has disconnected
+[20:37:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[20:45:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34598) has connected
+[20:45:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[20:45:21] [nLogin - Task Executor #168/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[20:45:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[20:45:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected

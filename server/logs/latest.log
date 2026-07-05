@@ -1,7 +1,7 @@
-[12:01:51] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[12:01:51] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) for Minecraft 26.1.2
-[12:01:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:01:53] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/CustomNPC-Plus-1.10.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+[20:44:32] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[20:44:32] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) for Minecraft 26.1.2
+[20:44:33] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:44:35] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/CustomNPC-Plus-1.10.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/CustomNPC-Plus-1.10.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:74) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
 	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:58) ~[paper-26.1.2.jar:26.1.2-72-1a6b910]
@@ -15,57 +15,57 @@ java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugi
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
 Caused by: java.lang.IllegalArgumentException: Directory 'plugins/CustomNPC-Plus-1.10.2.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
 	... 10 more
-[12:01:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
-[12:01:53] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
- - PlugManX (3.0.4-dev1), SkBee (3.25.0)
-[12:01:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+[20:44:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
+[20:44:35] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - EconomyShopGUI (7.1.1), PlugManX (3.0.4-dev1), SkBee (3.25.0)
+[20:44:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
  - BedWars1058 (25.2), ChatEx (3.2.2), Essentials (2.22.0), FastAsyncWorldEdit (2.15.2+e9ed0d1), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), Skript (2.16.0-pre1), TuffXPlus (1.0.0), Vault (1.7.3-b131), ViaBackwards (5.10.0), ViaRewind (4.1.2), ViaVersion (5.10.0), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), ZNPCsPlus (2.0.0), skript-reflect (2.6.3)
-[12:02:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:02:05] [ServerMain/INFO]: Loaded 1515 recipes
-[12:02:05] [ServerMain/INFO]: Loaded 1617 advancements
-[12:02:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[12:02:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 763.9ms
-[12:02:06] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[12:02:06] [Server thread/INFO]: Loading properties
-[12:02:06] [Server thread/INFO]: This server is running Paper version 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) (Implementing API version 26.1.2.build.72-stable)
-[12:02:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:02:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:02:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:02:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[12:02:07] [Server thread/INFO]: Default game type: SURVIVAL
-[12:02:07] [Server thread/INFO]: Generating keypair
-[12:02:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:02:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:02:07] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[12:02:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
-[12:02:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
-[12:02:10] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[12:02:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[12:02:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[12:02:12] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[12:02:12] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
-[12:02:12] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:02:13] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[12:02:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
-[12:02:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28b4e1b5]
-[12:02:15] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[12:02:15] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
-[12:02:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
-[12:02:15] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
-[12:02:15] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
-[12:02:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
-[12:02:15] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[12:02:15] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
-[12:02:15] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
-[12:02:15] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.0-pre1
-[12:02:15] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.4-dev1
-[12:02:15] [Server thread/INFO]: [BedWars1058] Loading server plugin BedWars1058 v25.2
-[12:02:15] [Server thread/ERROR]: [BedWars1058] I can't run on your version: CraftServer
-[12:02:15] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
-[12:02:15] [Server thread/INFO]: [ChatEx] Loading server plugin ChatEx v3.2.2
-[12:02:15] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
-[12:02:15] [Server thread/INFO]: [ZNPCsPlus] Loading server plugin ZNPCsPlus v2.0.0
-[12:02:15] [Server thread/ERROR]: [ZNPCsPlus] Error initializing plugin 'ZNPCsPlus-2.0.0.jar' in folder 'plugins' (Is it up to date?)
+[20:44:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:44:45] [ServerMain/INFO]: Loaded 1515 recipes
+[20:44:45] [ServerMain/INFO]: Loaded 1617 advancements
+[20:44:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:44:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 791.4ms
+[20:44:46] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[20:44:46] [Server thread/INFO]: Loading properties
+[20:44:46] [Server thread/INFO]: This server is running Paper version 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) (Implementing API version 26.1.2.build.72-stable)
+[20:44:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:44:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:44:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:44:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:44:47] [Server thread/INFO]: Default game type: SURVIVAL
+[20:44:47] [Server thread/INFO]: Generating keypair
+[20:44:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:44:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:44:47] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:44:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+[20:44:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[20:44:49] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:44:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:44:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:44:50] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[20:44:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[20:44:51] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:44:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:44:52] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
+[20:44:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@48bb06f6]
+[20:44:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[20:44:53] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[20:44:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+[20:44:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[20:44:53] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.2.3
+[20:44:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[20:44:53] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[20:44:53] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
+[20:44:53] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
+[20:44:53] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.0-pre1
+[20:44:53] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.4-dev1
+[20:44:53] [Server thread/INFO]: [BedWars1058] Loading server plugin BedWars1058 v25.2
+[20:44:53] [Server thread/ERROR]: [BedWars1058] I can't run on your version: CraftServer
+[20:44:53] [Server thread/INFO]: [MVPLogging] Loading server plugin Multiverse-NetherPortals v5.0.5
+[20:44:53] [Server thread/INFO]: [ChatEx] Loading server plugin ChatEx v3.2.2
+[20:44:53] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
+[20:44:53] [Server thread/INFO]: [ZNPCsPlus] Loading server plugin ZNPCsPlus v2.0.0
+[20:44:54] [Server thread/ERROR]: [ZNPCsPlus] Error initializing plugin 'ZNPCsPlus-2.0.0.jar' in folder 'plugins' (Is it up to date?)
 java.lang.IllegalStateException: java.lang.IllegalArgumentException: Version string must be in the format 'major.minor[.patch][+commit][-SNAPSHOT]', found '26.1.2.build.72' instead
 	at ZNPCsPlus-2.0.0.jar//lol.pyr.znpcsplus.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:108) ~[?:?]
 	at ZNPCsPlus-2.0.0.jar//lol.pyr.znpcsplus.ZNpcsPlus.<init>(ZNpcsPlus.java:93) ~[?:?]
@@ -87,10 +87,10 @@ Caused by: java.lang.IllegalArgumentException: Version string must be in the for
 	at ZNPCsPlus-2.0.0.jar//lol.pyr.znpcsplus.libraries.packetevents.impl.util.SpigotReflectionUtil.init(SpigotReflectionUtil.java:413) ~[?:?]
 	at ZNPCsPlus-2.0.0.jar//lol.pyr.znpcsplus.libraries.packetevents.impl.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:104) ~[?:?]
 	... 11 more
-[12:02:15] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.0.0
-[12:02:15] [Server thread/WARN]: [TuffXPlus] Your server software is preventing us from checking the Minecraft Server version. This is what we found: 26.1.2.build.72-stable. We will assume the Server version is V_1_8_8...
+[20:44:54] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.0.0
+[20:44:54] [Server thread/WARN]: [TuffXPlus] Your server software is preventing us from checking the Minecraft Server version. This is what we found: 26.1.2.build.72-stable. We will assume the Server version is V_1_8_8...
  If you need assistance, join our Discord server: https://discord.gg/DVHxPPxHZc
-[12:02:16] [Server thread/ERROR]: [TuffXPlus] Error initializing plugin 'TuffXPlus-1.0.0.jar' in folder 'plugins' (Is it up to date?)
+[20:44:54] [Server thread/ERROR]: [TuffXPlus] Error initializing plugin 'TuffXPlus-1.0.0.jar' in folder 'plugins' (Is it up to date?)
 java.lang.IllegalStateException: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getConstructor(java.lang.Class[])" because "tf.tuff.packetevents.util.SpigotReflectionUtil.NMS_ITEM_STACK_CLASS" is null
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:114) ~[?:?]
 	at TuffXPlus-1.0.0.jar//tf.tuff.TuffX.onLoad(TuffX.java:50) ~[?:?]
@@ -108,202 +108,203 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.util.SpigotReflectionUtil.init(SpigotReflectionUtil.java:456) ~[?:?]
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:110) ~[?:?]
 	... 10 more
-[12:02:16] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
-[12:02:16] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.25.0
-[12:02:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:02:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
-[12:02:17] [Server thread/INFO]:         __    
-[12:02:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
-[12:02:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[12:02:17] [Server thread/INFO]: 
-[12:02:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:02:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:02:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:02:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2630ms)
-[12:02:19] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[12:02:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:02:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:02:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[12:02:19] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[12:02:19] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
-[12:02:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[12:02:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[12:02:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[12:02:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[12:02:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_1.PaperweightFaweAdapter as the Bukkit adapter
-[12:02:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[12:02:22] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
-[12:02:22] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.4-dev1
-[12:02:22] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
-[12:02:23] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[12:02:23] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[12:02:23] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[12:02:23] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[12:02:23] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
-[12:02:23] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[12:02:23] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
-[12:02:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:02:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:02:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:02:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:02:23] [Server thread/INFO]: Preparing level "world"
-[12:02:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[12:02:25] [Server thread/INFO]: Prepared spawn area in 2 ms
-[12:02:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[12:02:25] [Server thread/INFO]: Prepared spawn area in 4 ms
-[12:02:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[12:02:25] [Server thread/INFO]: Preparing spawn area: 100%
-[12:02:25] [Server thread/INFO]: Prepared spawn area in 2 ms
-[12:02:25] [Server thread/INFO]: Done preparing level "world" (1.712s)
-[12:02:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
-[12:02:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[12:02:25] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[12:02:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[12:02:25] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
-[12:02:27] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_cave'...
-[12:02:27] [Server thread/INFO]: Preparing spawn area: 100%
-[12:02:27] [Server thread/INFO]: Prepared spawn area in 4 ms
-[12:02:27] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_gentest'...
-[12:02:27] [Server thread/INFO]: Prepared spawn area in 3 ms
-[12:02:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_nether'...
-[12:02:28] [Server thread/INFO]: Prepared spawn area in 2 ms
-[12:02:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_spikeyhills'...
-[12:02:28] [Server thread/INFO]: Preparing spawn area: 100%
-[12:02:28] [Server thread/INFO]: Prepared spawn area in 3 ms
-[12:02:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lifesteal'...
-[12:02:28] [Server thread/INFO]: Prepared spawn area in 0 ms
-[12:02:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lifesteal_nether'...
-[12:02:28] [Server thread/INFO]: Prepared spawn area in 3 ms
-[12:02:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lifesteal_the_end'...
-[12:02:28] [Server thread/INFO]: Prepared spawn area in 2 ms
-[12:02:28] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lobby'...
-[12:02:28] [Server thread/INFO]: Preparing spawn area: 100%
-[12:02:28] [Server thread/INFO]: Prepared spawn area in 1 ms
-[12:02:28] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[12:02:29] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[12:02:29] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[12:02:29] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
-[12:02:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
-[12:02:29] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[12:02:29] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[12:02:29] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[12:02:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
-[12:02:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_cave) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_cave) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_cave) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_cave) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_cave'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_gentest) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_gentest) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_gentest) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_gentest) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_gentest'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_nether) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_nether) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_nether) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_nether) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_nether'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_spikeyhills'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lifesteal'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lifesteal_nether'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lifesteal_the_end'
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
-[12:02:30] [Server thread/INFO]: [WorldGuard] Loading region data...
-[12:02:31] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
-[12:02:31] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[12:02:31] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
-[12:02:31] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
-[12:02:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
-[12:02:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:02:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[12:02:32] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[12:02:33] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
-[12:02:33] [Server thread/INFO]: [Essentials] Using locale en
-[12:02:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:02:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:02:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[12:02:34] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[12:02:34] [Server thread/INFO]: [Skript] Enabling Skript v2.16.0-pre1
-[12:02:34] [Server thread/INFO]: [Skript] Your configuration has been updated to the latest version. A backup of your old config file has been created as config_2026-07-05_12-02-34.sk
-[12:02:35] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[12:02:38] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[12:02:38] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
-[12:02:38] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 v25.2
-[12:02:38] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
-[12:02:38] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
-[12:02:38] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
-[12:02:38] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
-[12:02:38] [Server thread/INFO]: [ChatEx] Hooked into PlaceholderAPI
-[12:02:38] [Server thread/INFO]: [ChatEx] Server version:26.1.2-72-1a6b910 (MC: 26.1.2)
-[12:02:38] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
-[12:02:38] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
-[12:02:38] [Server thread/INFO]: [ChatEx] Is now enabled!
-[12:02:38] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
-[12:02:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
-[12:02:40] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[12:02:40] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
-[12:02:40] [Server thread/INFO]: [ZNPCsPlus] Enabling ZNPCsPlus v2.0.0
-[12:02:40] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.0.0
-[12:02:40] [Server thread/ERROR]: Error occurred while enabling TuffXPlus v1.0.0 (Is it up to date?)
+[20:44:54] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.1.1
+[20:44:54] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
+[20:44:54] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.25.0
+[20:44:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:44:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[20:44:56] [Server thread/INFO]:         __    
+[20:44:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[20:44:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:44:56] [Server thread/INFO]: 
+[20:44:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:44:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:44:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:44:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2965ms)
+[20:44:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:44:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:44:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:44:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:44:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:44:57] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
+[20:44:57] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:44:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:44:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:44:58] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:44:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_1.PaperweightFaweAdapter as the Bukkit adapter
+[20:45:00] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[20:45:00] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[20:45:00] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.4-dev1
+[20:45:00] [Server thread/WARN]: [PlugManX] You are running a development version (3.0.4-dev1) of PlugMan. This is not recommended for production use.
+[20:45:00] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20:45:00] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[20:45:00] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[20:45:00] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[20:45:00] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[20:45:00] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20:45:00] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[20:45:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:45:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:45:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:45:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:45:00] [Server thread/INFO]: Preparing level "world"
+[20:45:02] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[20:45:02] [Server thread/INFO]: Preparing spawn area: 100%
+[20:45:02] [Server thread/INFO]: Prepared spawn area in 4 ms
+[20:45:02] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[20:45:02] [Server thread/INFO]: Preparing spawn area: 100%
+[20:45:02] [Server thread/INFO]: Prepared spawn area in 5 ms
+[20:45:02] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[20:45:02] [Server thread/INFO]: Prepared spawn area in 0 ms
+[20:45:02] [Server thread/INFO]: Done preparing level "world" (1.372s)
+[20:45:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[20:45:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[20:45:02] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[20:45:02] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:45:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[20:45:04] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_cave'...
+[20:45:04] [Server thread/INFO]: Prepared spawn area in 2 ms
+[20:45:04] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_gentest'...
+[20:45:04] [Server thread/INFO]: Prepared spawn area in 3 ms
+[20:45:04] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_nether'...
+[20:45:04] [Server thread/INFO]: Preparing spawn area: 100%
+[20:45:04] [Server thread/INFO]: Prepared spawn area in 3 ms
+[20:45:04] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:bw_spikeyhills'...
+[20:45:04] [Server thread/INFO]: Preparing spawn area: 100%
+[20:45:04] [Server thread/INFO]: Prepared spawn area in 2 ms
+[20:45:04] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lifesteal'...
+[20:45:04] [Server thread/INFO]: Preparing spawn area: 100%
+[20:45:04] [Server thread/INFO]: Prepared spawn area in 3 ms
+[20:45:04] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lifesteal_nether'...
+[20:45:04] [Server thread/INFO]: Prepared spawn area in 0 ms
+[20:45:05] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lifesteal_the_end'...
+[20:45:05] [Server thread/INFO]: Prepared spawn area in 4 ms
+[20:45:05] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lobby'...
+[20:45:05] [Server thread/INFO]: Prepared spawn area in 3 ms
+[20:45:05] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[20:45:05] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[20:45:05] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[20:45:05] [Server thread/INFO]: Keep spawn in memory feature has been removed by Minecraft in 1.21.9+ and will no longer have any effect when set to true.
+[20:45:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
+[20:45:06] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[20:45:06] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[20:45:06] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[20:45:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[20:45:06] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18-SNAPSHOT+2372-d1a3193
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_cave) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_cave) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_cave) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_cave) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_cave'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_gentest) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_gentest) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_gentest) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_gentest) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_gentest'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_nether) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_nether) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_nether) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_nether) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_nether'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (bw_spikeyhills) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bw_spikeyhills'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lifesteal'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_nether) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lifesteal_nether'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lifesteal_the_end) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lifesteal_the_end'
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[20:45:07] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:45:07] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.2.3
+[20:45:08] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[20:45:08] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[20:45:08] [Server thread/INFO]: [Multiverse-Portals] Version 5.2.3 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+[20:45:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[20:45:08] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:45:08] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:45:08] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:45:09] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:45:09] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:45:09] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[20:45:09] [Server thread/INFO]: [Essentials] Using locale en
+[20:45:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:45:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:45:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:45:10] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:45:10] [Server thread/INFO]: [Skript] Enabling Skript v2.16.0-pre1
+[20:45:11] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[20:45:13] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:45:13] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
+[20:45:13] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 v25.2
+[20:45:13] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.5
+[20:45:13] [Server thread/INFO]: [Multiverse-NetherPortals] Version 5.0.5 (API v5.0) Enabled - By Rigby, fernferret and benwoo1110
+[20:45:13] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
+[20:45:14] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
+[20:45:14] [Server thread/INFO]: [ChatEx] Hooked into PlaceholderAPI
+[20:45:14] [Server thread/INFO]: [ChatEx] Server version:26.1.2-72-1a6b910 (MC: 26.1.2)
+[20:45:14] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
+[20:45:14] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
+[20:45:14] [Server thread/INFO]: [ChatEx] Is now enabled!
+[20:45:14] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[20:45:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
+[20:45:15] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[20:45:16] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[20:45:16] [Server thread/INFO]: [ZNPCsPlus] Enabling ZNPCsPlus v2.0.0
+[20:45:16] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.0.0
+[20:45:16] [Server thread/ERROR]: Error occurred while enabling TuffXPlus v1.0.0 (Is it up to date?)
 java.lang.IllegalStateException: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getConstructor(java.lang.Class[])" because "tf.tuff.packetevents.util.SpigotReflectionUtil.NMS_ITEM_STACK_CLASS" is null
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:114) ~[?:?]
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.factory.spigot.SpigotPacketEventsBuilder$1.init(SpigotPacketEventsBuilder.java:144) ~[?:?]
@@ -324,676 +325,141 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.util.SpigotReflectionUtil.init(SpigotReflectionUtil.java:456) ~[?:?]
 	at TuffXPlus-1.0.0.jar//tf.tuff.packetevents.factory.spigot.SpigotPacketEventsBuilder$1.load(SpigotPacketEventsBuilder.java:110) ~[?:?]
 	... 13 more
-[12:02:40] [Server thread/INFO]: [TuffXPlus] Disabling TuffXPlus v1.0.0
-[12:02:40] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been disabled.
-[12:02:40] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
-[12:02:40] [Server thread/INFO]: [SkBee] Enabling SkBee v3.25.0
-[12:02:41] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[12:02:41] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.1.2.build.72! Trying to find NMS support
-[12:02:41] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC26_1' loaded!
-[12:02:41] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[12:02:41] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] BossBar Elements disabled
-[12:02:41] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
-[12:02:41] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
-[12:02:41] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[12:02:41] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[12:02:41] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[12:02:41] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[12:02:42] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[12:02:42] [Server thread/INFO]: [SkBee] Loaded SkBee (585) elements:
-[12:02:42] [Server thread/INFO]: [SkBee]  - 76 types
-[12:02:42] [Server thread/INFO]: [SkBee]  - 2 structures
-[12:02:42] [Server thread/INFO]: [SkBee]  - 69 events
-[12:02:42] [Server thread/INFO]: [SkBee]  - 60 sections
-[12:02:42] [Server thread/INFO]: [SkBee]  - 77 effects
-[12:02:42] [Server thread/INFO]: [SkBee]  - 259 expressions
-[12:02:42] [Server thread/INFO]: [SkBee]  - 31 conditions
-[12:02:42] [Server thread/INFO]: [SkBee]  - 11 properties
-[12:02:42] [Server thread/INFO]: [SkBee] Checking for update...
-[12:02:42] [Server thread/INFO]: [SkBee] Plugin is not up to date!
-[12:02:42] [Server thread/INFO]: [SkBee]  - Current version: v3.25.0
-[12:02:42] [Server thread/INFO]: [SkBee]  - Available update: v3.25.1
-[12:02:42] [Server thread/INFO]: [SkBee]  - Download at: https://modrinth.com/plugin/skbee/version/3.25.1
-[12:02:42] [Server thread/INFO]: [SkBee] Successfully enabled v3.25.0 in 2.06 seconds
-[12:02:43] [Server thread/INFO]: [spark] Starting background profiler...
-[12:02:45] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5688 aliases in 6824ms
-[12:02:45] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_cave
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_gentest
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_nether
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_spikeyhills
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lifesteal
-[12:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lifesteal_nether
-[12:02:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lifesteal_the_end
-[12:02:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lobby
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_cave): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_gentest): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_nether): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_spikeyhills): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (lifesteal): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (lifesteal_nether): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (lifesteal_the_end): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
-[12:02:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:02:46] [Server thread/INFO]: Running delayed init tasks
-[12:02:46] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[12:02:46] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Checking for update...
-[12:02:46] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
-[12:02:46] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[12:02:46] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[12:02:46] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[12:02:46] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[12:02:46] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
-[12:02:46] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.2.2
-[12:02:46] [Craft Scheduler Thread - 8 - ChatEx/INFO]: [ChatEx] No update found.
-[12:02:46] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
-[12:02:46] [Server thread/INFO]: [Skript]     Loaded regions hook for WorldGuard. Please note that Skript's region hooks are deprecated and will be removed in a future release. For WorldGuard support, we recommend using skript-worldguard: https://github.com/SkriptLang/skript-worldguard
-[12:02:46] [Server thread/INFO]: [Skript] Loading variables...
-[12:02:47] [Server thread/INFO]: [Skript] Loaded 269 variables in 0.5 seconds
-[12:02:47] [Server thread/INFO]: [Skript] Line 2: (Utility/center.sk)
-[12:02:47] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
-[12:02:47] [Server thread/INFO]:     Line: if 1 = 1:
-[12:02:48] [Server thread/INFO]:  
-[12:02:49] [Server thread/INFO]: [Skript] Line 19: (shop/opensections.sk)
-[12:02:49] [Server thread/INFO]:     If you meant to make the variable {shop.section:%{_sec}%.items::*} a list, its name should contain '::'. Having a single ':' does nothing!
-[12:02:49] [Server thread/INFO]:     Line: loop {shop.section:%{_sec}%.items::*}:
-[12:02:49] [Server thread/INFO]:  
-[12:02:51] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[12:02:51] [Server thread/INFO]: [Skript] Loaded 17 scripts with a total of 54 structures in 4.59 seconds
-[12:02:51] [Server thread/INFO]: [Skript] Finished loading.
-[12:02:51] [Server thread/INFO]: Done (62.162s)! For help, type "help"
-[12:02:51] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.12.3) is available at:
-[12:02:51] [Server thread/INFO]: [PlaceholderAPI] https://modrinth.com/plugin/placeholderapi
-[12:02:51] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
-[12:02:51] [Server thread/WARN]: [PlaceholderAPI] There was an issue with loading an expansion.
-[12:02:51] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[12:03:15] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[12:03:16] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
-[12:03:18] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[12:03:18] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.16.2->1.16.1) Unknown legacy biome: dripstone_caves
-[12:03:19] [Server thread/INFO]: [+] EntityZ096x
-[12:03:19] [Server thread/INFO]: EntityZ096x[/127.0.0.1:41092] logged in with entity id 1 at ([minecraft:overworld]2821.513139712275, 106.0, 2937.5132080818594)
-[12:03:29] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[12:03:29] [Server thread/INFO]: [-] EntityZ096x
-[12:04:42] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[12:04:43] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37090] logged in with entity id 400 at ([minecraft:overworld]2829.2484634509233, 77.0, 2914.25127707857)
-[12:04:44] [Server thread/INFO]: [+] EntityZ096x
-[12:04:55] [Server thread/INFO]: EntityZ096x issued server command: /lobby
-[12:06:45] [Server thread/INFO]: EntityZ096x was doomed to fall by Iron Golem
-[12:07:27] [Server thread/INFO]: EntityZ096x was slain by Iron Golem
-[12:09:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:09:59] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:10:11] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:10:15] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:10:23] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:10:34] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:13:00] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:13:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:13:33] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:15:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:15:18] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:15:26] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:15:47] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:16:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:17:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:17:43] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:18:02] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:18:05] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:18:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:18:48] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:19:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:19:34] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:20:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:20:49] [Server thread/INFO]: EntityZ096x drowned
-[12:20:55] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:21:29] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:23:07] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:23:24] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x flint_and_steel
-[12:23:49] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:24:57] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:25:02] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:25:16] [Server thread/INFO]: EntityZ096x issued server command: /setblock ~ ~ ~ lava
-[12:25:16] [Server thread/INFO]: [EntityZ096x: Changed the block at 2730, 83, 2957]
-[12:26:49] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:26:50] [Server thread/INFO]: EntityZ096x issued server command: /setblock ~ ~ ~ lava
-[12:26:50] [Server thread/INFO]: [EntityZ096x: Changed the block at 2731, 63, 2933]
-[12:26:52] [Server thread/INFO]: EntityZ096x tried to swim in lava
-[12:27:13] [Server thread/INFO]: EntityZ096x issued server command: /setblock ~ ~ ~ lava
-[12:27:13] [Server thread/INFO]: [EntityZ096x: Changed the block at 2755, 81, 2939]
-[12:27:21] [Server thread/INFO]: EntityZ096x tried to swim in lava
-[12:27:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:27:26] [Server thread/INFO]: EntityZ096x issued server command: /setblock ~ ~ ~ lava
-[12:27:26] [Server thread/INFO]: [EntityZ096x: Changed the block at 2803, 76, 2927]
-[12:30:41] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:30:52] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:30:55] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:31:04] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:31:17] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:31:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:32:25] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:32:43] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:32:55] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:34:03] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:34:57] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:35:35] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:35:56] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:37:25] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:37:51] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:38:14] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:38:31] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:38:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:39:10] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:39:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:40:08] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:40:10] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:40:48] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:40:50] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:41:42] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:41:55] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:43:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:44:04] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:44:35] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:45:28] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:45:39] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:46:16] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:46:36] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:48:03] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:48:22] [Server thread/INFO]: EntityZ096x issued server command: /weather rain
-[12:48:28] [Server thread/INFO]: EntityZ096x issued server command: /weather storm
-[12:48:43] [Server thread/INFO]: EntityZ096x issued server command: /minecraft:weather rain
-[12:48:43] [Server thread/INFO]: [EntityZ096x: Set the weather to rain]
-[12:49:18] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:49:30] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:49:51] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:50:30] [Server thread/INFO]: EntityZ096x issued server command: /sun
-[12:51:54] [Server thread/INFO]: EntityZ096x issued server command: /sun
-[12:51:58] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:52:20] [Server thread/INFO]: EntityZ096x tried to swim in lava
-[12:52:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:53:18] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:53:27] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:53:56] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:54:47] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:55:09] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:56:18] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:57:24] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:57:47] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[12:58:30] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:00:04] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:00:17] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:fire_resistance
-[13:00:17] [Server thread/INFO]: [EntityZ096x: Applied effect Fire Resistance to EntityZ096x]
-[13:00:50] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:fire_resistance
-[13:00:50] [Server thread/INFO]: [EntityZ096x: Applied effect Fire Resistance to EntityZ096x]
-[13:00:59] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:01:35] [Server thread/INFO]: EntityZ096x tried to swim in lava
-[13:01:37] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:01:46] [Server thread/INFO]: EntityZ096x issued server command: /effect give EntityZ096x minecraft:fire_resistance
-[13:01:46] [Server thread/INFO]: [EntityZ096x: Applied effect Fire Resistance to EntityZ096x]
-[13:02:25] [Server thread/INFO]: EntityZ096x issued server command: /god
-[13:02:28] [Server thread/INFO]: EntityZ096x issued server command: /ungod
-[13:02:49] [Server thread/INFO]: EntityZ096x issued server command: /essentials reload
-[13:02:49] [Server thread/INFO]: [Essentials] Loaded 46315 items from items.json.
-[13:02:49] [Server thread/INFO]: [Essentials] Using locale en
-[13:02:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:02:51] [Server thread/INFO]: EntityZ096x issued server command: /god
-[13:02:54] [Server thread/INFO]: EntityZ096x issued server command: /ungod
-[13:03:03] [Server thread/INFO]: EntityZ096x issued server command: /essentials:god
-[13:03:05] [Server thread/INFO]: EntityZ096x issued server command: /essentials:god
-[13:03:41] [Server thread/INFO]: EntityZ096x issued server command: /essentials reload
-[13:03:41] [Server thread/INFO]: [Essentials] Loaded 46315 items from items.json.
-[13:03:41] [Server thread/INFO]: [Essentials] Using locale en
-[13:03:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:03:43] [Server thread/INFO]: EntityZ096x issued server command: /god
-[13:03:44] [Server thread/INFO]: EntityZ096x issued server command: /god
-[13:03:46] [Server thread/INFO]: EntityZ096x issued server command: /ungod
-[13:03:57] [Server thread/WARN]: EntityZ096x moved wrongly!
-[13:03:57] [Server thread/WARN]: EntityZ096x moved wrongly!
-[13:04:05] [Server thread/INFO]: EntityZ096x was shot by Parched
-[13:04:50] [Server thread/INFO]: EntityZ096x issued server command: /essentials reload
-[13:04:50] [Server thread/INFO]: [Essentials] Loaded 46315 items from items.json.
-[13:04:50] [Server thread/INFO]: [Essentials] Using locale en
-[13:04:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:04:53] [Server thread/INFO]: EntityZ096x issued server command: /reload
-[13:04:53] [Server thread/INFO]: [EntityZ096x: Reloading!]
-[13:04:54] [Server thread/INFO]: Loaded 1515 recipes
-[13:04:54] [Server thread/INFO]: Loaded 1617 advancements
-[13:05:01] [Server thread/INFO]: EntityZ096x issued server command: /god
-[13:05:04] [Server thread/INFO]: EntityZ096x issued server command: /ungod
-[13:05:52] [Server thread/INFO]: EntityZ096x issued server command: /hac
-[13:05:54] [Server thread/INFO]: EntityZ096x issued server command: /hax
-[13:06:30] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:06:46] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:07:24] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:07:25] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:07:31] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:08:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:08:55] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:09:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:09:53] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[13:09:53] [Server thread/INFO]: [-] EntityZ096x
-[13:09:57] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[13:09:58] [Server thread/INFO]: EntityZ096x[/127.0.0.1:56832] logged in with entity id 1069813 at ([minecraft:overworld]2825.1428666402617, 76.0, 2922.699999988079)
-[13:09:58] [Server thread/INFO]: [+] EntityZ096x
-[13:10:03] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:10:20] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:10:21] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:11:05] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:11:06] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:11:10] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:11:11] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:11:35] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:11:35] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:11:44] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:12:04] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:12:05] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:12:22] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:12:23] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:13:17] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:13:18] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:13:21] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:13:21] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:14:31] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:14:31] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:14:35] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:14:37] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:14:50] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:14:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:14:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:15:08] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:15:09] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:15:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:15:54] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:15:55] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:17:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:17:15] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:17:16] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:18:31] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:32] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:33] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:33] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:33] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:34] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:34] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:35] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:35] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:18:40] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
-[13:18:42] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
-[13:18:49] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
-[13:19:49] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
-[13:20:50] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[13:22:28] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:22:36] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:23:05] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:23:14] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:23:17] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection
-[13:23:39] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:24:05] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:24:10] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:24:17] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection editsection
-[13:24:24] [Server thread/INFO]: EntityZ096x fell from a high place
-[13:25:34] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:25:48] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:26:07] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:26:12] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection Miscellaneous
-[13:26:33] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:26:58] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection Miscellaneous
-[13:26:59] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:27:43] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:28:04] [Server thread/INFO]: EntityZ096x issued server command: /walkspeed 1
-[13:28:08] [Server thread/INFO]: EntityZ096x issued server command: /walkspeed 2
-[13:28:12] [Server thread/INFO]: EntityZ096x issued server command: /walkspeed 1
-[13:29:46] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:29:56] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:32:07] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:08] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:10] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:11] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:12] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:12] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:13] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:33:14] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:34:29] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:34:33] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:36:42] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:36:43] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:36:45] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:37:39] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:37:54] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection &5&lSpawners name NIGGER
-[13:37:55] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:38:15] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection &6&lMobs metadata glowing:true
-[13:38:17] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:38:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:39:06] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:39:07] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:39:32] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection &5&lSpawners name &d&lSpawners
-[13:39:35] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:39:46] [Server thread/INFO]: EntityZ096x issued server command: /editshop backup
-[13:40:00] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:41:11] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:41:14] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection nig
-[13:43:33] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:43:58] [Server thread/INFO]: EntityZ096x fell from a high place
-[13:44:04] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[13:44:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[13:45:19] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[13:45:19] [Server thread/INFO]: [-] EntityZ096x
-[16:39:07] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[16:39:08] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36658] logged in with entity id 1623398 at ([minecraft:overworld]2811.8852945348417, 76.0, 2925.372824256161)
-[16:39:08] [Server thread/INFO]: [+] EntityZ096x
-[16:39:48] [Server thread/INFO]: EntityZ096x issued server command: /mvtp Lifesteal
-[16:40:34] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
-[16:40:41] [Server thread/INFO]: EntityZ096x issued server command: /spec
-[16:40:44] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
-[16:40:47] [Server thread/INFO]: EntityZ096x issued server command: //wand
-[16:41:04] [Server thread/INFO]: EntityZ096x issued server command: //replace barrier air
-[16:41:04] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_1.PaperweightStarlightRelighterFactory as relighter factory.
-[16:41:18] [Server thread/INFO]: EntityZ096x issued server command: //pos1
-[16:41:27] [Server thread/INFO]: EntityZ096x issued server command: //pos1 -50 250 -50
-[16:41:31] [Server thread/INFO]: EntityZ096x issued server command: //pos1 -50,250,-50
-[16:41:37] [Server thread/INFO]: EntityZ096x issued server command: //pos1 50,100,50
-[16:41:41] [Server thread/INFO]: EntityZ096x issued server command: //pos1 -50,250,-50
-[16:41:44] [Server thread/INFO]: EntityZ096x issued server command: //pos2 50,100,50
-[16:41:51] [Server thread/INFO]: EntityZ096x issued server command: /coord
-[16:41:52] [Server thread/INFO]: EntityZ096x issued server command: /coords
-[16:41:57] [Server thread/INFO]: EntityZ096x issued server command: //pos2 50,180,50
-[16:42:05] [Server thread/INFO]: EntityZ096x issued server command: //setbiome plains
-[16:42:18] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[16:42:18] [Server thread/INFO]: [-] EntityZ096x
-[16:42:22] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[16:42:22] [Server thread/INFO]: EntityZ096x[/127.0.0.1:40302] logged in with entity id 1635939 at ([minecraft:lifesteal]-2.214156080522951, 219.88266663795625, 12.5811662249762)
-[16:42:22] [Server thread/INFO]: [+] EntityZ096x
-[16:42:46] [Server thread/INFO]: EntityZ096x fell from a high place
-[16:42:55] [Server thread/INFO]: EntityZ096x issued server command: /mvtp Lifesteal
-[16:42:58] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
-[16:43:42] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:44:41] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:44:42] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:51:07] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:51:16] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:53:45] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:53:51] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem
-[16:53:58] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x dirt
-[16:54:49] [Server thread/INFO]: EntityZ096x issued server command: /editshop editsection &r&a&lNature name &r&a&lBlocks
-[16:54:53] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:55:02] [Server thread/INFO]: EntityZ096x issued server command: /editshop backup
-[16:55:06] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:55:22] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[16:55:24] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:56:10] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:56:12] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[16:56:17] [Server thread/INFO]: EntityZ096x issued server command: /editshop backup
-[16:56:20] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:57:22] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:57:27] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:57:52] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:57:57] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[16:57:59] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[16:58:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:58:55] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[16:59:10] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:59:11] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[16:59:28] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[16:59:29] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:00:15] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:00:17] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:00:21] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:01:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:01:03] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:01:34] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:01:36] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:01:40] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:04:10] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:04:14] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:04:17] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:05:16] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:05:18] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:05:23] [Server thread/INFO]: EntityZ096x issued server command: /editshop view BLocks
-[17:05:26] [Server thread/INFO]: EntityZ096x issued server command: /editshop view Blocks
-[17:05:32] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:05:37] [Server thread/INFO]: EntityZ096x issued server command: /editshop view Blocks
-[17:05:45] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:22:56] [Server thread/INFO]: EntityZ096x was kicked due to keepalive timeout!
-[17:22:56] [Server thread/INFO]: EntityZ096x lost connection: Timed out
-[17:22:56] [Server thread/INFO]: [-] EntityZ096x
-[17:27:54] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[17:27:54] [Server thread/INFO]: EntityZ096x[/127.0.0.1:44614] logged in with entity id 1644004 at ([minecraft:lifesteal]-35.23087651388329, 213.0, 8.943101508195609)
-[17:27:54] [Server thread/INFO]: [+] EntityZ096x
-[17:27:56] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:28:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:28:02] [Server thread/INFO]: Shop has been reloaded
-[17:28:03] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:28:03] [Server thread/INFO]: Shop has been reloaded
-[17:28:17] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:29:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:29:53] [Server thread/INFO]: Shop has been reloaded
-[17:29:55] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:30:21] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:30:21] [Server thread/INFO]: Shop has been reloaded
-[17:30:28] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:30:28] [Server thread/INFO]: Shop has been reloaded
-[17:30:46] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:30:46] [Server thread/INFO]: Shop has been reloaded
-[17:30:47] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:30:50] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:31:04] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:31:04] [Server thread/INFO]: Shop has been reloaded
-[17:31:05] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:31:51] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:31:52] [Server thread/INFO]: Shop has been reloaded
-[17:31:52] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:32:11] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:32:11] [Server thread/INFO]: Shop has been reloaded
-[17:32:12] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:32:33] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:32:33] [Server thread/INFO]: Shop has been reloaded
-[17:35:04] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:35:14] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem
-[17:35:54] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:36:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks buy
-[17:37:20] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:37:27] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy
-[17:37:35] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:37:35] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy
-[17:37:55] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:37:56] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy
-[17:40:03] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:40:05] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy
-[17:40:22] [Server thread/INFO]: EntityZ096x issued server command: /enchant sharpness 5
-[17:41:00] [Server thread/INFO]: EntityZ096x issued server command: /essentials reload
-[17:41:00] [Server thread/INFO]: [Essentials] Loaded 46315 items from items.json.
-[17:41:00] [Server thread/INFO]: [Essentials] Using locale en
-[17:41:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:41:02] [Server thread/INFO]: EntityZ096x issued server command: /enchant sharpness 5
-[17:41:11] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:41:12] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:43:06] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:43:09] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:43:10] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:46:57] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
-[17:47:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:47:14] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:47:15] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:47:23] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:47:26] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:48:17] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:48:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:48:22] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[17:51:07] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[17:51:12] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:51:14] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[17:52:34] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x lightblock 1 15
-[17:52:39] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
-[17:53:23] [Server thread/INFO]: EntityZ096x issued server command: //pos1 50,250,50
-[17:53:30] [Server thread/INFO]: EntityZ096x issued server command: //pos2 -50,180,-50
-[17:53:37] [Server thread/INFO]: EntityZ096x issued server command: //replace air lightblock:15
-[17:53:44] [Server thread/INFO]: EntityZ096x issued server command: //replace air light_block
-[17:53:49] [Server thread/INFO]: EntityZ096x issued server command: //replace air lightblock
-[17:53:58] [Server thread/INFO]: EntityZ096x issued server command: //replace air light_block
-[17:54:49] [Server thread/INFO]: EntityZ096x issued server command: /give EntityZ096x lightblock
-[17:54:56] [Server thread/INFO]: EntityZ096x issued server command: //replace air light
-[17:55:01] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
-[17:55:05] [Server thread/INFO]: EntityZ096x issued server command: /undo
-[17:55:11] [Server thread/INFO]: EntityZ096x issued server command: /undo
-[17:55:13] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
-[17:55:41] [Server thread/INFO]: EntityZ096x issued server command: /undo
-[17:55:42] [Server thread/INFO]: EntityZ096x issued server command: /undo
-[17:55:46] [Server thread/INFO]: EntityZ096x issued server command: /redo
-[17:55:53] [Server thread/INFO]: EntityZ096x issued server command: /redo
-[17:56:21] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
-[17:56:34] [Server thread/INFO]: EntityZ096x issued server command: /night
-[17:56:44] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
-[17:56:45] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
-[17:56:45] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:15
-[17:56:49] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:14
-[17:56:52] [Server thread/INFO]: EntityZ096x issued server command: //replace air light:14
-[17:56:54] [Server thread/INFO]: EntityZ096x issued server command: //replace air light
-[17:57:58] [Server thread/INFO]: EntityZ096x issued server command: //replace air light
-[17:58:41] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:03:11] [Server thread/INFO]: EntityZ096x issued server command: /srelaod
-[18:03:14] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:03:34] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:03:49] [Craft Scheduler Thread - 1306 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:03:49] [Craft Scheduler Thread - 1306 - Vault/INFO]: [Vault] No new version available
-[18:04:00] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:04:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:05:15] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:05:43] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:05:46] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:04] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:06:05] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:06] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:07] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:09] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:06:10] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:07:12] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:07:13] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:07:17] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:07:18] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:07:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:07:26] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:07:45] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[18:07:45] [Server thread/INFO]: [-] EntityZ096x
-[18:08:50] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[18:08:50] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60176] logged in with entity id 1652048 at ([minecraft:lifesteal]-12.182623388397264, 211.0, -32.01682443451559)
-[18:08:51] [Server thread/INFO]: [+] EntityZ096x
-[18:08:54] [Server thread/INFO]: EntityZ096x issued server command: /serload
-[18:08:56] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:08:56] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:10:48] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:10:50] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:10:58] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:11:03] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:11:16] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:18] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:19] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:20] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:20] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:27] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:27] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:28] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:11:29] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:12:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:12:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:13:01] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:13:12] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:13:25] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy 1
-[18:16:01] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:16:18] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:16:41] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:16:46] [Server thread/INFO]: EntityZ096x issued server command: /editshop
-[18:16:55] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks
-[18:16:56] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:17:08] [Server thread/INFO]: EntityZ096x issued server command: /editshop edititem &r&a&lBlocks 0 buy 1
-[18:17:17] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:17:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:18:00] [Server thread/INFO]: EntityZ096x issued server command: /sun
-[18:18:52] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:20:21] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:20:22] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:20:53] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:20:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:22:08] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:22:08] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:22:27] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:22:27] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:24:36] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:24:39] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:24:50] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:24:53] [Server thread/INFO]: EntityZ096x issued server command: /sohp
-[18:24:54] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:25:22] [Server thread/INFO]: EntityZ096x issued server command: /editshop addhanditem &r&a&lBlocks -1 -1
-[18:25:26] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:27:27] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:27:30] [Server thread/INFO]: EntityZ096x issued server command: /
-[18:27:41] [Server thread/INFO]: EntityZ096x issued server command: /
-[18:27:42] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:27:44] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:28:44] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:28:45] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:30:33] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:30:34] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:33:20] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:33:21] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:33:58] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:33:59] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:35:35] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:36:22] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:36:23] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:37:30] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:37:31] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:37:36] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:37:56] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:37:57] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:39:41] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:39:42] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:40:00] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:40:01] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:41:19] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:41:20] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:41:55] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:41:55] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:42:25] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:42:25] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:42:52] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:43:06] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:43:07] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:44:11] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:44:11] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:44:31] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:44:32] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:45:01] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:45:04] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:46:02] [Server thread/INFO]: EntityZ096x issued server command: /sreload
-[18:46:02] [Server thread/INFO]: EntityZ096x issued server command: /shop
-[18:49:02] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[18:49:02] [Server thread/INFO]: [-] EntityZ096x
+[20:45:16] [Server thread/INFO]: [TuffXPlus] Disabling TuffXPlus v1.0.0
+[20:45:16] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been disabled.
+[20:45:16] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.1.1
+[20:45:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[20:45:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[20:45:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 28 section configs from /sections/
+[20:45:16] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Default shops layout compatible with 261 created at /workspaces/PlasmaNetworkV21/server/plugins/EconomyShopGUI/shops
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 28 shop configs from /shops/
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 27 shop sections.
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 26.1.2...
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[20:45:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[20:45:17] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[20:45:19] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5688 aliases in 5970ms
+[20:45:19] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 3684ms to complete
+[20:45:19] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
+[20:45:20] [Server thread/INFO]: [SkBee] Enabling SkBee v3.25.0
+[20:45:20] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[20:45:20] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 26.1.2.build.72! Trying to find NMS support
+[20:45:20] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC26_1' loaded!
+[20:45:20] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[20:45:20] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[20:45:20] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[20:45:20] [Server thread/INFO]: [SkBee] BossBar Elements disabled
+[20:45:20] [Server thread/INFO]: [SkBee] It appears another Skript addon may have registered BossBar syntax.
+[20:45:20] [Server thread/INFO]: [SkBee] To use SkBee BossBars, please remove the addon which has registered BossBars already.
+[20:45:21] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[20:45:21] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[20:45:21] [Server thread/INFO]: [SkBee] Dialog Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[20:45:21] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[20:45:21] [Server thread/INFO]: [SkBee] Loaded SkBee (585) elements:
+[20:45:21] [Server thread/INFO]: [SkBee]  - 76 types
+[20:45:21] [Server thread/INFO]: [SkBee]  - 2 structures
+[20:45:21] [Server thread/INFO]: [SkBee]  - 69 events
+[20:45:21] [Server thread/INFO]: [SkBee]  - 60 sections
+[20:45:21] [Server thread/INFO]: [SkBee]  - 77 effects
+[20:45:21] [Server thread/INFO]: [SkBee]  - 259 expressions
+[20:45:21] [Server thread/INFO]: [SkBee]  - 31 conditions
+[20:45:21] [Server thread/INFO]: [SkBee]  - 11 properties
+[20:45:21] [Server thread/INFO]: [SkBee] Checking for update...
+[20:45:21] [Server thread/INFO]: [SkBee] Plugin is not up to date!
+[20:45:21] [Server thread/INFO]: [SkBee]  - Current version: v3.25.0
+[20:45:21] [Server thread/INFO]: [SkBee]  - Available update: v3.25.1
+[20:45:21] [Server thread/INFO]: [SkBee]  - Download at: https://modrinth.com/plugin/skbee/version/3.25.1
+[20:45:21] [Server thread/INFO]: [SkBee] Successfully enabled v3.25.0 in 1.35 seconds
+[20:45:22] [Server thread/INFO]: [spark] Starting background profiler...
+[20:45:23] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_cave
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_gentest
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_nether
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:bw_spikeyhills
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lifesteal
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lifesteal_nether
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lifesteal_the_end
+[20:45:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lobby
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_cave): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_gentest): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_nether): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (bw_spikeyhills): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (lifesteal): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (lifesteal_nether): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (lifesteal_the_end): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[20:45:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:45:23] [Server thread/INFO]: Running delayed init tasks
+[20:45:23] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:45:23] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:45:23] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Checking for update...
+[20:45:23] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:45:23] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[20:45:23] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[20:45:23] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:45:23] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[20:45:23] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
+[20:45:23] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.2.2
+[20:45:23] [Craft Scheduler Thread - 4 - ChatEx/INFO]: [ChatEx] No update found.
+[20:45:24] [Server thread/INFO]: [Skript]     Loaded regions hook for WorldGuard. Please note that Skript's region hooks are deprecated and will be removed in a future release. For WorldGuard support, we recommend using skript-worldguard: https://github.com/SkriptLang/skript-worldguard
+[20:45:24] [Server thread/INFO]: [Skript] Loading variables...
+[20:45:25] [Server thread/INFO]: [Skript] Loaded 278 variables in 0.7 seconds
+[20:45:25] [Server thread/INFO]: [Skript] Line 71: (Temperature.sk)
+[20:45:25] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[20:45:25] [Server thread/INFO]:     Line: if {temp.%loop-player%} >= 46:
+[20:45:25] [Server thread/INFO]:  
+[20:45:26] [Server thread/INFO]: [Skript] Line 2: (Utility/center.sk)
+[20:45:26] [Server thread/INFO]:     The condition '1 is equal to 1' will always be true.
+[20:45:26] [Server thread/INFO]:     Line: if 1 = 1:
+[20:45:26] [Server thread/INFO]:  
+[20:45:27] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:45:30] [Server thread/INFO]: [Skript] Line 38: (Temperature.sk)
+[20:45:30] [Server thread/INFO]:     Can't compare a player with 'within 5 blocks of campfire'
+[20:45:30] [Server thread/INFO]:     Line: if loop-player is within 5 blocks of campfire:
+[20:45:30] [Server thread/INFO]:  
+[20:45:30] [Server thread/INFO]: [Skript] Line 53: (Temperature.sk)
+[20:45:30] [Server thread/INFO]:     Can't compare a player with 'mining'
+[20:45:30] [Server thread/INFO]:     Line: if loop-player is mining:
+[20:45:30] [Server thread/INFO]:  
+[20:45:30] [Server thread/INFO]: [Skript] Loaded 16 scripts with a total of 50 structures in 5.68 seconds
+[20:45:30] [Server thread/INFO]: [Skript] Finished loading.
+[20:45:30] [Server thread/INFO]: Done (59.336s)! For help, type "help"
+[20:45:30] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.12.3) is available at:
+[20:45:30] [Server thread/INFO]: [PlaceholderAPI] https://modrinth.com/plugin/placeholderapi
+[20:45:30] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion abilitywar due to an unknown issue.
+[20:45:30] [Server thread/WARN]: [PlaceholderAPI] There was an issue with loading an expansion.
+[20:45:30] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:45:30] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
+[20:45:33] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[20:45:33] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.16.2->1.16.1) Unknown legacy biome: dripstone_caves
+[20:45:35] [Server thread/INFO]: EntityZ096x[/127.0.0.1:45312] logged in with entity id 1 at ([minecraft:overworld]2831.3865221273068, 72.0, 2903.049011056394)
+[20:45:39] [Server thread/INFO]: [+] EntityZ096x
