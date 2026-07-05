@@ -17,7 +17,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1783274865848
+  logout: 1783277342900
   login: 1783274930953
 money: '897.00'
 lastlocation:
@@ -31,9 +31,9 @@ lastlocation:
 logoutlocation:
   world: 9868b7e0-ef7f-4bf8-ad72-8fa554fa4986
   world-name: Lifesteal
-  x: -12.182623388397264
+  x: -13.354293474584292
   y: 211.0
-  z: -32.01682443451559
-  yaw: -125.84928894042969
-  pitch: 84.30012512207031
+  z: -32.50926109411809
+  yaw: -119.84880065917969
+  pitch: 33.15007400512695
 last-account-name: EntityZ096x

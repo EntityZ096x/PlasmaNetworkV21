@@ -22,7 +22,8 @@ function BuyItem(p: player, item: item):
     clear lore of {_items}
     set slot 22 of {_i} to {_items}
     set slot 13 of {_i} to emerald named "%{_pricep}%"
-    set slot 31 of {_i} to paper named "&r&lBUY" with lore "price: %amount of {_item} * {_price}%"
+    set {_price} to {_pricep} * amount of {_item}
+    set slot 31 of {_i} to paper named "&r&lBUY" with lore "price: %{_price}%"
 
     set {_slot} to 0
     loop {shop.section.%{_s}%.items::*}:
