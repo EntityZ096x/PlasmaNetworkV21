@@ -491,3 +491,8 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [19:57:47] [Server thread/INFO]: EntityZ096x issued server command: /plm info BedWars1058
 [19:59:54] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [19:59:54] [Server thread/INFO]: [-] EntityZ096x
+[20:09:51] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:09:52] [Server thread/INFO]: EntityZ096x[/127.0.0.1:32972] logged in with entity id 50124 at ([minecraft:lobby]-4.843309434789446, 20.0, 3.0380132369082267)
+[20:09:52] [Server thread/INFO]: [+] EntityZ096x
+[20:11:13] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[20:11:13] [Server thread/INFO]: [-] EntityZ096x
