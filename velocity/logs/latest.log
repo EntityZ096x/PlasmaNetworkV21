@@ -1,9 +1,9 @@
-[12:04:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-44bc15db-b512)...
-[12:04:12] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[12:04:13] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, Java compression, Java ciphers
-[12:04:13] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[12:04:13] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[12:04:13] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[15:14:28] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-44bc15db-b512)...
+[15:14:28] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[15:14:29] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, Java compression, Java ciphers
+[15:14:29] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[15:14:29] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[15:14:30] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:299) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
@@ -13,8 +13,8 @@ java.lang.IllegalArgumentException: Image is not 64x64 (found 183x178)
 	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:403) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:289) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:76) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-[12:04:13] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[12:04:13] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EaglerXBackendRPC.jar
+[15:14:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[15:14:30] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins/EaglerXBackendRPC.jar
 com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBackendRPC.jar appears to be a Bukkit or BungeeCord plugin. Velocity does not support Bukkit or BungeeCord plugins.
 	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:161) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
@@ -22,131 +22,143 @@ com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBa
 	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:433) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:304) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:76) ~[server.jar:3.4.0-SNAPSHOT (git-44bc15db-b512)]
-[12:04:14] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.0.7...
-[12:04:14] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[12:04:14] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[12:04:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.0.7 by lax1dude
-[12:04:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.0 by lax1dude
-[12:04:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
-[12:04:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.27 by NickUC
-[12:04:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 5 plugins
-[12:04:15] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[12:04:15] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.0.7...
-[12:04:15] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[12:04:15] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[12:04:15] [EaglercraftXServer - Task Executor #1/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/PlasmaNetworkV21/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[12:04:15] [EaglercraftXServer - Task Executor #1/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[12:04:15] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
-[12:04:15] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
-[12:04:16] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
-[12:04:16] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.46s)
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.27
-[12:04:17] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  Updates are available for EaglerXServer
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  ---------------------------------------
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :< Active: 1.0.7
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :> Latest: 1.1.0
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  https://lax1dude.net/eaglerxserver/
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]:  -----------------------------------
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[12:04:17] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
-[12:04:18] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (6.12s)!
-[12:04:18] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x41e7233c, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
-[12:04:18] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
-[12:04:23] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[12:04:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34882) has connected
-[12:04:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[12:04:42] [nLogin - Task Executor #1/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[12:04:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[12:04:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[13:09:53] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34882) has disconnected
-[13:09:53] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[13:09:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39730) has connected
-[13:09:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[13:09:57] [nLogin - Task Executor #23/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[13:09:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[13:09:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[13:45:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39730) has disconnected
-[13:45:19] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[16:39:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33918) has connected
-[16:39:04] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[16:39:07] [nLogin - Task Executor #93/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[16:39:07] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[16:39:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[16:42:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33918) has disconnected
-[16:42:18] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[16:42:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39832) has connected
-[16:42:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[16:42:21] [nLogin - Task Executor #94/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[16:42:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[16:42:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[17:22:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39832): kicked from server server: 
-[17:22:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[17:22:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[17:22:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39832) has disconnected: An internal error occurred in your connection.
-[17:22:56] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39832): read timed out
-[17:22:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[17:27:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:58968) has connected
-[17:27:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[17:27:53] [nLogin - Task Executor #106/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[17:27:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[17:27:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[18:07:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:58968) has disconnected
-[18:07:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[18:08:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38890) has connected
-[18:08:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[18:08:50] [nLogin - Task Executor #123/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[18:08:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[18:08:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[18:49:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38890) has disconnected
-[18:49:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[18:51:36] [Netty epoll Worker #3/INFO] [eaglerxserver]: Refreshed update certificate: https://eaglercraft.com/backup.cert
-[18:51:36] [Netty epoll Worker #0/INFO] [eaglerxserver]: Refreshed update certificate: https://deev.is/eagler/backup.cert
-[20:34:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45830) has connected
-[20:34:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[20:34:09] [nLogin - Task Executor #166/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[20:34:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[20:34:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[20:37:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45830) has disconnected
-[20:37:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
-[20:45:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34598) has connected
-[20:45:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
-[20:45:21] [nLogin - Task Executor #168/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
-[20:45:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
-[20:45:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
-[20:52:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34598) has disconnected
-[20:52:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:14:33] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.0.7...
+[15:14:33] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[15:14:33] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[15:14:33] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.0.7 by lax1dude
+[15:14:33] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerweb 1.0.0 by lax1dude
+[15:14:33] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxrewind-1-5 1.0.2 by lax1dude, ayunami2000
+[15:14:34] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.27 by NickUC
+[15:14:34] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 5 plugins
+[15:14:34] [EaglercraftXServer - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[15:14:34] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.0.7...
+[15:14:34] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[15:14:35] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[15:14:35] [EaglercraftXServer - Task Executor #1/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/PlasmaNetworkV21/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[15:14:35] [EaglercraftXServer - Task Executor #1/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[15:14:35] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Loading config files...
+[15:14:35] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexing pages, please wait...
+[15:14:35] [EaglercraftXServer - Task Executor #0/INFO] [eaglerweb]: Indexed 12 pages total!
+[15:14:35] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxrewind-1-5]: EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[15:14:38] [EaglercraftXServer - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.44s)
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]:  Updates are available for EaglerXServer
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]:  ---------------------------------------
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :< Active: 1.0.7
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]:    :> Latest: 1.1.0
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]:  https://lax1dude.net/eaglerxserver/
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]:  -----------------------------------
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: 
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[15:14:38] [Netty epoll Worker #0/WARN] [eaglerxserver]: =============================================
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.27
+[15:14:39] [EaglercraftXServer - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[15:14:40] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xefb330f4, L:/[0:0:0:0:0:0:0:0]:25567] successfully (Velocity method)
+[15:14:40] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25567
+[15:14:40] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (13.75s)!
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[15:14:45] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[15:17:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:58308) has connected
+[15:17:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:17:15] [nLogin - Task Executor #1/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[15:17:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:17:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:08:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:58308): kicked from server server: Server reload, please rejoin!
+[16:08:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[16:08:30] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:09:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[16:09:14] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[17:08:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:58308) has disconnected
+[17:08:47] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[17:10:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44904) has connected
+[17:10:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[17:11:02] [nLogin - Task Executor #43/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[17:11:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[17:11:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[17:16:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44904) has disconnected
+[17:16:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[17:22:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40498) has connected
+[17:22:45] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[17:22:48] [nLogin - Task Executor #45/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[17:22:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[17:22:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[17:34:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40498) has disconnected: An internal error occurred in your connection.
+[17:34:46] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40498): read timed out
+[17:34:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[17:36:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44892) has connected
+[17:36:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[17:36:48] [nLogin - Task Executor #52/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[17:36:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[17:36:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[17:38:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44892): kicked from server server: 
+[17:38:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[17:38:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[17:38:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44892) has disconnected: An internal error occurred in your connection.
+[17:38:48] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44892): read timed out
+[17:38:48] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[17:44:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:51662) has connected
+[17:44:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[17:44:15] [nLogin - Task Executor #54/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[17:44:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[17:44:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[17:44:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:51662) has disconnected
+[17:44:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[18:02:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39950) has connected
+[18:02:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[18:02:35] [nLogin - Task Executor #59/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[18:02:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[18:02:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[18:13:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39950): kicked from server server: Server reload, please rejoin!
+[18:13:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[18:13:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[18:14:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39950) has disconnected
+[18:14:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[18:14:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:59348) has connected
+[18:14:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[18:14:19] [nLogin - Task Executor #65/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[18:14:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[18:14:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[18:15:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[18:15:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[18:15:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[18:15:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[18:32:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:59348) has disconnected
+[18:32:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[18:32:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47918) has connected
+[18:32:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[18:32:32] [nLogin - Task Executor #71/INFO] [nlogin]: The user EntityZ096x has successfully logged in.
+[18:32:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[18:32:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[19:00:09] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47918): kicked from server server: Server closed
+[19:00:09] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[19:00:09] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected

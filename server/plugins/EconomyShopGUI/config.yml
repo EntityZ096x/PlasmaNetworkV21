@@ -138,7 +138,7 @@ shop-stands:
 
 # The setting below enables or disables the disabled commands inside certain worlds feature
 # When this option is true, the commands that are added to the world inside the list below will be disabled
-enable-disabled-worlds: false
+enable-disabled-worlds: true
 
 # List of commands with disabled worlds
 # Each command has its own list of worlds that will be disabled.
@@ -327,7 +327,7 @@ custom-bedrock-player-profile:
 
 # Whether the previous GUI menu should open when pressing the escape button
 # Example: Pressing escape to close the inventory when inside the buy/sell screen, will open the shop page of the shop section from this item
-escape-back: false
+escape-back: true
 # This won't work when the back button is disabled
 # Note: This option requires a server restart for changes
 
@@ -391,9 +391,9 @@ main-menu-nav-bar:
     1:
       material: player_head
       skullowner: '%player_name%'
-      name: '%player_displayname%'
+      name: '&f%player_name%'
       lore:
-      - '%translations-money%: &c%player_balance%'
+      - '&ebalance: &r&a%player_balance%'
     2:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -416,9 +416,13 @@ main-menu-nav-bar:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
     9:
-      material: ARROW
-      name: '%translations-cancel%'
+      material: BARRIER
+      name: '&cCancel'
       action: BACK
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    enable: true
 
 # The 'default' navigation bar for every shop category
 # Note that disabling the navigation bar here, will also disable it for every shop category which does not have its own navigation bar configured
@@ -426,8 +430,11 @@ shops-nav-bar:
   enabled: true
   items:
     1:
-      material: GRAY_STAINED_GLASS_PANE
-      name: ' '
+      material: player_head
+      skullowner: '%player_name%'
+      name: '&f%player_name%'
+      lore:
+      - '&ebalance: &r&a%player_balance%'
     2:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -435,8 +442,9 @@ shops-nav-bar:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
     4:
-      material: red_stained_glass_pane
-      name: '%translations-previous-page%'
+      material: player_head
+      skullowner: MHF_ArrowLeft
+      name: '&r&e<< Previous page'
       action: PAGE_BACK
       paginated:
         enabled: true
@@ -447,8 +455,9 @@ shops-nav-bar:
       material: NETHER_STAR
       name: '%translations-current-page%'
     6:
-      material: blue_stained_glass_pane
-      name: '%translations-next-page%'
+      material: player_head
+      skullowner: MHF_ArrowRight
+      name: '&r&eNext Page >>'
       action: PAGE_NEXT
       paginated:
         enabled: true
@@ -462,9 +471,13 @@ shops-nav-bar:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
     9:
-      material: ARROW
-      name: '%translations-back%'
+      material: BARRIER
+      name: '&cBack'
       action: BACK
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    enable: true
 
 # The navigation bar that appears in the buy/sell screens and the buy stacks screen
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
@@ -474,9 +487,9 @@ transaction-screens-nav-bar:
     1:
       material: player_head
       skullowner: '%player_name%'
-      name: '%player_displayname%'
+      name: '&f%player_name%'
       lore:
-      - '%translations-money%: &c%player_balance%'
+      - '&ebalance: &r&a%player_balance%'
     2:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -506,9 +519,13 @@ transaction-screens-nav-bar:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
     9:
-      material: ARROW
-      name: '%translations-back%'
+      material: BARRIER
+      name: '&cBack'
       action: BACK
+  fill-item:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    enable: true
 
 # The navigation bar that appears in the buy/sell screens from the shop stands
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
@@ -518,7 +535,7 @@ shopstands-transaction-screens-nav-bar:
     1:
       material: player_head
       skullowner: '%player_name%'
-      name: '%player_displayname%'
+      name: '&f%player_name%'
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
@@ -539,8 +556,8 @@ shopstands-transaction-screens-nav-bar:
     8:
       material: air
     9:
-      material: ARROW
-      name: '%translations-close%'
+      material: BARRIER
+      name: '&cClose'
       action: CLOSE
 
 # The navigation bar that appears in the /sellGUI screen
@@ -750,40 +767,40 @@ buy-screen:
     name: ' '
   items:
     1:
-      material: magenta_stained_glass_pane
+      material: RED_CONCRETE
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: magenta_stained_glass_pane
+      material: RED_STAINED_GLASS_PANE
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: light_blue_stained_glass_pane
+      material: LIME_STAINED_GLASS_PANE
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: light_blue_stained_glass_pane
+      material: LIME_CONCRETE
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
@@ -811,45 +828,42 @@ buy-screen:
 # Sell screen
 sell-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
-      material: magenta_stained_glass_pane
+      material: RED_CONCRETE
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: magenta_stained_glass_pane
+      material: RED_STAINED_GLASS_PANE
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: magenta_stained_glass_pane
+      material: RED_DYE
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: light_blue_stained_glass_pane
+      material: LIME_DYE
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: light_blue_stained_glass_pane
+      material: LIME_STAINED_GLASS_PANE
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: light_blue_stained_glass_pane
+      material: LIME_CONCRETE
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
@@ -882,40 +896,40 @@ buy-stacks-screen:
     name: ' '
   items:
     1:
-      material: magenta_stained_glass
+      material: RED_CONCRETE
       name: '%translations-min-thirty-two%'
       stack-size: 32
       action: REMOVE32
       slot: 19
 
     2:
-      material: magenta_stained_glass
+      material: RED_STAINED_GLASS_PANE
       name: '%translations-min-sixteen%'
       stack-size: 16
       action: REMOVE16
       slot: 20
 
     3:
-      material: magenta_stained_glass
+      material: RED_DYE
       name: '%translations-min-one%'
       action: REMOVE1
       slot: 21
 
     4:
-      material: light_blue_stained_glass
+      material: LIME_DYE
       name: '%translations-plus-one%'
       action: ADD1
       slot: 23
 
     5:
-      material: light_blue_stained_glass
+      material: LIME_STAINED_GLASS_PANE
       name: '%translations-plus-sixteen%'
       stack-size: 16
       action: ADD16
       slot: 24
 
     6:
-      material: light_blue_stained_glass
+      material: LIME_CONCRETE
       name: '%translations-plus-thirty-two%'
       stack-size: 32
       action: ADD32
@@ -1328,7 +1342,6 @@ spawner-break-tools:
     material: IRON_PICKAXE
     enchantments:
     - 'SILK_TOUCH'
-    - 'EFFICIENCY:2'
   3:
     material: NETHERITE_PICKAXE
     enchantments:

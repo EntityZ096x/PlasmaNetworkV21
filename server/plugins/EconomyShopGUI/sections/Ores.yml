@@ -1,0 +1,5 @@
+enable: true
+item:
+  material: DIAMOND
+  displayname: '&r&b&lOres'
+slot: 13

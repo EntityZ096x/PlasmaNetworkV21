@@ -1,7 +1,7 @@
 teleportenabled: true
 teleportauto: false
 godmode: false
-flymode: true
+flymode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -12,28 +12,20 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1782132661668
+  lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1783284732171
-  login: 1783284335009
-money: '897.00'
-lastlocation:
-  world: dab86fec-c801-4130-a34a-c2cdc43fe764
-  world-name: world
-  x: 2852.1955950718007
-  y: -1.429263893639747
-  z: 2963.8935681502817
-  yaw: 86.25007629394531
-  pitch: -1.7999982833862305
+  logout: 1783364409053
+  login: 1783362752841
+money: '0.9999999999999999'
 logoutlocation:
-  world: b00b4ce5-f60f-46c4-bcd9-9f4512dcb9bb
-  world-name: UltraHardcoreSurvival
-  x: 27.12950713183711
-  y: 72.0
-  z: 36.17954809465944
-  yaw: 104.85032653808594
-  pitch: -29.99995231628418
+  world: a12bcd9b-ce29-4235-97af-0e483054a11a
+  world-name: LifeSteal_lobby
+  x: 0.39790688705731947
+  y: 100.0
+  z: 6.752407613906522
+  yaw: 24.44988441467285
+  pitch: 19.049989700317383
 last-account-name: EntityZ096x
