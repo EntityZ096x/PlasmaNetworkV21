@@ -2,3 +2,7 @@
 09:25:16.083 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
 09:27:37.796 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:57428) [V1_12_2]
 09:27:44.752 INFO  Limbo -- Player EntityZ096x disconnected
+13:14:03.018 INFO  Limbo -- Stopping server...
+13:14:03.026 INFO  Limbo -- Server stopped, Goodbye!
+13:26:41.702 INFO  Limbo -- Starting server...
+13:26:42.521 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
