@@ -167,3 +167,36 @@
 [16:27:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51326] logged in with entity id 4 at ([minecraft:auth]0.0, 50.0, 0.0)
 [16:27:20] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
 [16:27:21] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login!
+[16:28:01] [Server thread/INFO]: [Skript] Reloading all scripts...
+[16:28:01] [Server thread/INFO]: Line 125: (login.sk)
+[16:28:01] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "passsteal"
+[16:28:01] [Server thread/INFO]:     Line: if "l", "login", "register", "passsteal" does not contain command:
+[16:28:01] [Server thread/INFO]:  
+[16:28:01] [Server thread/INFO]: Successfully reloaded all scripts. (185ms)
+[16:28:02] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:28:02] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43092] logged in with entity id 5 at ([minecraft:auth]0.0, 50.0, 0.0)
+[16:28:05] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:28:07] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[16:40:45] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:40:45] [Server thread/INFO]: EntityZ096x[/127.0.0.1:37866] logged in with entity id 6 at ([minecraft:auth]0.0, 50.0, 0.0)
+[16:40:47] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[16:40:50] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[17:06:59] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[17:06:59] [Server thread/INFO]: EntityZ096x[/127.0.0.1:59536] logged in with entity id 7 at ([minecraft:auth]0.0, 50.0, 0.0)
+[17:08:11] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[17:08:19] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[17:08:39] [Server thread/INFO]: [Skript] Reloading all scripts...
+[17:08:40] [Server thread/INFO]: Line 127: (login.sk)
+[17:08:40] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "passsteal"
+[17:08:40] [Server thread/INFO]:     Line: if "l", "login", "register", "passsteal" does not contain command:
+[17:08:40] [Server thread/INFO]:  
+[17:08:40] [Server thread/INFO]: Successfully reloaded all scripts. (448ms)
+[17:08:46] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[17:08:47] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[17:08:48] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51242] logged in with entity id 8 at ([minecraft:auth]0.0, 50.0, 0.0)
+[17:08:51] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[17:09:11] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[17:10:53] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[17:10:53] [Server thread/INFO]: EntityZ096x[/127.0.0.1:58930] logged in with entity id 9 at ([minecraft:auth]0.0, 50.0, 0.0)
+[17:10:56] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[17:10:58] [Server thread/INFO]: EntityZ096x lost connection: Disconnected

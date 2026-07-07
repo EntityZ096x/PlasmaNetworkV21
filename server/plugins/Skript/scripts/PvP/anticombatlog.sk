@@ -1,4 +1,4 @@
-on damage:
+on damage of player:
     attacker is a player
     set {pvp.time.%victim%} to 20 * 15
     set {pvp.time.%attacker%} to 20 * 15

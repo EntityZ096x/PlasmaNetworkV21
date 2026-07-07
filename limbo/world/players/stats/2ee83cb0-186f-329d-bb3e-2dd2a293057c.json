@@ -5,16 +5,16 @@
       "minecraft:spruce_leaves": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 44865,
+      "minecraft:time_since_rest": 47769,
       "minecraft:walk_one_cm": 3659,
-      "minecraft:leave_game": 43,
+      "minecraft:leave_game": 48,
       "minecraft:damage_taken": 140,
-      "minecraft:play_time": 61815,
+      "minecraft:play_time": 64719,
       "minecraft:jump": 68,
-      "minecraft:time_since_death": 44827,
+      "minecraft:time_since_death": 47731,
       "minecraft:sprint_one_cm": 4917,
       "minecraft:fall_one_cm": 5765,
-      "minecraft:total_world_time": 61815,
+      "minecraft:total_world_time": 64719,
       "minecraft:fly_one_cm": 15701,
       "minecraft:sneak_time": 215,
       "minecraft:deaths": 1
