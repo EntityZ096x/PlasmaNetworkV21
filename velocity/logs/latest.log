@@ -90,3 +90,194 @@ com.velocitypowered.api.plugin.InvalidPluginException: The plugin file EaglerXBa
 [15:25:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
 [15:26:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33916) has connected
 [15:26:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:28:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:33916) has disconnected
+[15:28:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:28:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:57816) has connected
+[15:28:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:32:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:57816) has disconnected
+[15:32:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:32:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45918) has connected
+[15:32:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:34:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45918): kicked from server auth: You took too long to register!
+[15:34:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:34:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45918) has disconnected: You were kicked from auth: You took too long to register!
+[15:36:26] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:43444) has connected
+[15:36:26] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:38:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:43444): kicked from server auth: You took too long to register!
+[15:38:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:38:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:43444) has disconnected: You were kicked from auth: You took too long to register!
+[15:38:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40458) has connected
+[15:38:30] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:38:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:38:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:39:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:39:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:39:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:39:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:39:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:39:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:43:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40458) has disconnected
+[15:43:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:43:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:50774) has connected
+[15:43:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:43:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:50774): kicked from server auth: Wrong password!
+[15:43:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:43:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:50774) has disconnected: You were kicked from auth: Wrong password!
+[15:43:29] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:41590) has connected
+[15:43:29] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:43:37] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:43:37] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:44:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:44:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:44:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:44:11] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:46:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:46:09] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:46:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:46:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:51:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:51:48] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:51:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:41590): kicked from server auth: You took too long to login!
+[15:51:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:51:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:41590) has disconnected: You were kicked from auth: You took too long to login!
+[15:52:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:41680) has connected
+[15:52:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:52:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:52:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:56:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:56:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:57:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:41680) has disconnected
+[15:57:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:57:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38618) has connected
+[15:57:44] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:58:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38618) has disconnected
+[15:58:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:58:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39526) has connected
+[15:58:15] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:58:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39526): kicked from server auth: You took too long to login!
+[15:58:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:58:56] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39526) has disconnected: You were kicked from auth: You took too long to login!
+[15:59:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:53928) has connected
+[15:59:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:59:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[15:59:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:59:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:59:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[15:59:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:53928): kicked from server auth: Wrong password!
+[15:59:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:59:23] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:53928) has disconnected: You were kicked from auth: Wrong password!
+[15:59:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42650) has connected
+[15:59:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[15:59:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42650) has disconnected
+[15:59:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[15:59:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47768) has connected
+[15:59:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:00:04] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:47768) has disconnected
+[16:00:04] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:00:06] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44832) has connected
+[16:00:06] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:00:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44832): kicked from server auth: You took too long to login!
+[16:00:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:00:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:44832) has disconnected: You were kicked from auth: You took too long to login!
+[16:00:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:35398) has connected
+[16:00:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:00:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:35398): kicked from server auth: Server closed
+[16:00:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:00:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:35398) has disconnected: You were kicked from auth: Server closed
+[16:01:04] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45148) has connected
+[16:01:04] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:03:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45148): kicked from server auth: You took too long to login!
+[16:03:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:03:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45148) has disconnected: You were kicked from auth: You took too long to login!
+[16:04:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32770) has connected
+[16:04:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:04:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32770): kicked from server auth: Server closed
+[16:04:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:04:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:32770) has disconnected: You were kicked from auth: Server closed
+[16:06:10] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39456) has connected
+[16:06:10] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:06:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[16:06:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:06:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:06:32] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[16:06:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39456): kicked from server auth: Server closed
+[16:06:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:06:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:39456) has disconnected: You were kicked from auth: Server closed
+[16:07:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36188) has connected
+[16:07:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:07:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:07:54] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36188): disconnected while connecting to auth: 
+[16:07:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36188) has disconnected: Unable to connect to auth: 
+[16:08:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36204) has connected
+[16:08:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:08:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:08:00] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36204): disconnected while connecting to auth: 
+[16:08:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36204) has disconnected: Unable to connect to auth: 
+[16:08:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34184) has connected
+[16:08:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:10:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34184): kicked from server auth: You took too long to login!
+[16:10:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:10:12] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:34184) has disconnected: You were kicked from auth: You took too long to login!
+[16:10:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49594) has connected
+[16:10:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:10:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:10:14] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49594): disconnected while connecting to auth: 
+[16:10:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49594) has disconnected: Unable to connect to auth: 
+[16:10:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:52142) has connected
+[16:10:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:10:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:10:25] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:52142): disconnected while connecting to auth: 
+[16:10:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:52142) has disconnected: Unable to connect to auth: 
+[16:10:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:52154) has connected
+[16:10:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:12:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:52154) has disconnected
+[16:12:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:12:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38202) has connected
+[16:12:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:13:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38202): kicked from server auth: You took too long to login!
+[16:13:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:13:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:38202) has disconnected: You were kicked from auth: You took too long to login!
+[16:13:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:55640) has connected
+[16:13:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:15:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:55640): kicked from server auth: You took too long to login!
+[16:15:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:15:40] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:55640) has disconnected: You were kicked from auth: You took too long to login!
+[16:16:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:59216) has connected
+[16:16:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:18:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:59216): kicked from server auth: You took too long to login!
+[16:18:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:18:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:59216) has disconnected: You were kicked from auth: You took too long to login!
+[16:18:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40476) has connected
+[16:18:59] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:21:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40476): kicked from server auth: You took too long to login!
+[16:21:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:21:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:40476) has disconnected: You were kicked from auth: You took too long to login!
+[16:21:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45424) has connected
+[16:21:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:22:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has connected
+[16:22:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:23:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:23:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> server has disconnected
+[16:24:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45424): kicked from server auth: Server closed
+[16:24:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:24:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:45424) has disconnected: You were kicked from auth: Server closed
+[16:25:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36882) has connected
+[16:25:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:26:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36882): kicked from server auth: Wrong password!
+[16:26:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:26:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:36882) has disconnected: You were kicked from auth: Wrong password!
+[16:26:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:60858) has connected
+[16:26:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:27:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:60858): kicked from server auth: Wrong password!
+[16:27:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:27:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:60858) has disconnected: You were kicked from auth: Wrong password!
+[16:27:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42638) has connected
+[16:27:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:27:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42638): kicked from server auth: Wrong password!
+[16:27:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:27:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:42638) has disconnected: You were kicked from auth: Wrong password!
+[16:27:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49938) has connected
+[16:27:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has connected
+[16:27:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49938): kicked from server auth: You took too long to login!
+[16:27:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] EntityZ096x -> auth has disconnected
+[16:27:21] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] EntityZ096x (/[0:0:0:0:0:0:0:1]:49938) has disconnected: You were kicked from auth: You took too long to login!

