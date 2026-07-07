@@ -1,1 +1,8 @@
-[00:00:14] [Server thread/INFO]: [EzRTP] [EzRTP] Daily RTP usage counts reset.
+[09:25:23] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[09:25:23] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) for Minecraft 26.1.2
+[09:25:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:25:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[09:25:25] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - EconomyShopGUI (7.1.1), PlugManX (3.0.4-dev1), SkBee (3.25.0)
+[09:25:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
+ - BedWars1058 (23.12.2), ChatEx (3.2.2), Citizens (2.0.41-SNAPSHOT (build 4101)), Essentials (2.22.0), EzRTP (2.1.0), FastAsyncWorldEdit (2.15.2+e9ed0d1), LuckPerms (5.5.57), Multiverse-Core (5.7.1), Multiverse-Inventories (5.3.4), Multiverse-NetherPortals (5.0.5), Multiverse-Portals (5.2.3), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), Skript (2.16.0-pre1), TAB (6.1.0), TuffXPlus (1.0.0), Vault (1.7.3-b131), ViaBackwards (5.10.0), ViaRewind (4.1.2), ViaVersion (5.10.0), WorldGuard (7.0.18-SNAPSHOT+2372-d1a3193), skript-reflect (2.6.3)
