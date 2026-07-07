@@ -62,10 +62,10 @@ command /register [<text>] [<text>]:
             stop
         set {password.%player's name%} to arg-1
         send "&aYou have succesfully registered!" to player
-        send action bar "&aYou have succesfully registered!" to player
+        send action bar "" to player
         set {logged.%player's name%} to true
         delete {authtime.%player's name%}
-        send title "&aYou have succesfully registered!"
+        send title "" with subtitle "&aYou have succesfully registered!"
         redirect(player)
 
 command /login [<text>]:
@@ -81,10 +81,10 @@ command /login [<text>]:
             kick player due to "&cWrong password!"
             stop
         send "&aYou have succesfully logged in!" to player
-        send action bar "&aYou have succesfully registered!" to player
+        send action bar "" to player
         set {logged.%player's name%} to true
         delete {authtime.%player's name%}
-        send title "&aYou have succesfully logged in!"
+        send title "" with subtitle "&aYou have succesfully logged in!"
         redirect(player)
 
 command /l [<text>]:

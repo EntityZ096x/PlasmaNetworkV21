@@ -200,3 +200,33 @@
 [17:10:53] [Server thread/INFO]: EntityZ096x[/127.0.0.1:58930] logged in with entity id 9 at ([minecraft:auth]0.0, 50.0, 0.0)
 [17:10:56] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
 [17:10:58] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:08:48] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:08:49] [Server thread/INFO]: EntityZ096x[/127.0.0.1:60748] logged in with entity id 10 at ([minecraft:auth]0.0, 50.0, 0.0)
+[18:09:01] [Server thread/INFO]: EntityZ096x issued server command: /passsteal EntityZ096x
+[18:09:11] [Server thread/INFO]: EntityZ096x issued server command: /passsteal EntityZ096x
+[18:09:20] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[18:09:22] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:10:21] [Server thread/INFO]: [Skript] Reloading all scripts...
+[18:10:22] [Server thread/INFO]: Line 127: (login.sk)
+[18:10:22] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "passsteal"
+[18:10:22] [Server thread/INFO]:     Line: if "l", "login", "register", "passsteal" does not contain command:
+[18:10:22] [Server thread/INFO]:  
+[18:10:22] [Server thread/INFO]: Successfully reloaded all scripts. (929ms)
+[18:10:28] [User Authenticator #10/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:10:28] [Server thread/INFO]: EntityZ096x[/127.0.0.1:46570] logged in with entity id 11 at ([minecraft:auth]0.0, 50.0, 0.0)
+[18:10:35] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[18:10:37] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:11:01] [Server thread/INFO]: [Skript] Reloading all scripts...
+[18:11:01] [Server thread/INFO]: Line 127: (login.sk)
+[18:11:01] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "passsteal"
+[18:11:01] [Server thread/INFO]:     Line: if "l", "login", "register", "passsteal" does not contain command:
+[18:11:01] [Server thread/INFO]:  
+[18:11:01] [Server thread/INFO]: Successfully reloaded all scripts. (266ms)
+[18:11:07] [User Authenticator #11/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:11:07] [Server thread/INFO]: EntityZ096x[/127.0.0.1:40092] logged in with entity id 12 at ([minecraft:auth]0.0, 50.0, 0.0)
+[18:11:15] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[18:11:17] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:13:30] [User Authenticator #12/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:13:31] [Server thread/INFO]: EntityZ096x[/127.0.0.1:35150] logged in with entity id 13 at ([minecraft:auth]0.0, 50.0, 0.0)
+[18:13:33] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[18:13:35] [Server thread/INFO]: EntityZ096x lost connection: Disconnected

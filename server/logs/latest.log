@@ -487,3 +487,55 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [17:11:29] [Server thread/INFO]: EntityZ096x was doomed to fall by Zombie
 [17:11:38] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [17:11:38] [Server thread/INFO]: [-] EntityZ096x
+[18:09:22] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:09:22] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36454] logged in with entity id 15943 at ([minecraft:overworld]2802.2741920247745, 79.0, 2901.5293107451967)
+[18:09:24] [Server thread/INFO]: [+] EntityZ096x
+[18:10:28] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:10:29] [Server thread/INFO]: [-] EntityZ096x
+[18:10:37] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:10:37] [Server thread/INFO]: EntityZ096x[/127.0.0.1:35572] logged in with entity id 36215 at ([minecraft:overworld]2802.2741920247745, 79.0, 2901.5293107451967)
+[18:10:37] [Server thread/INFO]: [+] EntityZ096x
+[18:11:07] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:11:07] [Server thread/INFO]: [-] EntityZ096x
+[18:11:17] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:11:17] [Server thread/INFO]: EntityZ096x[/127.0.0.1:41636] logged in with entity id 45180 at ([minecraft:overworld]2793.515925312482, 79.0, 2893.7922140525925)
+[18:11:18] [Server thread/INFO]: [+] EntityZ096x
+[18:11:39] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[18:12:12] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:12:14] [Server thread/INFO]: EntityZ096x was doomed to fall by Zombie
+[18:12:34] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:12:56] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:12:56] [Server thread/INFO]: [-] EntityZ096x
+[18:13:35] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:13:35] [Server thread/INFO]: EntityZ096x[/127.0.0.1:56468] logged in with entity id 68562 at ([minecraft:overworld]2789.056749748412, 79.0, 2892.6489542556765)
+[18:13:36] [Server thread/INFO]: [+] EntityZ096x
+[18:14:54] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[18:15:06] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[18:15:22] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[18:16:39] [Server thread/INFO]: EntityZ096x issued server command: /god
+[18:17:10] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:17:21] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:17:44] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:18:27] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:18:53] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:18:57] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:19:01] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:19:02] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[18:19:02] [Server thread/INFO]: EntityZ096x died
+[18:19:06] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[18:19:19] [Server thread/INFO]: EntityZ096x issued server command: /ungod
+[18:20:42] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:20:51] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:20:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:25:28] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:25:44] [Server thread/INFO]: EntityZ096x was slain by Zombie
+[18:25:55] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[18:25:59] [Server thread/INFO]: EntityZ096x issued server command: /gamemode s
+[18:26:40] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[18:26:48] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[18:27:08] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[18:27:36] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:27:37] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[18:27:53] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:27:54] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
+[18:27:56] [Server thread/INFO]: EntityZ096x issued server command: /eat
