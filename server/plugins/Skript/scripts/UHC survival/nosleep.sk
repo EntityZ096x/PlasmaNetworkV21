@@ -1,0 +1,5 @@
+on right click:
+    clicked block is red bed
+    wait 1 tick
+    send action bar "You may not rest now, it is nearby."
+    
