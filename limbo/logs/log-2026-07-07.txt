@@ -6,3 +6,7 @@
 13:14:03.026 INFO  Limbo -- Server stopped, Goodbye!
 13:26:41.702 INFO  Limbo -- Starting server...
 13:26:42.521 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+13:28:14.984 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:51844) [V1_12_2]
+13:28:21.978 INFO  Limbo -- Player EntityZ096x disconnected
+13:31:10.566 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:44728) [V1_12_2]
+13:31:14.550 INFO  Limbo -- Player EntityZ096x disconnected
