@@ -1,0 +1,21 @@
+on load:
+    set {loc} to location(0, 50, 0, world "auth")
+    set pitch of {loc} to 0
+    set yaw of {loc} to 0
+
+every 1 tick:
+    loop all players:  
+        teleport loop-player to {loc}
+        set loop-player's gamemode to spectator
+
+on join:
+    {password.%player%} is not set
+    set {authtime.%player%} to 120
+    set join message to ""
+    send title "&r&c&lWelcome!" with subtitle "&r&7use &r&e/register <password> <confirm>&r&7!" for 120 seconds
+    send "&r&cUse the command &r&e/register <password> <confirm>" to player
+    
+    
+
+on leave:
+    set leave message to ""
