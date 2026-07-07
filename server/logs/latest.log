@@ -539,3 +539,70 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getCon
 [18:27:53] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
 [18:27:54] [Server thread/INFO]: EntityZ096x issued server command: /irongolem
 [18:27:56] [Server thread/INFO]: EntityZ096x issued server command: /eat
+[18:31:22] [Server thread/INFO]: EntityZ096x fell from a high place
+[18:32:04] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:32:08] [Server thread/INFO]: EntityZ096x issued server command: /dummy
+[18:34:24] [Server thread/INFO]: EntityZ096x was doomed to fall by Zombie
+[18:36:36] [Server thread/INFO]: EntityZ096x issued server command: /god
+[18:36:43] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[18:36:43] [Server thread/INFO]: [-] EntityZ096x
+[18:41:51] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[18:41:51] [Server thread/INFO]: EntityZ096x[/127.0.0.1:55448] logged in with entity id 460547 at ([minecraft:overworld]2793.4750871007036, 77.0, 2911.2411719497118)
+[18:41:51] [Server thread/INFO]: [+] EntityZ096x
+[18:41:55] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:42:03] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:42:20] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:42:23] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:43:06] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:43:53] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:43:59] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:44:17] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:45:05] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:47:15] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:47:40] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:47:54] [Server thread/INFO]: EntityZ096x issued server command: /midnight
+[18:47:57] [Server thread/INFO]: EntityZ096x issued server command: /night
+[18:48:40] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:48:53] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:48:53] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:48:53] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:48:54] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:49:04] [Server thread/INFO]: EntityZ096x issued server command: /sun
+[18:49:20] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[18:49:20] [Server thread/INFO]: EntityZ096x died
+[18:49:32] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:49:35] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:49:37] [Server thread/INFO]: EntityZ096x issued server command: /fucklag
+[18:50:25] [Server thread/WARN]: EntityZ096x moved wrongly!
+[18:51:11] [Server thread/INFO]: EntityZ096x issued server command: /sk reload nolag.sk
+[18:52:26] [Server thread/INFO]: EntityZ096x issued server command: /sk reload scripts
+[18:56:38] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /duels/
+[18:57:12] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /duels/
+[18:57:19] [Server thread/INFO]: EntityZ096x issued server command: /dummy zombie
+[18:57:36] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /duels/
+[18:57:54] [Server thread/INFO]: EntityZ096x issued server command: /sk reload /duels/
+[19:00:07] [Server thread/INFO]: EntityZ096x issued server command: /rtp
+[19:00:07] [Server thread/INFO]: [EzRTP] PlaceholderAPI found and enabled. Placeholder support is available.
+[19:00:45] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:00:45] [Server thread/INFO]: [-] EntityZ096x
+[19:20:57] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:20:57] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50722] logged in with entity id 732687 at ([minecraft:lifesteal]-5666.0057821347045, 79.0, 5132.630425612015)
+[19:20:57] [Server thread/INFO]: [+] EntityZ096x
+[19:21:44] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:21:44] [Server thread/INFO]: [-] EntityZ096x
+[19:21:52] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:21:53] [Server thread/INFO]: EntityZ096x[/127.0.0.1:44132] logged in with entity id 742333 at ([minecraft:lifesteal]-5664.602014433051, 79.0, 5133.284821827006)
+[19:21:53] [Server thread/INFO]: [+] EntityZ096x
+[19:23:07] [Server thread/INFO]: EntityZ096x issued server command: /
+[19:23:38] [Server thread/INFO]: EntityZ096x issued server command: /e
+[19:23:57] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:23:57] [Server thread/INFO]: [-] EntityZ096x
+[19:26:42] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:26:42] [Server thread/INFO]: EntityZ096x[/127.0.0.1:59458] logged in with entity id 771328 at ([minecraft:lifesteal]-5571.642835228381, 86.0, 5134.192947189244)
+[19:26:42] [Server thread/INFO]: [+] EntityZ096x
+[19:27:00] [Server thread/INFO]: EntityZ096x issued server command: /loadkit entitymace
+[19:27:28] [Server thread/INFO]: EntityZ096x fell from a high place
+[19:27:34] [Server thread/INFO]: EntityZ096x fell from a high place
+[19:27:39] [Server thread/INFO]: EntityZ096x issued server command: /gamemode c
+[19:28:08] [Server thread/INFO]: EntityZ096x issued server command: /mv
+[19:28:34] [Server thread/INFO]: EntityZ096x issued server command: /mv modify LifeSteal set respawn-world LifeSteal_lobby

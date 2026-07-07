@@ -4,5 +4,5 @@ on spawn:
     loop all entities:
         if loop-entity is not a player:
             add 1 to {_e}
-    if {_e} >= 10:
+    if {_e} >= 30:
         cancel event

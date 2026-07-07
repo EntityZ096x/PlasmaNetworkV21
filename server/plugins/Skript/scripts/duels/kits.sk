@@ -79,20 +79,3 @@ command /dummy:
         set {_m}'s chestplate to {_armor::2}
         set {_m}'s leggings to {_armor::3}
         set {_m}'s boots to {_armor::4}
-
-command /fucklag:
-    trigger:
-        loop 2 times:
-            loop all entities:
-                if loop-entity is not a player:
-                    kill loop-entity
-            wait 1 tick
-
-command /irongolem:
-    trigger:
-        summon a iron golem at player
-        set {_m} to last spawned iron golem
-        set {_m}'s max health to 10000
-        set {_m}'s health to 10000
-        set {_m}'s offhand item to 64 totem of undying
-    

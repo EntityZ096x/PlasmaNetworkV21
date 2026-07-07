@@ -6,10 +6,10 @@ players:
         daily: 0
         weekly: 2
     LifeSteal:
-      lastRtp: 1783366260744
+      lastRtp: 1783450824423
       usage:
-        daily: 0
-        weekly: 1
+        daily: 1
+        weekly: 2
     LifeSteal_the_end:
       lastRtp: 1783367099032
       usage:

@@ -351,7 +351,7 @@ minecraft:lifesteal:
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ''
+  respawn-world: LifeSteal_lobby
   scale: 1.0
   spawn-location:
     ==: MVSpawnLocation
