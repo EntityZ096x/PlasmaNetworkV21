@@ -3,20 +3,20 @@ players:
     world:
       lastRtp: 1783364955713
       usage:
-        daily: 2
+        daily: 0
         weekly: 2
     LifeSteal:
       lastRtp: 1783366260744
       usage:
-        daily: 1
+        daily: 0
         weekly: 1
     LifeSteal_the_end:
       lastRtp: 1783367099032
       usage:
-        daily: 2
+        daily: 0
         weekly: 2
     LifeSteal_nether:
       lastRtp: 1783367158928
       usage:
-        daily: 1
+        daily: 0
         weekly: 1
