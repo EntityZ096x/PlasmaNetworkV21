@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- do_not_remove: published-with-gradle-metadata -->
+<modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.walker84837</groupId>
+  <artifactId>JResult</artifactId>
+  <version>1.4.0</version>
+  <name>walker84837/JResult</name>
+  <description>java library for Result-based error handling</description>
+  <url>https://walker84837.github.io/JResult/</url>
+  <inceptionYear>2025</inceptionYear>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License v3.0</name>
+      <url>https://api.github.com/licenses/lgpl-3.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>walker84837</id>
+      <name>winlogon</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/walker84837/JResult.git</connection>
+    <developerConnection>scm:git://github.com/walker84837/JResult.git</developerConnection>
+    <url>git://github.com/walker84837/JResult.git</url>
+  </scm>
+</project>

