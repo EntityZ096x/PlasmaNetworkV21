@@ -515,7 +515,7 @@ minecraft:lifesteal_nether:
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ''
+  respawn-world: LifeSteal_lobby
   scale: 8.0
   spawn-location:
     ==: MVSpawnLocation
@@ -597,7 +597,7 @@ minecraft:lifesteal_the_end:
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ''
+  respawn-world: LifeSteal_lobby
   scale: 1.0
   spawn-location:
     ==: MVSpawnLocation

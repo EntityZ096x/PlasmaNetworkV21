@@ -111,3 +111,24 @@
 [19:26:36] [Server thread/INFO]: EntityZ096x issued server command: /passsteal soul_stealer21
 [19:26:41] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
 [19:26:42] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:34:45] [User Authenticator #3/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:34:46] [Server thread/INFO]: EntityZ096x[/127.0.0.1:57040] logged in with entity id 58 at ([minecraft:auth]0.0, 50.0, 0.0)
+[19:34:46] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:54:28] [User Authenticator #4/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:54:29] [Server thread/INFO]: EntityZ096x[/127.0.0.1:54150] logged in with entity id 59 at ([minecraft:auth]0.0, 50.0, 0.0)
+[19:54:32] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[19:55:24] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[19:59:00] [User Authenticator #5/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[19:59:01] [Server thread/INFO]: EntityZ096x[/127.0.0.1:42666] logged in with entity id 60 at ([minecraft:auth]0.0, 50.0, 0.0)
+[20:01:02] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login!
+[20:01:54] [User Authenticator #6/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:01:54] [Server thread/INFO]: EntityZ096x[/127.0.0.1:49150] logged in with entity id 61 at ([minecraft:auth]0.0, 50.0, 0.0)
+[20:01:57] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[20:02:01] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[20:04:40] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:04:40] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33842] logged in with entity id 62 at ([minecraft:auth]0.0, 50.0, 0.0)
+[20:06:41] [Server thread/INFO]: EntityZ096x lost connection: You took too long to login!
+[20:15:53] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[20:15:53] [Server thread/INFO]: EntityZ096x[/127.0.0.1:58230] logged in with entity id 63 at ([minecraft:auth]0.0, 50.0, 0.0)
+[20:15:55] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
+[20:16:02] [Server thread/INFO]: EntityZ096x lost connection: Disconnected

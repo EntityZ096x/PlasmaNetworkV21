@@ -71,6 +71,9 @@ npc:
       async-chunk-cache-expiry: 5s
       # Whether to check bounding boxes when pathfinding such as between fences, inside doors, or other half-blocks
       check-bounding-boxes: false
+      # Whether to simulate jumping while pathfinding - increases pathfinding CPU cost.
+      # Async pathfinder recommended. Still experimental.
+      experimental-jumps: false
       # The maximum number of blocks to check when pathfinding
       maximum-search-blocks: 1024
       # Whether to open doors while pathfinding (should close them as well)
@@ -134,7 +137,7 @@ npc:
     default-renderer: display
     default-renderer-settings:
       seeThrough: false
-      shadowed: true
+      shadowed: false
       billboard: CENTER
       interpolationDelay: 0
       interpolationDuration: 0
