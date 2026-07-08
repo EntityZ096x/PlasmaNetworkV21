@@ -2,6 +2,9 @@ command /lobby:
     trigger:
         if player's world contains "LifeSteal":
             set {lastloc.%player%.LifeSteal} to player's location
+        else if player's world contains "UHCsurvival":
+            set {lastloc.%player%.UHCS} to player's location
+            
         else:
             set {lastloc.%player%.%player's world%} to player's location
         teleport player to location(0.5, 21, 0.5, world "Lobby")
@@ -17,6 +20,12 @@ command /worldswitch [<text>] [<player>]:
                 teleport player to {lastloc.%player%.LifeSteal}
             else:
                 execute console command "/mvtp %player% LifeSteal_lobby"
+            stop
+        if arg-1 is "UHCS":
+            if {lastloc.%player%.UHCS} is set:
+                teleport player to {lastloc.%player%.UHCS}
+            else:
+                execute console command "/mvtp %player% UHCsurvival"
             stop
         if {lastloc.%player%.%arg-1%} is set:
             teleport player to {lastloc.%player%.%arg-1%}

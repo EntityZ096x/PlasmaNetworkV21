@@ -65,12 +65,9 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    fast-drain:
-      lava: false
-      water: false
-    queue-light-updates: false
     portal-search-radius: 128
     use-vanilla-world-scoreboard-name-coloring: false
+    queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
     delay-chunk-unloads-by: 10s
@@ -102,6 +99,9 @@ world-settings:
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
+    fast-drain:
+      lava: false
+      water: false
     lava-flow-speed:
       normal: 30
       nether: 10
@@ -123,9 +123,9 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
-    container-update-tick-rate: 1
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
+    container-update-tick-rate: 1
     frosted-ice:
       enabled: true
       delay:
@@ -140,6 +140,9 @@ world-settings:
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
     armor-stands-tick: true
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
+    disable-teleportation-suffocation-check: false
     keep-spawn-loaded: true
     anti-xray:
       enabled: false
@@ -178,6 +181,3 @@ world-settings:
     allow-leashing-undead-horse: false
     squid-spawn-height:
       maximum: 0.0
-    disable-teleportation-suffocation-check: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
