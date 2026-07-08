@@ -2,7 +2,7 @@
 # Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
 group: Solo
 display-name: Cave
-minPlayers: 2
+minPlayers: 1
 maxInTeam: 1
 allowSpectate: true
 spawn-protection: 5

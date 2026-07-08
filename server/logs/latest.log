@@ -661,3 +661,63 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for l
 [08:50:48] [Server thread/INFO]: [+] EntityZ096x
 [08:50:54] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
 [08:50:54] [Server thread/INFO]: [-] EntityZ096x
+[08:51:49] [User Authenticator #7/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[08:51:50] [Server thread/INFO]: EntityZ096x[/127.0.0.1:46414] logged in with entity id 150556 at ([minecraft:lifesteal_lobby]-26.953617064859046, 100.0, -28.38760456860346)
+[08:51:51] [Server thread/INFO]: [+] EntityZ096x
+[08:52:19] [Server thread/INFO]: EntityZ096x issued server command: /suicide
+[08:52:19] [Server thread/INFO]: EntityZ096x died
+[08:52:39] [Server thread/INFO]: EntityZ096x issued server command: /lobby
+[08:52:46] [Server thread/INFO]: [Essentials] Created a User for Bedwars (538cdc06-a9d1-2dfe-8e66-5b4914898ca7) for non Bukkit type: net.citizensnpcs.nms.v26_2_R1.entity.EntityHumanNPC$PlayerNPC
+[08:52:51] [Server thread/INFO]: EntityZ096x issued server command: /npc select
+[08:53:00] [Server thread/INFO]: EntityZ096x issued server command: /npc command list
+[08:53:10] [Server thread/INFO]: EntityZ096x issued server command: /npc command remove 0
+[08:53:10] [Server thread/INFO]: EntityZ096x issued server command: /npc command remove 0
+[08:53:21] [Server thread/INFO]: EntityZ096x issued server command: /npc command add server bedwars -o
+[08:53:23] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[08:53:23] [Server thread/INFO]: [-] EntityZ096x
+[08:55:38] [User Authenticator #8/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[08:55:39] [Server thread/INFO]: EntityZ096x[/127.0.0.1:36358] logged in with entity id 150616 at ([minecraft:lobby]-2.4897603248250744, 20.0, 9.491113980963785)
+[08:55:40] [Server thread/INFO]: [+] EntityZ096x
+[08:56:02] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[08:56:02] [Server thread/INFO]: [-] EntityZ096x
+[08:58:14] [User Authenticator #9/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[08:58:15] [Server thread/INFO]: EntityZ096x[/127.0.0.1:33926] logged in with entity id 150655 at ([minecraft:lobby]-3.026586827867378, 20.0, 9.696824936712883)
+[08:58:15] [Server thread/INFO]: [+] EntityZ096x
+[08:58:17] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[08:58:17] [Server thread/INFO]: [-] EntityZ096x
+[09:02:10] [User Authenticator #10/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:02:10] [Server thread/INFO]: EntityZ096x[/127.0.0.1:53716] logged in with entity id 150693 at ([minecraft:lobby]-3.026586827867378, 20.0, 9.696824936712883)
+[09:02:11] [Server thread/INFO]: [+] EntityZ096x
+[09:02:24] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[09:02:24] [Server thread/INFO]: [-] EntityZ096x
+[09:03:12] [User Authenticator #11/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:03:12] [Server thread/INFO]: EntityZ096x[/127.0.0.1:47468] logged in with entity id 150732 at ([minecraft:lobby]-2.7522120627897233, 20.0, 9.214413278290712)
+[09:03:13] [Server thread/INFO]: [+] EntityZ096x
+[09:04:47] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[09:04:47] [Server thread/INFO]: [-] EntityZ096x
+[09:12:00] [User Authenticator #12/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[09:12:01] [Server thread/INFO]: test[/127.0.0.1:58218] logged in with entity id 150771 at ([minecraft:overworld]111.5, 78.0, 532.5)
+[09:12:01] [Server thread/INFO]: [+] test
+[09:12:08] [Server thread/INFO]: test issued server command: /lobby
+[09:12:12] [Server thread/INFO]: test lost connection: Disconnected
+[09:12:13] [Server thread/INFO]: [-] test
+[09:16:59] [User Authenticator #13/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+[09:16:59] [Server thread/INFO]: test[/127.0.0.1:58302] logged in with entity id 153984 at ([minecraft:lobby]-2.708891564981473, 20.0, 9.635697054467752)
+[09:17:00] [Server thread/INFO]: [+] test
+[09:17:01] [Server thread/INFO]: test lost connection: Disconnected
+[09:17:01] [Server thread/INFO]: [-] test
+[09:18:41] [User Authenticator #14/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:18:42] [Server thread/INFO]: EntityZ096x[/127.0.0.1:57898] logged in with entity id 154022 at ([minecraft:lobby]-2.7862232624328076, 20.0, 9.061868369149536)
+[09:18:43] [Server thread/INFO]: [+] EntityZ096x
+[09:18:44] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[09:18:44] [Server thread/INFO]: [-] EntityZ096x
+[09:21:25] [User Authenticator #15/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:21:26] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50296] logged in with entity id 154060 at ([minecraft:lobby]-2.6928217023630627, 20.0, 8.853854258699613)
+[09:21:27] [Server thread/INFO]: [+] EntityZ096x
+[09:21:57] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[09:21:57] [Server thread/INFO]: [-] EntityZ096x
+[09:22:40] [User Authenticator #16/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:22:40] [Server thread/INFO]: EntityZ096x[/127.0.0.1:38982] logged in with entity id 154099 at ([minecraft:lobby]-2.6999999880790693, 20.0, 10.462443857080526)
+[09:22:40] [Server thread/INFO]: [+] EntityZ096x
+[09:22:41] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[09:22:41] [Server thread/INFO]: [-] EntityZ096x

@@ -1,0 +1,4 @@
+on join:
+    wait 1 tick
+    set {_loc} to location at 0, 65, 0 in world "bw_lobby"
+    teleport player to {_loc}

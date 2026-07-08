@@ -6,7 +6,7 @@ language: en
 disabled-languages:
 - your language iso here
 storeLink: https://www.spigotmc.org/resources/authors/39904/
-lobbyServer: hub
+lobbyServer: mainserver
 enable-halloween-feature: true
 chat-settings:
   global: false
@@ -208,9 +208,9 @@ lobby-items:
     enchanted: true
     slot: 4
   leave:
-    command: lobby
+    command: server mainserver
     material: BED
-    data: 0
+    data: 14
     enchanted: false
     slot: 8
 pre-game-items:
@@ -239,6 +239,6 @@ spectator-items:
     data: 0
     enchanted: false
     slot: 8
-lobbyLoc: 0.5089411688520229,100.0,0.5100468278750578,358.5002136230469,2.099947214126587,Bedwars
+lobbyLoc: 0.5165174946072698,65.0,0.5386262413519406,3.899996280670166,1.0500081777572632,bw_lobby
 arenaGroups:
 - Solo

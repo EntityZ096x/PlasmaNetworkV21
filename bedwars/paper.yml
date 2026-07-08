@@ -65,6 +65,7 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
+    portal-search-radius: 128
     use-vanilla-world-scoreboard-name-coloring: false
     queue-light-updates: false
     optimize-explosions: false
@@ -101,7 +102,6 @@ world-settings:
     fast-drain:
       lava: false
       water: false
-    portal-search-radius: 128
     lava-flow-speed:
       normal: 30
       nether: 10
@@ -171,13 +171,13 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
-    spawner-nerfed-mobs-should-jump: false
-    baby-zombie-movement-speed: 0.5
-    all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
-    allow-leashing-undead-horse: false
-    squid-spawn-height:
-      maximum: 0.0
-    disable-teleportation-suffocation-check: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
+    disable-teleportation-suffocation-check: false
+    spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.5
+    allow-leashing-undead-horse: false
+    mob-spawner-tick-rate: 1
+    all-chunks-are-slime-chunks: false
+    squid-spawn-height:
+      maximum: 0.0

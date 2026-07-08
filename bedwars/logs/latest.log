@@ -1,83 +1,167 @@
-[08:49:35] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[08:49:35] [Server thread/INFO]: Loading properties
-[08:49:35] [Server thread/INFO]: Default game type: SURVIVAL
-[08:49:35] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[08:49:35] [Server thread/INFO]: Debug logging is disabled
-[08:49:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:49:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:49:35] [Server thread/INFO]: Generating keypair
-[08:49:36] [Server thread/INFO]: Starting Minecraft server on *:25568
-[08:49:36] [Server thread/INFO]: Using epoll channel type
-[08:49:36] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[08:49:36] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.10.0
-[08:49:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
-[08:49:37] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[08:49:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[08:49:38] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[08:49:39] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[08:49:39] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
-[08:49:39] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
-[08:49:39] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.10.0
-[08:49:39] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v25.2
-[08:49:39] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_12_R1
-[08:49:41] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.1.2
-[08:49:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:49:41] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
-[08:49:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:49:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:49:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:49:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:49:41] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[08:49:41] [Server thread/INFO]: Preparing level "world"
-[08:49:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3624067133936351513)
-[08:49:42] [Server thread/INFO]: Preparing spawn area: 4%
-[08:49:43] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3624067133936351513)
-[08:49:43] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3624067133936351513)
-[08:49:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
-[08:49:44] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
-[08:49:44] [Server thread/INFO]: [Skript] Unknown release channel 'prerelease'.
-[08:49:46] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[08:49:48] [Server thread/INFO]: [Skript] Loaded 18405 aliases in 4078ms
-[08:49:48] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[08:49:48] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
-[08:49:49] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[08:49:49] [Server thread/INFO]: [SkBee] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
-[08:49:49] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_12_R1' loaded!
-[08:49:49] [Server thread/INFO]: [SkBee] [NBTAPI] Found Gson: class com.google.gson.Gson
-[08:49:49] [Server thread/INFO]: [SkBee] [NBTAPI] Using the plugin 'ViaVersion' to create a bStats instance!
-[08:49:49] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[08:49:49] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[08:49:49] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[08:49:49] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[08:49:49] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[08:49:49] [Server thread/INFO]: [SkBee] Other Elements successfully loaded
-[08:49:49] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[08:49:49] [Server thread/INFO]: [SkBee] Successfully enabled v1.10.3 in 0.25 seconds
-[08:49:49] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
-[08:49:49] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
-[08:49:49] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
-[08:49:49] [Server thread/WARN]: [BedWars1058] There isn't any map called bw_nether
-[08:49:49] [Server thread/WARN]: [BedWars1058] There isn't any map called bw_cave
-[08:49:49] [Server thread/ERROR]: [BedWars1058] You didn't set any team for arena: bw_spikeyhills
-[08:49:49] [Server thread/WARN]: [BedWars1058] There isn't any map called bw_gentest
-[08:49:50] [Server thread/WARN]: [BedWars1058] Invalid generator type diamond at upgrades2: upgrade-forge.tier-3
-[08:49:50] [Server thread/WARN]: [BedWars1058] Invalid generator type diamond at upgrades2: upgrade-forge.tier-4
-[08:49:50] [Server thread/INFO]: Scoreboard Tab header-footer refresh is disabled.
-[08:49:50] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
-[08:49:50] [Server thread/WARN]: Could not register alias icanhasbukkit because it contains commands that do not exist: essentials:god $1-
-[08:49:50] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
-[08:49:50] [Server thread/INFO]: Done (9.197s)! For help, type "help" or "?"
-[08:49:50] [Server thread/INFO]: Timings Reset
-[08:49:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[08:49:50] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[08:49:50] [Server thread/INFO]: [Skript] Loading variables...
-[08:49:50] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[08:49:50] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[08:49:50] [Server thread/INFO]: [Skript] No scripts were found, maybe you should write some ;)
-[08:49:50] [Server thread/INFO]: [Skript] Finished loading.
-[08:49:50] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[08:49:50] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
-[08:49:51] [Server thread/INFO]: Registering /party command..
-[08:49:55] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
-[08:50:53] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[08:50:54] [Server thread/INFO]: EntityZ096x[/127.0.0.1:57008] logged in with entity id 77 at ([world]0.0, 250.0, 0.0)
+[09:21:27] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[09:21:27] [Server thread/INFO]: Loading properties
+[09:21:27] [Server thread/INFO]: Default game type: SURVIVAL
+[09:21:27] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[09:21:28] [Server thread/INFO]: Debug logging is disabled
+[09:21:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:21:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:21:28] [Server thread/INFO]: Generating keypair
+[09:21:28] [Server thread/INFO]: Starting Minecraft server on *:25568
+[09:21:29] [Server thread/INFO]: Using epoll channel type
+[09:21:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[09:21:30] [Server thread/INFO]: [PerWorldPlugins] Loading PerWorldPlugins v1.5.9
+[09:21:30] [Server thread/INFO]: [PerWorldPlugins] Enabling PerWorldPlugins v1.5.9
+[09:21:32] [Server thread/INFO]: PerWorldPlugins There is a new version available. (1.6.2)
+[09:21:32] [Server thread/INFO]: PerWorldPlugins You can download it at: https://www.spigotmc.org/resources/perworldplugins.96161/
+[09:21:32] [Server thread/INFO]: <---------------------------------------->
+[09:21:32] [Server thread/INFO]: PerWorldPlugins 1.5.9 has been enabled.
+[09:21:32] [Server thread/INFO]: <---------------------------------------->
+[09:21:32] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
+[09:21:32] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.10.0
+[09:21:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[09:21:32] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:21:33] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[09:21:33] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[09:21:34] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[09:21:34] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
+[09:21:34] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
+[09:21:34] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.10.0
+[09:21:34] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[09:21:34] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v25.2
+[09:21:34] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_12_R1
+[09:21:35] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.1.2
+[09:21:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:21:35] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[09:21:35] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_8
+[09:21:35] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[09:21:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:21:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:21:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:21:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:21:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[09:21:35] [Server thread/INFO]: Preparing level "bw_lobby"
+[09:21:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1226841678083992046)
+[09:21:38] [Server thread/INFO]: Preparing spawn area: 7%
+[09:21:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3769150435141989672)
+[09:21:39] [Server thread/INFO]: Preparing spawn area: 4%
+[09:21:40] [Server thread/INFO]: Preparing spawn area: 11%
+[09:21:41] [Server thread/INFO]: Preparing spawn area: 24%
+[09:21:42] [Server thread/INFO]: Preparing spawn area: 39%
+[09:21:43] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3769150435141989672)
+[09:21:44] [Server thread/INFO]: Preparing spawn area: 27%
+[09:21:44] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[09:21:44] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
+[09:21:45] [Server thread/INFO]: [Skript] Unknown release channel 'prerelease'.
+[09:21:45] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Checking for updates failed. Do you have Internet connection?
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: java.util.concurrent.CompletionException: java.lang.RuntimeException: java.io.IOException: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/SkriptLang/Skript/releases
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1781)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: Caused by: java.lang.RuntimeException: java.io.IOException: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/SkriptLang/Skript/releases
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at ch.njol.skript.update.GithubChecker.lambda$check$0(GithubChecker.java:111)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	... 5 more
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/SkriptLang/Skript/releases
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1700)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1302)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1263)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	at ch.njol.skript.update.GithubChecker.lambda$check$0(GithubChecker.java:105)
+[09:21:45] [ForkJoinPool.commonPool-worker-1/WARN]: 	... 6 more
+[09:21:47] [Server thread/INFO]: [Skript] Loaded 18405 aliases in 2660ms
+[09:21:48] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[09:21:48] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
+[09:21:48] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[09:21:48] [Server thread/INFO]: [SkBee] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[09:21:48] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[09:21:48] [Server thread/INFO]: [SkBee] [NBTAPI] Found Gson: class com.google.gson.Gson
+[09:21:48] [Server thread/INFO]: [SkBee] [NBTAPI] Using the plugin 'PerWorldPlugins' to create a bStats instance!
+[09:21:48] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[09:21:48] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[09:21:48] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[09:21:48] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[09:21:48] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[09:21:48] [Server thread/INFO]: [SkBee] Other Elements successfully loaded
+[09:21:48] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[09:21:48] [Server thread/INFO]: [SkBee] Successfully enabled v1.10.3 in 0.20 seconds
+[09:21:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[09:21:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[09:21:48] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'bw_lobby_nether' - Env: NETHER - Type: NORMAL & seed: 3769150435141989672
+[09:21:48] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[09:21:48] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+[09:21:48] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'bw_lobby_nether' is located at: bw_lobby_nether:0.00,67.00,0.00:0.00:0.00
+[09:21:48] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'bw_lobby_the_end' - Env: THE_END - Type: NORMAL & seed: 3769150435141989672
+[09:21:48] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[09:21:48] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+[09:21:48] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'bw_lobby_the_end' is located at: bw_lobby_the_end:0.00,60.00,0.00:0.00:0.00
+[09:21:48] [Server thread/INFO]: Preparing start region for level 3 (Seed: -3624067133936351513)
+[09:21:49] [Server thread/INFO]: Preparing spawn area for world, 6%
+[09:21:50] [Server thread/INFO]: Preparing spawn area for world, 87%
+[09:21:51] [Server thread/INFO]: Preparing start region for level 4 (Seed: -3624067133936351513)
+[09:21:51] [Server thread/INFO]: Preparing start region for level 5 (Seed: -3624067133936351513)
+[09:21:52] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:52] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:52] [Server thread/INFO]: Preparing start region for level 6 (Seed: -4442535019309114944)
+[09:21:52] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:52] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:52] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:52] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:52] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:52] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:52] [Server thread/INFO]: Preparing start region for level 7 (Seed: -2808061360406873144)
+[09:21:53] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:53] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:53] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:53] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:53] [Server thread/INFO]: Preparing start region for level 8 (Seed: 6751788430889296122)
+[09:21:54] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[09:21:54] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[09:21:54] [Server thread/INFO]: [Multiverse-Core] 9 - World(s) loaded.
+[09:21:54] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[09:21:54] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v25.2
+[09:21:54] [Server thread/INFO]: [BedWars1058] Using internal world restore system.
+[09:21:54] [Server thread/INFO]: [BedWars1058] Arena bw_nether was added to the enable queue.
+[09:21:54] [Server thread/INFO]: [BedWars1058] Loading arena: bw_nether
+[09:21:54] [Server thread/INFO]: [BedWars1058] Arena bw_cave was added to the enable queue.
+[09:21:54] [Server thread/ERROR]: [BedWars1058] You didn't set any team for arena: bw_spikeyhills
+[09:21:54] [Server thread/WARN]: [BedWars1058] There isn't any map called bw_gentest
+[09:21:55] [Server thread/WARN]: [BedWars1058] Invalid generator type diamond at upgrades2: upgrade-forge.tier-3
+[09:21:55] [Server thread/WARN]: [BedWars1058] Invalid generator type diamond at upgrades2: upgrade-forge.tier-4
+[09:21:55] [Server thread/INFO]: Scoreboard Tab header-footer refresh is disabled.
+[09:21:55] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
+[09:21:55] [Server thread/WARN]: Could not register alias icanhasbukkit because it contains commands that do not exist: essentials:god $1-
+[09:21:55] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[09:21:55] [Server thread/INFO]: Done (19.282s)! For help, type "help" or "?"
+[09:21:55] [Server thread/INFO]: Timings Reset
+[09:21:55] [Server thread/INFO]: [PerWorldPlugins] Converted all Listeners correctly.
+[09:21:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[09:21:55] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[09:21:55] [Server thread/INFO]: [Skript] Loading variables...
+[09:21:55] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[09:21:55] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[09:21:55] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 2 structures in 1
+[09:21:55] [Server thread/INFO]: [Skript] Finished loading.
+[09:21:55] [Server thread/INFO]: [BedWars1058] Loading arena: bw_cave
+[09:21:55] [Server thread/INFO]: [BedWars1058] Load done: bw_nether
+[09:21:55] [Server thread/INFO]: [BedWars1058] Load done: bw_cave
+[09:21:55] [Craft Scheduler Thread - 1/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[09:21:55] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[09:21:56] [Server thread/INFO]: Registering /party command..
+[09:21:57] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:21:58] [Server thread/INFO]: EntityZ096x[/127.0.0.1:50004] logged in with entity id 117 at ([bw_lobby]0.0, 65.0, 0.0)
+[09:22:00] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
+[09:22:33] [Server thread/INFO]: [Skript] Can't find the script 'script' in the scripts folder!
+[09:22:34] [Server thread/INFO]: [Skript] Reloading all scripts...
+[09:22:34] [Server thread/INFO]: All scripts loaded without errors.
+[09:22:34] [Server thread/INFO]: Loaded 2 scripts with a total of 2 structures in 1
+[09:22:34] [Server thread/INFO]: [Skript] Successfully reloaded all scripts. (72ms)
+[09:22:40] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
+[09:22:41] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
+[09:22:41] [Server thread/INFO]: EntityZ096x[/127.0.0.1:45724] logged in with entity id 198 at ([bw_lobby]0.5165174946072698, 65.0, 0.5386262413519406)
+[09:24:22] [Server thread/INFO]: EntityZ096x lost connection: Disconnected

@@ -1,0 +1,27 @@
+# PerWorldPlugins Configuration
+# 
+# Disable or Enable the message of new updates.
+updateChecker: true
+metrics: true
+disabledCommandMessage: '&4[Server]: &f{player} this command is disabled for {world}.'
+blacklist: true
+plugins:
+  Example:
+  - world
+  VoidGen:
+  - :ignore
+  ViaRewind:
+  - :ignore
+  ViaVersion:
+  - :ignore
+  Skript:
+  - :ignore
+  SkBee:
+  - :ignore
+  ViaBackwards:
+  - :ignore
+  Multiverse-Core:
+  - bw_cave
+  - bw_nether
+  BedWars1058:
+  - :ignore
