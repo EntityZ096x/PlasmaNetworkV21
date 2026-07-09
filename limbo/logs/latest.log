@@ -1,89 +1,73 @@
-[18:17:21] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[18:17:21] [Server thread/INFO]: Loading properties
-[18:17:22] [Server thread/INFO]: Default game type: SURVIVAL
-[18:17:24] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[18:17:25] [Server thread/INFO]: Debug logging is disabled
-[18:17:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:17:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:17:25] [Server thread/INFO]: Generating keypair
-[18:17:26] [Server thread/INFO]: Starting Minecraft server on *:25566
-[18:17:28] [Server thread/INFO]: Using epoll channel type
-[18:17:30] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[18:17:32] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.10.0
-[18:17:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
-[18:17:34] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:17:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[18:17:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[18:17:38] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[18:17:38] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
-[18:17:38] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
-[18:17:38] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.10.0
-[18:17:38] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.1.2
-[18:17:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:17:38] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
-[18:17:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:17:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:17:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:17:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:17:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[18:17:38] [Server thread/INFO]: Preparing level "world"
-[18:17:41] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3624067133936351513)
-[18:17:42] [Server thread/INFO]: Preparing spawn area: 0%
-[18:17:43] [Server thread/INFO]: Preparing spawn area: 4%
-[18:17:44] [Server thread/INFO]: Preparing spawn area: 17%
-[18:17:45] [Server thread/INFO]: Preparing spawn area: 35%
-[18:17:46] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3624067133936351513)
-[18:17:47] [Server thread/INFO]: Preparing spawn area: 23%
-[18:17:47] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3624067133936351513)
-[18:17:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
-[18:17:48] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
-[18:17:49] [Server thread/INFO]: [Skript] Unknown release channel 'prerelease'.
-[18:17:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[18:17:57] [Server thread/INFO]: [Skript] Loaded 18405 aliases in 8388ms
-[18:17:58] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[18:17:58] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
-[18:17:58] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[18:17:58] [Server thread/INFO]: [SkBee] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
-[18:17:58] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_12_R1' loaded!
-[18:17:58] [Server thread/INFO]: [SkBee] [NBTAPI] Found Gson: class com.google.gson.Gson
-[18:17:58] [Server thread/INFO]: [SkBee] [NBTAPI] Using the plugin 'ViaVersion' to create a bStats instance!
-[18:17:59] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[18:17:59] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[18:17:59] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[18:17:59] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[18:17:59] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[18:17:59] [Server thread/INFO]: [SkBee] Other Elements successfully loaded
-[18:17:59] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[18:17:59] [Server thread/INFO]: [SkBee] Successfully enabled v1.10.3 in 0.48 seconds
-[18:17:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
-[18:17:59] [Server thread/WARN]: Could not register alias icanhasbukkit because it contains commands that do not exist: essentials:god $1-
-[18:17:59] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
-[18:17:59] [Server thread/INFO]: Done (20.778s)! For help, type "help" or "?"
-[18:17:59] [Server thread/INFO]: Timings Reset
-[18:17:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[18:17:59] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[18:17:59] [Server thread/INFO]: [Skript] Loading variables...
-[18:17:59] [Server thread/INFO]: [Skript] Loaded 8 variables in 0.0 seconds
-[18:18:00] [Server thread/INFO]: [Skript] Line 119: (login.sk)
-[18:18:00] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "/passsteal"
-[18:18:00] [Server thread/INFO]:     Line: if "l", "login", "register", "/passsteal" does not contain command:
-[18:18:00] [Server thread/INFO]:  
-[18:18:00] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[18:18:00] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 9 structures in 5
-[18:18:00] [Server thread/INFO]: [Skript] Finished loading.
-[18:18:01] [Craft Scheduler Thread - 5/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[18:19:21] [User Authenticator #1/INFO]: UUID of player EntityZ096x is 2ee83cb0-186f-329d-bb3e-2dd2a293057c
-[18:19:22] [Server thread/INFO]: EntityZ096x[/127.0.0.1:55280] logged in with entity id 78 at ([world]0.0, 250.0, 0.0)
-[18:19:26] [Server thread/INFO]: EntityZ096x issued server command: /l ZL_20130124
-[18:19:33] [Server thread/INFO]: EntityZ096x lost connection: Disconnected
-[18:38:48] [User Authenticator #2/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
-[18:38:48] [Server thread/INFO]: test[/127.0.0.1:51810] logged in with entity id 268 at ([world]0.0, 250.0, 0.0)
-[18:38:59] [Server thread/INFO]: test issued server command: /register test test
-[18:38:59] [Server thread/INFO]: test lost connection: Disconnected
-[18:40:23] [User Authenticator #3/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
-[18:40:23] [Server thread/INFO]: test[/127.0.0.1:38682] logged in with entity id 458 at ([world]0.0, 250.0, 0.0)
-[18:40:24] [Server thread/INFO]: test lost connection: Disconnected
-[18:40:30] [User Authenticator #3/INFO]: UUID of player test is 530fa97a-357f-3c19-94d3-0c5c65c18fe8
-[18:40:30] [Server thread/INFO]: test[/127.0.0.1:49468] logged in with entity id 573 at ([world]0.0, 250.0, 0.0)
-[18:41:10] [Server thread/INFO]: test issued server command: /l test
-[18:41:10] [Server thread/INFO]: test lost connection: Disconnected
+[12:13:39] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[12:13:39] [Server thread/INFO]: Loading properties
+[12:13:40] [Server thread/INFO]: Default game type: SURVIVAL
+[12:13:40] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[12:13:41] [Server thread/INFO]: Debug logging is disabled
+[12:13:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:13:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:13:41] [Server thread/INFO]: Generating keypair
+[12:13:41] [Server thread/INFO]: Starting Minecraft server on *:25566
+[12:13:43] [Server thread/INFO]: Using epoll channel type
+[12:13:45] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:13:46] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.10.0
+[12:13:46] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[12:13:48] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:13:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:13:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[12:13:49] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[12:13:49] [Server thread/INFO]: [Skript] Loading Skript v2.6.4
+[12:13:49] [Server thread/INFO]: [SkBee] Loading SkBee v1.10.3
+[12:13:49] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.10.0
+[12:13:49] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.1.2
+[12:13:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:13:49] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[12:13:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:13:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:13:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:13:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:13:49] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:13:49] [Server thread/INFO]: Preparing level "world"
+[12:13:51] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3624067133936351513)
+[12:13:52] [Server thread/INFO]: Preparing spawn area: 0%
+[12:13:53] [Server thread/INFO]: Preparing spawn area: 8%
+[12:13:54] [Server thread/INFO]: Preparing spawn area: 43%
+[12:13:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3624067133936351513)
+[12:13:55] [Server thread/INFO]: Preparing spawn area: 35%
+[12:13:56] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3624067133936351513)
+[12:13:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[12:13:56] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
+[12:13:57] [Server thread/INFO]: [Skript] Unknown release channel 'prerelease'.
+[12:13:59] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[12:14:02] [Server thread/INFO]: [Skript] Loaded 18405 aliases in 5313ms
+[12:14:03] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[12:14:03] [Server thread/INFO]: [SkBee] Enabling SkBee v1.10.3
+[12:14:03] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[12:14:03] [Server thread/INFO]: [SkBee] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[12:14:03] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[12:14:03] [Server thread/INFO]: [SkBee] [NBTAPI] Found Gson: class com.google.gson.Gson
+[12:14:03] [Server thread/INFO]: [SkBee] [NBTAPI] Using the plugin 'ViaVersion' to create a bStats instance!
+[12:14:03] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[12:14:03] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[12:14:03] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[12:14:03] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[12:14:03] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[12:14:03] [Server thread/INFO]: [SkBee] Other Elements successfully loaded
+[12:14:03] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[12:14:03] [Server thread/INFO]: [SkBee] Successfully enabled v1.10.3 in 0.32 seconds
+[12:14:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[12:14:03] [Server thread/WARN]: Could not register alias icanhasbukkit because it contains commands that do not exist: essentials:god $1-
+[12:14:03] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[12:14:03] [Server thread/INFO]: Done (13.766s)! For help, type "help" or "?"
+[12:14:03] [Server thread/INFO]: Timings Reset
+[12:14:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[12:14:03] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[12:14:03] [Server thread/INFO]: [Skript] Loading variables...
+[12:14:03] [Server thread/INFO]: [Skript] Loaded 11 variables in 0.0 seconds
+[12:14:04] [Server thread/INFO]: [Skript] Line 119: (login.sk)
+[12:14:04] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': "l", "login", "register", "/passsteal"
+[12:14:04] [Server thread/INFO]:     Line: if "l", "login", "register", "/passsteal" does not contain command:
+[12:14:04] [Server thread/INFO]:  
+[12:14:04] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[12:14:04] [Server thread/INFO]: [Skript] Loaded 1 script with a total of 9 structures in 5
+[12:14:04] [Server thread/INFO]: [Skript] Finished loading.
+[12:14:04] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.

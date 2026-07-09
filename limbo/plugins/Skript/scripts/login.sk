@@ -14,7 +14,7 @@ on join:
     set {authtime.%player's name%} to 120
     set join message to ""
     send title "&r&c&lWelcome!" with subtitle "&r&7use &r&e/register <password> <confirm>&r&7!" for 120 seconds
-    send "&r&cUse the command &r&e/register <password> <confirm>&r&c!" to player
+    send "&r&cUse the command &r&7/register <password> <confirm>&r&c!" to player
     while {authtime.%player's name%} > -1:
         send action bar "&cYou have %{authtime.%player's name%}%s to register." to player
         wait 1 second
@@ -32,7 +32,7 @@ on join:
     set {authtime.%player's name%} to 120
     set join message to ""
     send title "&r&c&o&lPlasmaNetwork" with subtitle "&r&7use &r&e/login <password>&r&7!" for 120 seconds
-    send "&r&cUse the command &r&e/login <password>&r&c!" to player
+    send "&r&cUse the command &r&7/login <password>&r&c!" to player
     while {authtime.%player's name%} > -1:
         send action bar "&cYou have %{authtime.%player's name%}%s to login." to player
         wait 1 second

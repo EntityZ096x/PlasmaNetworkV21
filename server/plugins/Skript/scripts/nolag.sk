@@ -8,9 +8,15 @@ on spawn:
     if {_e} >= 30:
         cancel event
 
-command /fucklag:
+command /clearlag:
+    permission: op
     trigger:
         loop all entities:
-            if loop-entity is not a player:
-                if loop-entity is not a villager:
-                    kill loop-entity
+            if loop-entity is not a player
+            if loop-entity is not tamed
+            if name of loop-entity is not set
+            if loop-entity is not a villager
+            if loop-entity is not an armor stand
+            kill loop-entity
+
+        broadcast "&r&d&lClearlag &r&8»&r &aCleared all wild mobs."
