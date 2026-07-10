@@ -17,15 +17,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1783612340366
-  login: 1783607895089
+  logout: 1783688241521
+  login: 1783687491758
 money: '0.9999999999999999'
 logoutlocation:
-  world: 5c3f8580-39e0-4334-901a-ffd5683ef253
-  world-name: Duels_arenas
-  x: -0.7802560518479866
-  y: 106.56538997634718
-  z: 0.30000001192092896
-  yaw: 158.39999389648438
-  pitch: 33.149993896484375
+  world: dab86fec-c801-4130-a34a-c2cdc43fe764
+  world-name: world
+  x: 2835.6923348016594
+  y: 78.0
+  z: 2918.6226439700904
+  yaw: 10.199865341186523
+  pitch: 75.29998016357422
 last-account-name: EntityZ096x
