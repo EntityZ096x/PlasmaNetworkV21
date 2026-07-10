@@ -59,6 +59,8 @@ on death of player:
     execute console command "/loadkit mace %victim%"
     if victim is "EntityZ096x":
         execute console command "/loadkit entitymace %victim%"
+    if victim is "Clstial":
+        execute console command "/loadkit clmace %victim%"
 
 command /dummy:
     trigger:
@@ -79,3 +81,9 @@ command /dummy:
         set {_m}'s chestplate to {_armor::2}
         set {_m}'s leggings to {_armor::3}
         set {_m}'s boots to {_armor::4}
+
+on tab complete of "/loadkit":
+    set tab completions for position 1 to {pvpkit.kits::*}
+
+on tab complete of "/savekit":
+    set tab completions for position 1 to {pvpkit.kits::*}

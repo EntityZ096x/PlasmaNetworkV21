@@ -92,10 +92,9 @@ Ads:
     MaxLinkLength: 10
 AntiSpam:
   Seconds: 5
-  Enable: true
+  Enable: false
 BlockedWords:
-- shit
-- '@everyone'
+- null
 Tablist:
   Change: true
   format: '%prefix%player%suffix'

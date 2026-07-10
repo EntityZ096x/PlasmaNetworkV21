@@ -17,15 +17,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1783538251847
-  login: 1783534774158
+  logout: 1783612340366
+  login: 1783607895089
 money: '0.9999999999999999'
 logoutlocation:
-  world: 9868b7e0-ef7f-4bf8-ad72-8fa554fa4986
-  world-name: Lifesteal
-  x: -5501.679771739951
-  y: 69.0
-  z: -6404.723998173686
-  yaw: -72.603759765625
-  pitch: 4.800014019012451
+  world: 5c3f8580-39e0-4334-901a-ffd5683ef253
+  world-name: Duels_arenas
+  x: -0.7802560518479866
+  y: 106.56538997634718
+  z: 0.30000001192092896
+  yaw: 158.39999389648438
+  pitch: 33.149993896484375
 last-account-name: EntityZ096x

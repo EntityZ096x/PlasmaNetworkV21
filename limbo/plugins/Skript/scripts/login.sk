@@ -65,7 +65,7 @@ command /register [<text>] [<text>]:
         send action bar "" to player
         set {logged.%player's name%} to true
         delete {authtime.%player's name%}
-        send title "" with subtitle "&aYou have succesfully registered!"
+        send title "" with subtitle "&aYou have succesfully registered!" for 1 second
         redirect(player)
 
 command /login [<text>]:
@@ -84,7 +84,7 @@ command /login [<text>]:
         send action bar "" to player
         set {logged.%player's name%} to true
         delete {authtime.%player's name%}
-        send title "" with subtitle "&aYou have succesfully logged in!"
+        send title "" with subtitle "&aYou have succesfully logged in!" for 1 second
         redirect(player)
 
 command /l [<text>]:

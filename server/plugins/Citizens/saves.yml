@@ -37,8 +37,8 @@ npc:
       y: 21.0
       z: 11.5
       bodyYaw: -180.0
-      pitch: 10.8929
-      yaw: -180.0
+      pitch: 0.0
+      yaw: 179.4968
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&c&lLifeSteal'
@@ -77,9 +77,9 @@ npc:
       x: 2.5
       y: 21.0
       z: 11.5
-      bodyYaw: 137.83936
-      pitch: 5.1353
-      yaw: 117.8394
+      bodyYaw: 147.24736
+      pitch: 0.0
+      yaw: 167.2474
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&6&lKitPvP'
@@ -118,9 +118,9 @@ npc:
       x: 4.5
       y: 21.0
       z: 10.5
-      bodyYaw: 110.805466
-      pitch: 2.9088
-      yaw: 90.8055
+      bodyYaw: 133.52489
+      pitch: 0.0
+      yaw: 153.5249
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&d&lDuels'
@@ -163,9 +163,9 @@ npc:
       x: -3.5
       y: 21.0
       z: 10.5
-      bodyYaw: -90.80549
-      pitch: 2.9088
-      yaw: -90.8055
+      bodyYaw: -154.43683
+      pitch: 0.0
+      yaw: -154.4368
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&b&lBedwars'
@@ -203,9 +203,9 @@ npc:
       x: -5.5
       y: 21.0
       z: 9.5
-      bodyYaw: -81.060974
-      pitch: 1.9167
-      yaw: -81.061
+      bodyYaw: -140.55083
+      pitch: 0.0
+      yaw: -140.5508
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&a&lOneBlock'
@@ -244,9 +244,9 @@ npc:
       x: 6.5
       y: 21.0
       z: 9.5
-      bodyYaw: 81.060974
-      pitch: 1.9167
-      yaw: 81.061
+      bodyYaw: 119.79227
+      pitch: 0.0
+      yaw: 139.7923
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&a&lManhunt'
@@ -289,9 +289,9 @@ npc:
       x: -1.5
       y: 21.0
       z: 11.5
-      bodyYaw: -117.83938
-      pitch: 5.1353
-      yaw: -117.8394
+      bodyYaw: -168.20834
+      pitch: 0.0
+      yaw: -168.2083
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r&4&lUHC Survival'

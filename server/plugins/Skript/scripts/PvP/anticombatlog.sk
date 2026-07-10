@@ -13,6 +13,7 @@ every tick:
     loop all players:
         if {pvp.time.%loop-player%} is set:
             add -1 to {pvp.time.%loop-player%}
+            delete {_bar::*}
             add "&r&c" to {_bar::*}
             loop ceiling({pvp.time.%loop-player%} / 20) - 1 times:
                 add "|" to {_bar::*}

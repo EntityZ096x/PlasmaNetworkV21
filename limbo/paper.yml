@@ -123,7 +123,6 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
-    spawner-nerfed-mobs-should-jump: false
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     container-update-tick-rate: 1
@@ -172,6 +171,7 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     fire-physics-event-for-redstone: false
+    spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
     mob-spawner-tick-rate: 1

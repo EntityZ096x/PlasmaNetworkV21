@@ -1,0 +1,8 @@
+20:25:57.753 INFO  Limbo -- Starting server...
+20:26:05.248 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+20:28:17.642 INFO  Limbo -- Player AlphaSigma7471 connected (/127.0.0.1:33622) [V1_12_2]
+20:28:26.184 INFO  Limbo -- Player AlphaSigma7471 disconnected
+20:28:40.075 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:42716) [V1_12_2]
+20:28:44.510 INFO  Limbo -- Player EntityZ096x disconnected
+20:29:33.346 INFO  Limbo -- Player EntityZ096x connected (/127.0.0.1:33330) [V1_12_2]
+20:29:37.250 INFO  Limbo -- Player EntityZ096x disconnected
