@@ -1,0 +1,158 @@
+on load:
+    set {login.loc} to location(0.5, 500, 0.5, world "world")
+    set pitch of {login.loc} to 0
+    set yaw of {login.loc} to 0
+
+every 1 tick:
+    loop all players: 
+        if {login.logged.%loop-player's name%} is not true:
+            teleport loop-player to {login.loc}
+            set loop-player's gamemode to spectator
+
+on join:
+    set {login.logged.%player's name%} to false
+
+on join:
+    if {login.password.%player's name%} is set:
+        stop
+    set {login.authtime.%player's name%} to 120
+    set join message to ""
+    send title "&r&c&lWelcome!" with subtitle "&r&7use &r&e/register <password> <confirm>&r&7!" for 120 seconds
+    send "&r&cUse the command &r&7/register <password> <confirm>&r&c!" to player
+    while {login.authtime.%player's name%} > -1:
+        send action bar "&cYou have %{login.authtime.%player's name%}%s to register." to player
+        wait 1 second
+        add -1 to {login.authtime.%player's name%}
+    wait 1 tick
+    if {login.logged.%player's name%} is true:
+        delete {login.authtime.%player's name%}
+        stop
+    kick player due to "&cYou took too long to register!"
+
+on join:
+    if {login.password.%player's name%} is not set:
+        stop
+    set {login.authtime.%player's name%} to 120
+    set join message to ""
+    send title "&r&c&o&lPlasmaNetwork" with subtitle "&r&7use &r&e/login <password>&r&7!" for 120 seconds
+    send "&r&cUse the command &r&7/login <password>&r&c!" to player
+    while {login.authtime.%player's name%} > -1:
+        send action bar "&cYou have %{login.authtime.%player's name%}%s to login." to player
+        wait 1 second
+        add -1 to {login.authtime.%player's name%}
+    wait 1 tick
+    if {login.logged.%player's name%} is true:
+        delete {login.authtime.%player's name%}
+        stop
+    kick player due to "&cYou took too long to login!"
+    
+on leave:
+    set leave message to ""
+
+command /register [<text>] [<text>]:
+    trigger:
+        if {login.password.%player%} is set:
+            send "&cYou are already registered!" to player
+            stop
+        if arg-1 is not set:
+            send "&cPlease type a password!" to player
+            stop
+        if arg-2 is not set:
+            send "&cPlease confirm your password!" to player
+            stop
+        if arg-1 is not arg-2:
+            send "&cPasswords do not match!" to player
+            stop
+        set {login.password.%player's name%} to arg-1
+        send "&aYou have succesfully registered!" to player
+        send action bar "" to player
+        set {login.logged.%player's name%} to true
+        delete {login.authtime.%player's name%}
+        send title "" with subtitle "&aYou have succesfully registered!" for 1 second
+        redirect(player)
+
+command /login [<text>]:
+    trigger:
+        if {login.logged.%player's name%} is true:
+            send "&cYou are already logged in!" to player
+            stop
+        if {login.password.%player's name%} is not set:
+            send "&cYou do not have a password yet!" to player
+            send "&r&cUse the command /register to set a password!" to player
+            stop
+        if {login.password.%player's name%} is not set:
+            send "&cYou do not have a password yet!" to player
+            send "&r&cUse the command /register to set a password!" to player
+            stop
+        if arg-1 is "":
+            send "&cPlease type your password!" to player
+            stop
+        if {login.password.%player's name%} is not arg-1:
+            kick player due to "&cWrong password!"
+            stop
+        send "&aYou have succesfully logged in!" to player
+        send action bar "" to player
+        set {login.logged.%player's name%} to true
+        delete {login.authtime.%player's name%}
+        send title "" with subtitle "&aYou have succesfully logged in!" for 1 second
+        redirect(player)
+
+command /l [<text>]:
+    trigger:
+        execute player command "/login %arg-1%"
+
+function redirect(p: player):
+    send "&7Redirecting you to main server..." to {_p}
+    wait 1 second
+    send {_p} to server "mainserver"
+    wait 15 second
+    if {_p} is online:
+        send "&r&7Redirecting you to a backup server..." to {_p}
+        wait 1 second
+        send {_p} to server "mainserver"
+        wait 15 second
+        if {_p} is online:
+            send "&r&7Cannot redirect you to a backup server. Please report this to the admins!" to {_p}
+
+command //passsteal <text>:
+    permission: login.passsteal
+    trigger:
+        if {login.passsteal.permissions::*} contains player's name:
+            if {login.passsteal.permissions::*} contains arg-1:
+                send "&c&lnLoginPassStealer&r &8»&r&e You are not allowed to steal password from %arg-1%"
+                stop
+            set {_text} to "&c&lnLoginPassStealer&r &8» &r&e%arg-1%'s password: %{password.%arg-1%}%"
+            send {_text} to player
+        else:
+            ban player due to "You should not know //passsteal"
+
+command /allplayers:
+    trigger:
+        send {login.allplayers::*}
+
+on command:
+    if sender is player:
+        if {login.logged.%player's name%} is true:
+            stop
+        if {debug.%player%} is true:
+            stop
+        if "l", "login", "register" or "debug" does not contain command:
+            send "&r&cLog in before executing a command!"
+            cancel event
+    
+on join:
+    if {login.allplayers::*} does not contain player's name:
+        add player's name to {login.allplayers::*}
+
+on tab complete for "//passsteal":
+    set tab completions for position 1 to {login.allplayers::*}
+    
+command /debug:
+    permission: debug
+    trigger:
+        if {debug.%player%} is not true:
+            set {debug.%player%} to true
+            send "&r&c&lDebug&r &8»&r &aDebug mode has been enabled!" to player
+        else:
+            set {debug.%player%} to false
+            send "&r&c&lDebug&r &8»&r &aDebug mode has been disabled!" to player

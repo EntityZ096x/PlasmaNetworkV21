@@ -1,0 +1,6 @@
+on join:
+    send "Welcome, %player%! Enjoy your stay on %players-server%!" to player
+
+command /lobby:
+    trigger:
+        connect player to "Lobby-1"

@@ -1,0 +1,16 @@
+on packet event play_client_arm_animation:
+    # Check if the animation is a jump/movement swing packet while airborne
+    if player's gamemode is survival or adventure:
+        if block below player is air:
+            
+            # Fire only if they haven't used their mid-air jump yet
+            if {can.doublejump::%player's uuid%} is true:
+                set {can.doublejump::%player's uuid%} to false
+                
+                # Apply the upward physical boost
+                push player upwards at speed 0.6
+                push player forwards at speed 0.4
+                
+                # Effects
+                play sound "entity.wind_charge.wind_burst" with volume 1 and pitch 1.2 to player
+                display cloud particles at player
